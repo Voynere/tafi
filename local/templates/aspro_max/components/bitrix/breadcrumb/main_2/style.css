@@ -1,0 +1,129 @@
+.breadcrumbs-2 {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+.breadcrumbs-2::-webkit-scrollbar { 
+	display: none; 
+}
+
+section.page-top {
+	min-height: auto;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.grey_block .page-top>#navigation {
+	margin: 0;
+	padding: 0;
+}
+
+.page-top>div {
+	padding: 0;
+}
+
+.breadcrumbs-2 .breadcrumbs-2 {
+	padding: 0px;
+}
+
+.mobile .breadcrumbs-2__item:hover .breadcrumbs-2__dropdown-wrapper {
+	display: none;
+}
+
+.mobile .breadcrumbs-2__item.hover .breadcrumbs-2__dropdown-wrapper {
+	display: block;
+}
+
+.breadcrumbs-2__separator {
+	position: relative;
+	top: 2px;
+	display: inline-block;
+	line-height: 18px;
+	margin: 0 12px 0 12px;
+	border: none;
+	color: #5A616C;
+}
+
+.breadcrumbs-2__item--with-dropdown {}
+
+.breadcrumbs-2__item--with-dropdown:hover .breadcrumbs-2__arrow-down {
+	opacity: 1;
+}
+
+.breadcrumbs-2__arrow-down {
+	opacity: 0.5;
+	border: none;
+	top: 13px;
+	right: 3px;
+	display: none;
+	height: 3px;
+	line-height: 18px;
+	margin: 0 4px;
+	position: absolute;
+	width: 5px;
+	z-index: 1;
+	font-size: 0;
+}
+
+.breadcrumbs-2__arrow-down .svg {
+	top: -8px;
+}
+
+.breadcrumbs-2__item--with-dropdown .breadcrumbs-2__arrow-down {
+	display: inline-block;
+}
+
+.breadcrumbs-2__item .breadcrumbs-2__item-name {
+	color: #5A616C;
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	font-weight: 500;
+	text-wrap: nowrap;
+}
+
+.breadcrumbs-2__item--with-dropdown .breadcrumbs-2__item--dropdown {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.breadcrumbs-2__dropdown-wrapper {
+	display: none;
+	padding-top: 8px;
+	top: 18px;
+	z-index: 2;
+	position: absolute;
+	left: -18px;
+}
+
+.breadcrumbs-2__dropdown {
+	background: #fff;
+	padding: 11px 20px;
+	text-align: left;
+	box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.12);
+}
+
+.breadcrumbs-2__dropdown .breadcrumbs-2__dropdown-item {
+	display: block;
+	line-height: 14px;
+	padding: 5px 0px;
+	text-decoration: none;
+	text-transform: none;
+	white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+	.breadcrumbs-2__item--with-dropdown+.breadcrumbs-2__separator {
+		margin-left: 18px;
+	}
+}
+
+@media (max-width: 767px) {
+	.breadcrumbs-2__item--with-dropdown .breadcrumbs-2__arrow-down {
+		display: none;
+	}
+}

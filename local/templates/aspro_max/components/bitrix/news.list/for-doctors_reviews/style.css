@@ -1,0 +1,190 @@
+.swiper.for-doctors-reviews-swiper {
+	width: 100%;
+	height: 100%;
+	padding: 20px 20px 20px 19px;
+}
+
+.for-doctors-reviews-swiper__container {
+	position: relative;
+	margin: -20px;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.for-doctors-reviews-reviews .for-doctors-reviews-swiper__container {
+	position: relative;
+}
+
+.for-doctors-reviews-next {
+	position: absolute;
+	top: 52%;
+	right: -72px;
+	z-index: 10;
+	transform: translateY(-50%);
+}
+
+.for-doctors-reviews-prev {
+	position: absolute;
+	top: 52%;
+	left: -72px;
+	z-index: 10;
+	transform: translateY(-50%);
+}
+
+.for-doctors-reviews-swiper .slide {
+	padding: 32px;
+	border-radius: 24px;
+	background: #fff;
+	transition: .2s ease-out;
+	height: auto;
+	width: 487px;
+}
+
+.for-doctors-reviews-swiper .slide:hover {
+	box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.06);
+}
+
+.for-doctors-reviews-swiper .slide__top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 8px;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.for-doctors-reviews-swiper .slider__top-date {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #585F6A;
+	text-align: left;
+}
+
+.for-doctors-reviews-swiper .slider__top-rating {
+	display: flex;
+	gap: 1px;
+}
+
+.for-doctors-reviews-swiper .slider__top-rating-full {
+	fill: #FFC807;
+}
+
+.for-doctors-reviews-swiper .slider__top-rating-empty {
+	fill: #EEEEEE;
+}
+
+.for-doctors-reviews-swiper .slide__name {
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #333;
+	text-align: left;
+}
+
+.for-doctors-reviews-swiper .slide__review {
+	margin: 32px 0 0px;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #333333;
+	text-align: left;
+	overflow: hidden;
+}
+
+.for-doctors-reviews-swiper .slide__review-shor-more {
+	display: flex;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #294A97;
+	background: none;
+	border: none;
+	margin-top: 8px;
+}
+
+.for-doctors-reviews-swiper .slider__top-rating {
+	display: flex;
+}
+
+.for-doctors-reviews-prev svg,
+.for-doctors-reviews-next svg {
+	cursor: pointer;
+	transition: .3s ease-out;
+}
+
+.for-doctors-reviews-prev svg:hover,
+.for-doctors-reviews-next svg:hover {
+	filter: brightness(0.97);
+}
+
+.for-doctors-reviews-prev.swiper-button-disabled svg,
+.for-doctors-reviews-next.swiper-button-disabled svg {
+	cursor: default;
+	filter: none;
+	opacity: .6;
+}
+
+/* TODO (max-width:1200px) */
+@media (max-width:1650px) {
+	.for-doctors-reviews-prev {
+		left: -20px;
+	}
+
+	.for-doctors-reviews-next {
+		right: -20px;
+	}
+}
+
+@media (max-width: 1550px) {
+	.for-doctors-reviews-next {
+		right: -20px;
+	}
+
+	.for-doctors-reviews-prev {
+		left: -20px;
+	}
+}
+
+@media (max-width: 992px) {
+	.for-doctors-reviews-next {
+		right: -10px;
+	}
+
+	.for-doctors-reviews-prev {
+		left: -10px;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.for-doctors-reviews-prev,
+	.for-doctors-reviews-next {
+		display: none;
+	}
+
+	.for-doctors-reviews-swiper__container {
+		margin: 0;
+	}
+
+	.swiper.for-doctors-reviews-swiper {
+		padding: 0;
+	}
+}

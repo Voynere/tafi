@@ -1,0 +1,9 @@
+.dropdown li >span span{
+    padding: 12px 20px 12px;
+        display: block;
+        position: relative;
+        background: transparent;
+        font-size: 20px;
+        font-weight: 500;
+        color: #333333;
+}

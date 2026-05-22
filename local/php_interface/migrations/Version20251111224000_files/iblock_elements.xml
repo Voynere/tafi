@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="main:companySections" exchangeVersion="2" >
+<item>
+ <field name="CODE">
+  <value>napravleniya</value>
+ </field>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="CODE">
+  <value>analizy</value>
+ </field>
+ <property name="LINK">
+  <value>/catalog/</value>
+ </property>
+</item>
+<item>
+ <field name="CODE">
+  <value>vrachi</value>
+ </field>
+ <property name="LINK">
+  <value>/doctors/</value>
+ </property>
+</item>
+<item>
+ <field name="CODE">
+  <value>diagnostika</value>
+ </field>
+ <property name="LINK">
+  <value>/diagnostika/</value>
+ </property>
+</item>
+
+</items>

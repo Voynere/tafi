@@ -1,0 +1,177 @@
+/* Базовый контейнер */
+.price-list {
+    font-family: 'Montserrat', 'Helvetica', sans-serif; /* Замени на шрифт твоего проекта (например, Inter, Roboto) */
+    max-width: 100%;
+    color: #333;
+}
+
+/* Секция аккордеона */
+.price-list__section {
+    background: #F9F9FA;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 28px;
+}
+
+/* Заголовок главной секции (УЗИ) */
+.price-list__section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s;
+
+}
+
+.active .price-list__section-title{
+    margin-bottom: 18px;
+}
+
+.price-list__section-title:hover {
+    background-color: #fafafa;
+}
+
+/* Анимация стрелки */
+.price-list__chevron {
+    transition: transform 0.3s ease;
+}
+
+.price-list__section:not(.active) .price-list__chevron {
+    transform: rotate(180deg);
+}
+
+/* Контентная часть (скрыта, если нет класса active) */
+.price-list__section:not(.active) .price-list__section-content {
+    display: none;
+}
+
+
+
+/* Подсекции (УЗИ сосудов и сердца и т.д.) */
+.price-list__subsection {
+    margin-bottom: 32px;
+}
+
+.price-list__subsection:last-child {
+    margin-bottom: 0;
+}
+
+.price-list__subsection-title {
+    color:#333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #EBEDF1;
+
+    margin-top: 32px;
+}
+
+/* Строка с услугой */
+.price-list__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+/* Тонкая линия между строками (опционально, если нужно как в некоторых похожих списках) */
+.price-list__row:not(:last-child) {
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.price-list__name {
+    color: #5A616C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 90%;
+}
+
+.price-list__price {
+    color: #5A616C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#priceListSearch{
+    width: 100%;
+    padding: 12px 14px;
+
+    border-radius: 10px;
+    border: 2px solid #EBEDF1;
+    background:#FFF;
+
+    margin-bottom: 32px;
+}
+.price-list__search{
+    position: relative;
+}
+.price-btn__seract-service{
+
+    position: absolute;
+    top: 12px;
+    right: 14px;
+}
+
+.price-list__items{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+@media(max-width:991px){
+    .price-list__section{
+        padding: 16px 24px;
+    }
+    .price-list__section-title{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .price-list__row{
+        gap: 40px;
+    }
+    .price-list__name{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .price-list__price{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .price-list__subsection-title{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: lowercase;
+        padding-bottom: 10px;
+        margin-bottom: 18px;
+        margin-top: 24px;
+    }
+    .price-list__subsection-title::first-letter{
+        text-transform: uppercase;
+    }
+
+
+}

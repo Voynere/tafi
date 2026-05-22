@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="aspro_max_content:directions" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Терапия</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="th01.png" type="file">iblock/f9f/vz6yo63k024sc5yd0zbd91d6srzibh40.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<h1>Терапия</h1>
+<p>
+Терапевт — это ваш первый шаг к здоровью и спокойствию. Наши специалисты проводят полную диагностику, выявляют причины недомоганий и подбирают эффективное лечение для взрослых и детей. Комплексный подход, внимательное отношение и современное оборудование помогают быстро восстановить здоровье и предотвратить развитие заболеваний
+</p>
+<p>
+Терапевты клиники «Доктор ТАФИ» сопровождают пациентов от первичного осмотра до восстановления. Мы ищем причину недомогания, а не только снимаем симптомы, и при необходимости подключаем узких специалистов для комплексного подхода к здоровью.
+</p> 
+<button class="service-button">Записаться на приём</button>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>terapiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3824</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_MAIN_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_MAIN_BLOCK_POSITION">
+  <value>10</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_ACTIVE"/>
+ <property name="PROP_INFO_BLOCK_POSITION"/>
+ <property name="PROP_ADV_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_POSITION">
+  <value>20</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ROW">
+  <value>TWO</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_TITLE">
+  <value>Почему стоит обратиться именно к нам?</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_ICON">
+  <value name="th-ic01.svg" type="file">iblock/86b/tl7n3wu3y1xmf1luvsgrtt9w6stx0rhv.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_TITLE">
+  <value>Все в одном месте</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_DESCR">
+  <value>Квалифицированные врачи, рентген, маммограф, УЗИ, ЭКГ, холтер и консультации смежных специалистов позволяют быстро и точно выявить проблему.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_ICON">
+  <value name="th-ic02.svg" type="file">iblock/e2c/zjznxnwfnhf747xm6yo0jpbif7zjq5pl.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_TITLE">
+  <value>Индивидуальный план лечения</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_DESCR">
+  <value>Наши терапевты разрабатывают персональные схемы с учётом всех обследований и результатов смежных специалистов, решая проблему комплексно.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_ICON">
+  <value name="th-ic03.svg" type="file">iblock/b98/tccntdo9n0j36i2pm8r1znbqucabe4n0.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_TITLE">
+  <value>Современные физиотерапевтические методики</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_DESCR">
+  <value>Поддержка организма и восстановление функций без лишнего стресса, ускоряя процесс выздоровления.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_ICON">
+  <value name="th-ic04.svg" type="file">iblock/71b/59bb0ey1wwp1b7g78b4kh13m2w36fxdq.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_TITLE">
+  <value>Полный контроль здоровья</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_DESCR">
+  <value>От первичной диагностики до динамического наблюдения и профилактических мероприятий, чтобы вы могли жить без лишней тревоги за своё здоровье.</value>
+ </property>
+ <property name="PROP_DOCTORS_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_DOCTORS_POSITION">
+  <value>40</value>
+ </property>
+ <property name="PROP_DOCTORS_TITLE">
+  <value>Наши врачи-терапевты</value>
+ </property>
+ <property name="PROP_DOCTORS">
+  <value element_xml_id="3780" element_code="dorzhieva-evgeniya-erdyneevna">Доржиева Евгения Эрдынеевна</value>
+  <value element_xml_id="3782" element_code="rodina-elena-eduardovna">Родина Елена Эдуардовна</value>
+  <value element_xml_id="3790" element_code="biktulova-kseniya-sergeevna">Биктулова Ксения Сергеевна</value>
+  <value element_xml_id="3795" element_code="popova-maryana-vladimirovna">Попова Марьяна Владимировна</value>
+  <value element_xml_id="3800" element_code="pekhota-natalya-viktorovna">Пехота Наталья Викторовна</value>
+  <value element_xml_id="3808" element_code="yakushina-mariya-aleksandrovna">Якушина Мария Александровна</value>
+  <value element_xml_id="3810" element_code="tsyganova-iraida-petrovna">Цыганова Ираида Петровна</value>
+ </property>
+ <property name="PROP_BANNER1_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER1_POSITION">
+  <value>50</value>
+ </property>
+ <property name="PROP_BANNER1_TITLE">
+  <value>Закажите услугу «Выезд врача на дом» </value>
+ </property>
+ <property name="PROP_BANNER1_TEXT">
+  <value>— это безопасно, удобно и экономит ваше время</value>
+ </property>
+ <property name="PROP_BANNER1_BTN_TEXT">
+  <value>Подробнее</value>
+ </property>
+ <property name="PROP_BANNER1_LINK">
+  <value>/services/dop_uslugi/vyezd-na-dom/</value>
+ </property>
+ <property name="PROP_BANNER1_IMAGE">
+  <value name="th02.png" type="file">iblock/27d/6z6bkxuevym8stbjwb6xq43wnhb13uso.png</value>
+ </property>
+ <property name="PROP_BANNER1_COLOR">
+  <value>#3B61B9</value>
+ </property>
+ <property name="PROP_BANNER2_ACTIVE"/>
+ <property name="PROP_BANNER2_POSITION"/>
+ <property name="PROP_BANNER2_TITLE"/>
+ <property name="PROP_BANNER2_TEXT"/>
+ <property name="PROP_BANNER2_BTN_TEXT"/>
+ <property name="PROP_BANNER2_LINK"/>
+ <property name="PROP_BANNER2_IMAGE"/>
+ <property name="PROP_BANNER2_COLOR"/>
+ <property name="PROP_BANNER3_ACTIVE"/>
+ <property name="PROP_BANNER3_POSITION"/>
+ <property name="PROP_BANNER3_TITLE"/>
+ <property name="PROP_BANNER3_TEXT"/>
+ <property name="PROP_BANNER3_BTN_TEXT"/>
+ <property name="PROP_BANNER3_LINK"/>
+ <property name="PROP_BANNER3_IMAGE"/>
+ <property name="PROP_BANNER3_COLOR"/>
+ <property name="PROP_PRICES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_PRICES_POSITION">
+  <value>60</value>
+ </property>
+ <property name="PROP_PRICES_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_PRICES_TITLE">
+  <value>Цены на услуги терапевта</value>
+ </property>
+ <property name="PROP_PRICES_LIST">
+  <value element_xml_id="3448" element_code="c_peptid">C-пептид</value>
+  <value element_xml_id="386" element_code="candida_albicans">Candida albicans</value>
+  <value element_xml_id="2297" element_code="cd_25_absolyutnoe_kolichestvo_">CD 25 (абсолютное количество, %)</value>
+  <value element_xml_id="2294" element_code="cd_4_absolyutnoe_kolichestvo_">CD 4 (абсолютное количество, %)</value>
+ </property>
+ <property name="PROP_FAQ_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_FAQ_POSITION">
+  <value>70</value>
+ </property>
+ <property name="PROP_FAQ_TITLE">
+  <value>Часто задаваемые вопросы</value>
+ </property>
+ <property name="PROP_FAQ_LIST">
+  <value element_xml_id="3825" element_code="nuzhno-li-srazu-delat-rentgen-ili-mozhno-oboytis-osmotrom">Нужно ли сразу делать рентген или можно обойтись осмотром?</value>
+  <value element_xml_id="3826" element_code="kak-ponyat-chto-moya-ustalost-ili-slabost-svyazany-s-boleznyu-a-ne-obychnoy-ustalostyu">Как понять, что моя усталость или слабость связаны с болезнью, а не обычной усталостью?</value>
+  <value element_xml_id="3827" element_code="mozhno-li-sovmestit-lechenie-neskolkikh-khronicheskikh-zabolevaniy-odnovremenno">Можно ли совместить лечение нескольких хронических заболеваний одновременно?</value>
+  <value element_xml_id="3828" element_code="kogda-stoit-vyzyvat-vracha-na-dom-a-kogda-idti-v-kliniku">Когда стоит вызывать врача на дом, а когда идти в клинику?</value>
+  <value element_xml_id="3829" element_code="kak-chasto-nuzhno-prokhodit-profilakticheskiy-osmotr-u-terapevta-esli-zhalob-net">Как часто нужно проходить профилактический осмотр у терапевта, если жалоб нет?</value>
+ </property>
+ <property name="PROP_ARTICLES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ARTICLES_POSITION">
+  <value>80</value>
+ </property>
+ <property name="PROP_ARTICLES_LINK">
+  <value>/blog/</value>
+ </property>
+ <property name="PROP_ARTICLES_TITLE">
+  <value>Полезные статьи</value>
+ </property>
+ <property name="PROP_ARTICLES_LIST">
+  <value element_xml_id="3162" element_code="enterovirusy">Энтеровирусы</value>
+  <value element_xml_id="3574" element_code="defitsit-vitaminov-simptomy-i-diagnostika">Дефицит витаминов: симптомы и диагностика</value>
+  <value element_xml_id="2895" element_code="kak-otlichit-gripp-ot-orvi">Как отличить грипп от ОРВИ?</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_POSITION">
+  <value>100</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TITLE">
+  <value>Позаботьтесь о здоровье сегодня — запишитесь к терапевту «Доктор ТАФИ»</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TOPTEXT">
+  <value>Здоровье — это фундамент качества жизни, а своевременное обращение к специалисту позволяет избежать серьёзных проблем. В медицинском центре «Доктор ТАФИ» работает опытный терапевт во Владивостоке.</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_IMAGE">
+  <value name="th03.png" type="file">iblock/f39/e1rk0wi7vcdya0g5n0irdcbwlb8azg0t.png</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TEXT">
+  <value text-type="HTML"><![CDATA[<p>
+Наши специалисты проводят общее обследование организма, включая лабораторные анализы, ЭКГ, УЗИ и рентген, что позволяет быстро и точно определить состояние здоровья. Для тех, кто не может прийти в клинику, доступна услуга выезд врача на дом. Врач проведёт все необходимые процедуры и обследования прямо у вас дома, обеспечивая максимальный комфорт и безопасность.
+</p>
+<p>
+Запишитесь к терапевту во Владивостоке, пройдите полное общее обследование организма, воспользуйтесь услугой выезда врача на дом и получите персонализированное лечение хронических заболеваний с профессиональной поддержкой на каждом этапе. В «Доктор ТАФИ» забота о здоровье становится простой и доступной.
+</p>]]></value>
+ </property>
+ <property name="PROP_LIST_ACTIVE"/>
+ <property name="PROP_LIST_POSITION"/>
+ <property name="PROP_LIST_TITLE"/>
+ <property name="PROP_LIST"/>
+ <property name="PROP_CARDS_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS_POSITION">
+  <value>30</value>
+ </property>
+ <property name="PROP_CARDS_ROW">
+  <value>ONE</value>
+ </property>
+ <property name="PROP_CARDS_NUM"/>
+ <property name="PROP_CARDS_TITLE"/>
+ <property name="PROP_CARDS1">
+  <value text-type="HTML"><![CDATA[<h2>Основные симптомы и показания для обращения</h2>
+<div class="item-list">
+<span>
+Повышенная температура, озноб, слабость — даже лёгкие, но длительные симптомы могут сигнализировать о воспалительных процессах.
+</span>
+<span>
+Резкое или необъяснимое изменение веса — как набор, так и потеря массы тела без диеты и нагрузок.
+</span>
+<span>
+Боли в груди или учащённое сердцебиение — повод для комплексного обследования сердца и сосудов.
+</span>
+<span>
+Постоянная усталость и сниженная работоспособность — сигнализируют о возможных хронических заболеваниях или нарушениях обмена веществ.
+</span>
+<span>
+Боли в животе, тошнота или расстройства пищеварения — могут быть признаками заболеваний внутренних органов.
+</span>
+<span>
+Кашель, одышка или частые простудные заболевания — повод проверить лёгкие и дыхательную систему.
+</span>
+<span>
+Повышенное или нестабильное давление — требует контроля и диагностики у терапевта.
+</span>
+<span>
+Необъяснимая потеря или набор веса — часто связано с гормональными или обменными нарушениями.
+</span>
+<span>
+Хроническая боль в спине или суставах — терапевт оценивает состояние опорно-двигательного аппарата и исключает системные заболевания.
+</span>
+<span>
+Изменения кожи и слизистых — сыпь, покраснения, отёки или длительно не заживающие раны могут быть симптомами внутренних проблем.
+</span>
+<span>
+Необходимость профилактического обследования — терапевт контролирует общее состояние организма, выявляет скрытые заболевания и разрабатывает план профилактики.
+</span>
+</div>]]></value>
+ </property>
+ <property name="PROP_CARDS2"/>
+ <property name="PROP_CARDS3"/>
+ <property name="PROP_CARDS4"/>
+ <property name="PROP_CARDS_IMAGE">
+  <value name="th04.png" type="file">iblock/848/c94hcbezpgo6p8ujzis9mzaq36cn6wy2.png</value>
+ </property>
+ <property name="PROP_ACCORD_ACTIVE"/>
+ <property name="PROP_ACCORD_POSITION"/>
+ <property name="PROP_ACCORD_TITLE"/>
+ <property name="PROP_ACCORD_LIST"/>
+ <property name="PROP_CARDS2_ACTIVE"/>
+ <property name="PROP_CARDS2_POSITION"/>
+ <property name="PROP_CARDS2_ROW"/>
+ <property name="PROP_CARDS2_NUM"/>
+ <property name="PROP_CARDS2_TITLE"/>
+ <property name="PROP_CARDS2_1"/>
+ <property name="PROP_CARDS2_2"/>
+ <property name="PROP_CARDS2_3"/>
+ <property name="PROP_CARDS2_4"/>
+ <property name="PROP_CARDS2_IMAGE"/>
+</item>
+
+</items>

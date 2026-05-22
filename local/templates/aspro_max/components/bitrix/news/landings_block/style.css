@@ -1,0 +1,12 @@
+.send_review_frame a.close, .send_review_frame .form_result  .close-btn-wrapper{
+    display: none;
+}
+.send_review_frame {
+    margin-top: 40px;
+}
+body .project_block.wti .info.wti {
+    display: none;
+}
+.form .form_body div.form-control {
+    background-color: unset;
+}

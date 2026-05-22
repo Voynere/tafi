@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="aspro_max_content:xray-types" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>100</value>
+ </field>
+ <field name="NAME">
+  <value>КОНСУЛЬТАЦИИ И ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Консультация врача-рентгенолога</li>
+    <li>Описание и интерпретация рентгенографических изображений</li>
+    <li>Распечатка рентгеновского снимка на термопленке 35*43</li>
+    <li>Распечатка рентгеновского снимка на термопленке 20*25</li>
+    <li>Запись рентгеновского снимка на диск</li>
+    <li>Оформление заключения на английском языке об отсутствии заболевания туберкулезом (Х-ray test) при проведении рентгенографии легких в 2-х проекциях</li>
+</ul>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>konsultatsii-i-dopolnitelnye-uslugi</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3719</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>110</value>
+ </field>
+ <field name="NAME">
+  <value>Рентген ОРГАНОВ ГРУДНОЙ КЛЕТКИ</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Рентгенография легких цифровая * в 2-х проекциях</li>
+    <li>Флюорография легких цифровая * в 2-х проекциях</li>  
+</ul>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>rentgen-organov-grudnoy-kletki</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3720</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>120</value>
+ </field>
+ <field name="NAME">
+  <value>Рентген ГОЛОВЫ И ШЕИ</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Рентгенография всего черепа, в одной или более проекциях</li>
+    <li>Рентгенография придаточных пазух носа</li>
+    <li>Рентгенография костей носа в двух проекциях</li>
+    <li>Рентгенография нижней челюсти в двух проекциях</li>
+    <li>Рентгенография костей лицевого скелета</li>   
+</ul>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>rentgen-golovy-i-shei</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3721</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>130</value>
+ </field>
+ <field name="NAME">
+  <value>Рентген ПОЗВОНОЧНИКА</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Рентгенография шейного отдела позвоночника * в 2-х проекциях</li>
+    <li>Рентгенография шейного отдела позвоночника с функциональными пробами</li>
+    <li>Рентгенография первого и второго шейного позвонка</li>
+    <li>Рентгенография грудного отдела позвоночника * в 2-х проекциях</li>
+    <li>Рентгенография шейно-грудного отдела позвоночника с функциональными пробами</li>
+    <li>Рентгенография поясничного и крестцового отдела позвоночника * в 2-х проекциях</li>
+    <li>Рентгенография пояснично-крестцового отдела позвоночника с функциональными пробами</li>
+    <li>Рентгенография крестца и копчика * в 2-х проекциях</li>
+    <li>Рентгенография крестцово-подвздошного сочленения</li>
+    <li>Рентгенография позвоночника, специальные исследования и проекции</li>  
+</ul>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>rentgen-pozvonochnika</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3722</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>140</value>
+ </field>
+ <field name="NAME">
+  <value>Рентген ГРУДНОЙ КЛЕТКИ И РЁБР</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Рентгенография ключицы</li>
+    <li>Рентгенография ребра(ер)</li>
+    <li>Рентгенография грудины * в 2-х проекциях</li>
+    <li>Рентгенография лопатки</li>   
+</ul>
+
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>rentgen-grudnoy-kletki-i-ryebr</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3723</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>150</value>
+ </field>
+ <field name="NAME">
+  <value>Рентген ВЕРХНИХ КОНЕЧНОСТЕЙ</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Рентгенография плечевой кости</li>
+    <li>Рентгенография локтевой кости и лучевой кости</li>
+    <li>Рентгенография кисти * в 2-х проекциях</li>
+    <li>Рентгенография пальцев кисти</li>   
+    <li>Рентгенография I пальца кисти * в 2-х проекциях</li>  
+</ul>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>rentgen-verkhnikh-konechnostey</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3724</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>160</value>
+ </field>
+ <field name="NAME">
+  <value>Рентген НИЖНИХ КОНЕЧНОСТЕЙ</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Рентгенография таза</li>
+    <li>Рентгенография бедренной кости</li>
+    <li>Рентгенография большой берцовой и малой берцовой костей</li>
+    <li>Рентгенография стопы * в 2-х проекциях</li>   
+    <li>Рентгенография стоп с функциональной нагрузкой</li>  
+    <li>Рентгенография пальцев ноги</li>  
+    <li>Рентгенография I пальца стопы * в 2-х проекциях</li>  
+</ul>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>rentgen-nizhnikh-konechnostey</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3725</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>170</value>
+ </field>
+ <field name="NAME">
+  <value>Рентген СУСТАВОВ</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Рентгенография плечевого сустава * в прямой проекции</li>
+    <li>Рентгенография локтевого сустава * в 2-х проекциях</li>
+    <li>Рентгенография лучезапястного сустава * в 2-х проекциях</li>
+    <li>Рентгенография тазобедренного сустава * в прямой проекции</li>   
+    <li>Рентгенография коленного сустава * в 2-х проекциях</li>  
+    <li>Рентгенография голеностопного сустава * в 2-х проекциях</li>     
+</ul>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>rentgen-sustavov</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3726</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>180</value>
+ </field>
+ <field name="NAME">
+  <value>СПЕЦИАЛЬНЫЕ ИССЛЕДОВАНИЯ</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+    <li>Рентгенография пораженной части костного скелета</li>
+    <li>Обзорная рентгенография органов брюшной полости</li>    
+</ul>
+
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>spetsialnye-issledovaniya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3727</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+</item>
+
+</items>

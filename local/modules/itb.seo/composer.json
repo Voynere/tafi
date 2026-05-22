@@ -1,0 +1,12 @@
+{
+    "name": "itb/itb.seo",
+    "description": "seoeverywhere",
+    "type": "bitrix-module",
+    "license": "MIT",
+    "require": {
+        "beeralex/beeralex.core": "~1.1",
+        "cijic/phpmorphy": "^0.3.6"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

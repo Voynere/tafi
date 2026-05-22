@@ -1,0 +1,3096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="aspro_max_content:aspro_max_faq" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Как оформить заказ?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ol>
+	<li>
+	Выберите товары и добавьте их в корзину; </li>
+	<li>
+	Перейдите в раздел «Корзина» и нажмите «Перейти к оформлению»; </li>
+	<li>
+	Укажите ваши данные;</li>
+	<li>
+	Оформите заказ, и он поступит в обработку; </li>
+</ol>
+<p>
+	 Если возникли вопросы с оформлением заказа, пишите менеджерам в онлайн-чат.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>esli-li-manual-po-rabote-s-panelyu-administratora-t-k-v-bolshom-kolichestve-nastroek-my-potryalis</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>2</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON">
+  <value>Связаться с нами</value>
+ </property>
+ <property name="LINK_BUTTON">
+  <value>/contacts/</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Какие возможны способы оплаты?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Оплатить заказ можно на сайте любым удобным для вас способом: банковская карта или перевод, оплата на электронный кошелек, оформление кредита и рассрочки. Также возможна оплата наличными при получении заказа.
+</p>
+<p>
+	 Будьте внимательны! Способ оплаты может быть недоступен для некоторых видов доставки или региона.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>khochu-kupit-reshenie-no-u-menya-tolko-demo-versiya-1s-bitriks</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON">
+  <value>Подробнее об оплате</value>
+ </property>
+ <property name="LINK_BUTTON">
+  <value>/help/payment/</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Какой товар подлежит возврату?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>Товар подлежит возврату, если:</p>
+<ul>
+	<li>
+		 нет следов использования;
+ </li>
+	<li>
+		 сохранился товарный вид;
+ </li>
+	<li>
+		 не повреждена упаковка;
+ </li>
+	<li>
+		 сохранились потребительские свойства товаров;
+ </li>
+	<li>
+		 вы возвращаете весь комплект.
+ </li>
+</ul>
+<p>
+	 Чтобы вернуть товар, в личном кабинете оформите заявление на возврат через онлайн форму. Если возникли вопросы, вы можете обратиться к менеджерам через онлайн-чат.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>kak-kupit-bitriks-reshenie</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>4</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Вопросы по возврату</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>При каких условиях возможен возврат товара?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[Вы можете вернуть товар, если:
+<ul>
+	<li>
+		 товар не подошел или не понравился;
+ </li>
+	<li>
+		 товар пришел с браком, повреждениями или не в полной комплектации;
+ </li>
+	<li>
+		 товар сломан и не функционирует;
+ </li>
+	<li>
+		 доставили не тот товар;
+ </li>
+	<li>
+		 курьер не приехал за возвратом.
+ </li>
+</ul>
+<p>
+	 Вы можете вернуть товар: в пункт выдачи, постамат, курьером или почтой. Если возникли вопросы, можете обратиться к менеджерам через онлайн-чат.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>pokupka-resheniya-bez-redaktsii-1s-bitriks</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>5</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Вопросы по возврату</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Цена продукта на сайте указана с учетом НДС?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[Электронные версии продуктов не облагаются НДС в связи со вступлением в силу с 01 января 2008 г. Четвертой части Гражданского Кодекса РФ, статьи 1 Федерального Закона от 19.07.2007 N 195-ФЗ "О внесении изменений в отдельные законодательные акты Российской Федерации в части формирования благоприятных налоговых условий для финансирования инновационной деятельности".]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>tsena-produkta-na-sayte-ukazana-s-uchetom-nds</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>209</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Вопросы по возврату</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value><![CDATA[Что значит "лицензия позволяет создать два сайта"?]]></value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[На основе одного экземпляра продукта можно создать два сайта в рамках одного веб-проекта. Если сайтов в проекте больше двух, необходимо докупить лицензии на сайты, стоимость которых зависит <a href="http://www.1c-bitrix.ru/buy/cms.php#tab-sites-link">от редакции</a>.<br>
+ <br>
+ Такие сайты работают на одном экземпляре базы данных и имеют один административный интерфейс. А значит, администратор системы является администратором всех сайтов, работающих на одной копии продукта.<br>
+ <br>
+Важно не путать понятия "сайт" и "копия продукта" (установка продукта). Несколько сайтов настраиваются на одной установке. При этом лицензия допускает наличие двух установок, одна из которых предназначена для разработки и не доступна из Интернета.<br>
+ <br>
+Общими для сайтов являются: <br>
+ - база пользователей,<br>
+ - настройки модулей (и сами модули),<br>
+ - шаблоны сайтов,<br>
+ - система авторизации<br>
+и др.]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>chto-znachit-litsenziya-pozvolyaet-sozdat-dva-sayta-</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>210</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON">
+  <value>Подробнее</value>
+ </property>
+ <property name="LINK_BUTTON">
+  <value>http://www.1c-bitrix.ru/support/faq/index.php?ELEMENT_ID=111749</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Как расчитать стоимость доставки в Магадан?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Для точного расчета стоимости доставки вашего заказа воспользуйтесь соответствующей функцией в карточке товара. Или задайте вопрос через онлайн-консультанта.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3249</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Вопросы о правилах подготовки</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Как осуществляется доставка в регионы?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>Предусмотрено несколько вариантов доставки: транспортные компании, курьерская доставка и почта России.</p>
+<p>
+ Вы можете выбрать любой удобный для вас способ и указать желаемую дату доставки. Оплата рассчитывается автоматически при указании региона и даты.</p>
+<p>
+Для более точного расчета стоимости доставки обращайтесь к менеджерам в онлайн-чат.</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3250</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Вопросы о правилах подготовки</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Возможен ли самовывоз заказанного товара?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Да, возможен. Вы можете самостоятельно забрать заказ в пунктах выдачи товаров в нескольких городах России.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3251</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Вопросы о правилах подготовки</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Как подготовиться к сдаче крови?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<br>
+ <br>
+ Для большинства исследований кровь рекомендуется сдавать утром натощак, это особенно важно, если проводится динамическое наблюдение за определенным показателем. Прием пищи может непосредственно влиять как на концентрацию исследуемых показателей, так и на физические свойства образца.<br>
+ <br>
+ В случае необходимости можно сдать кровь в течение дня после 2-4-часового голодания.<br>
+ <br>
+ Рекомендуется незадолго до взятия крови выпить 1-2 стакана негазированной воды, это поможет набрать необходимый для исследования объем крови, уменьшит вязкость крови и снизит вероятность образования сгустков в пробирке.<br>
+ <br>
+ Необходимо исключить физическое и эмоциональное перенапряжение, курение за 30 минут до исследования.<br>
+ <br>
+Кровь для исследования берется из вены.]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>1801</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Вопросы о правилах подготовки</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Обязательно ли иметь с собой направление от врача?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Направление от врача для сдачи анализов не обязательно. Однако, в некоторых случаях, направление может потребоваться:&#13;
+&#13;
+Если анализы нужны для подтверждения диагноза или контроля лечения. В этом случае врач сам может выдать направление на нужные анализы.&#13;
+&#13;
+&#13;
+</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>1803</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Есть ли противопоказания или ограничения при прохождении чекапа?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Как правило, чек-апы не имеют противопоказаний или ограничений. При обращении в регистратуру сообщите регистратору есть ли у вас какие-либо заболевания или вы принимаете лекарства.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3300</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Комплексные программы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Как подготовиться к исследованию?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Все анализы в рамках программы необходимо выполнять натощак, спустя не менее 6 часов после последнего приема пищи. Исключение – проверка пищеварительной системы  (забор крови проводится спустя не менее 8 часов и не более 14 часов после последнего приема пищи )</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3301</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Комплексные программы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>N</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Зачем проходить комплексную диагностику?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Многие заболевания легче предупредить или вылечить на ранней стадии, чем бороться с их последствиями. Даже если вы чувствуете себя прекрасно или, наоборот, беспокоитесь о своем здоровье, ежегодный чекап организма – это необходимость. Он позволяет выявить возможные проблемы на начальной стадии.&#13;
+</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3302</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Комплексные программы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Действует ли на комплексы программа лояльности?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>На чек-ап программы действует скидка в размере 15 % - обследуйтесь комплексно по доступной цене!</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3303</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Комплексные программы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли сдать анализы анонимно ?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Анализы можно сдать анонимно  за исключением анализов на инфекционные заболевания.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3370</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>С какого возраста вы берете анализы у детей?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[Мы можем брать анализы у детей любого возраста, но с учетом особенностей законодательства.<br>
+ <br>
+ Детям до 15 лет необходимо присутствие и согласие законного представителя (родителя, опекуна).<br>
+ Дети от 15 до 18 лет: Могут самостоятельно посещать медицинский центр и давать согласие на медицинское вмешательство, но для оформления договора об оказании платных медицинских услуг и оплаты необходимо письменное согласие законного представителя. Образец Согласия можно найти по <p><a href="https://tafimed.ru/doc/%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0-%D0%B2-%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85.pdf">ссылке.</a></p><br>
+ <br>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3371</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Необходимо ли личное присутствие сдававшего анализы при получении результатов?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Да, в целях соблюдения врачебной тайны личное присутствие сдававшего анализ необходимо. Но при письменном разрешении, заверенном нотариально, информация может быть выдана и доверенному лицу, ближайшему родственнику, лицу, осуществляющему опеку или уход.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3443</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли получить консультацию врача по результатам анализов ?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[Да конечно. Воспользуйтесь нашей бесплатной услугой — "Консультация по результатам исследований".]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3492</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли получить результаты анализов по электронной почте?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Да, конечно. При оформлении заказа укажите адрес вашей электронной почты.&#13;
+</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3493</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Общие вопросы</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>50</value>
+ </field>
+ <field name="NAME">
+  <value>Как сдать анализы ребенку перед вакцинацией?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	Перед проведением профилактической прививки анализы необязательны. Однако все же лучше сдать их до визита к врачу, особенно если речь идет о первой прививке. Если педиатр, осматривающий ребенка, обнаружит какие-либо отклонения в его здоровье, он может назначить дополнительные обследования или направить к специалистам узкого профиля. После этого будет принято решение о целесообразности вакцинации.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3548</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>40</value>
+ </field>
+ <field name="NAME">
+  <value>Нужно ли сдавать анализы натощак при болезни?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>Для получения персональных рекомендаций по подготовке к сдаче анализов при наличии заболевания у ребенка необходимо проконсультироваться с врачом.</p>
+
+<p>Обычно детям нужно воздерживаться от еды за 4-8 часов до процедуры: длительность голодания зависит от возраста ребенка:</p>
+
+<ul>
+	<li>у малышей до двух лет кровь берут между кормлениями, при этом после последнего приема пищи должно пройти минимум 2-3 часа;</li>
+	<li>детям старше двух лет необходимо воздержаться от еды в течение 4-8 часов.</li>
+</ul>
+
+<p>Грудным младенцам сложно долго оставаться без пищи, поэтому перед процедурой важно выдержать хотя бы 2 часа после кормления.</p>
+
+<p>Примерно за полчаса до анализа ребенку следует дать 50-100 мл воды, чтобы сосуды наполнились кровью. </p>
+
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3549</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>30</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли собирать анализ мочи из горшка?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	Собирать мочу из горшка, чтобы отнести ее на анализ в медицинскую лабораторию, не рекомендуется. Также нельзя использовать мочу, полученную путем отжима из памперсов или пеленок. Перед сбором анализа важно тщательно подмыть ребенка. Если малыш еще не пользуется горшком, лучше воспользоваться специальными детскими мочеприемниками.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3552</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>20</value>
+ </field>
+ <field name="NAME">
+  <value>Как правильно подготовить ребенка к сдаче анализов?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>Когда приходит время сдачи анализов, важно заранее позаботиться о правильной подготовке. Соблюдайте ряд несложных рекомендаций, чтобы ребенок не нервничал, а результаты анализа были максимально точными.</p>
+
+<ul>
+	<li>Сообщите врачу о принимаемых препаратах. Если ребенок проходит курс лечения или принимает витаминные добавки, это может повлиять на показатели анализов. Поэтому важно заранее обсудить этот момент с врачом.</li>
+	<li>Выберите оптимальное время. Утро &mdash; лучшее время для сдачи анализов. В большинстве случаев их следует сдавать натощак. За сутки до анализа желательно исключить жирные и сладкие продукты, так как они могут исказить результаты.</li>
+	<li>Создайте комфортную обстановку для ребенка. Пригласите с собой кого-то из близких, чтобы помочь малышу успокоиться после процедуры. С более старшими детьми поговорите заранее, объясните, что будет происходить и для чего это нужно. Возьмите с собой любимую игрушку ребенка, чтобы его отвлечь от волнений, а также небольшое угощение в качестве награды за смелость и выдержку.</li>
+</ul>
+
+<p>Сохраняйте спокойствие &mdash; в сети медицинских лабораторий &laquo;ТАФИ-Диагностика&raquo; в {{city|предложный}} детские анализы берут опытные и доброжелательные медсестры. Они сделают все возможное, чтобы провести процедуру быстро и безболезненно.</p>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3553</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>10</value>
+ </field>
+ <field name="NAME">
+  <value>Как часто требуется сдача детских анализов?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 В соответствии с приказом Минздрава России от 10.08.2017 N 514H, общие анализы крови и мочи необходимо сдавать детям в профилактических целях в 2 и 12 месяцев, а затем 3, 6, 7, 10, 15, 16, 17 лет. И все-таки большинство педиатров рекомендуют делать это ежегодно.
+</p>
+<p>
+	 Профилактические осмотры и анализы для детей важны для динамического наблюдения за состоянием здоровья — они помогают обнаружить скрытые проблемы на ранних этапах и отследить в динамике показатели в биологической жидкости.
+</p>
+<p>
+	 Клинический анализ крови может быть необходим по назначению врача или при наличии у ребенка жалоб на здоровье. Что касается анализов крови и мочи перед прививкой, то хоть они и не являются обязательными, но все же их желательно сдать до осмотра педиатром.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3554</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Нужно ли записываться на инъекции?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Процедуры осуществляется ежедневно, с 11:00, предварительная запись не требуется. Процедура проводится по направлению врача.&#13;
+</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3588</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Процедурный кабинет</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Возможно ли сделать укол/поставить капельницу на дому?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Данные услуги на дому не осуществляются&#13;
+</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3589</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Процедурный кабинет</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Нужно ли брать с собой препарат для инъекций или капельницы?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Да, постановка инъекций и инфузий осуществляется с Вашим препаратом.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3590</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Процедурный кабинет</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>60</value>
+ </field>
+ <field name="NAME">
+  <value>Какие анализы проводят у новорожденных?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<ul>
+	<li>Клинический анализ крови с лейкоформулой (ОАК).</li>
+	<li>Биохимический анализ крови (по показаниям) </li>
+	<li>Общий анализ мочи (ОАМ)</li>
+</ul>
+
+<p>Это базовые обследования, остальные анализы назначаются врачом индивидуально.</p>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3610</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>70</value>
+ </field>
+ <field name="NAME">
+  <value>Как выявить паразитов у ребенка?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Для определения наличия паразитов необходимо обратиться к педиатру, который направит на соответствующие анализы.
+</p>
+<p>
+	 Золотой стандарт — исследование кала на простейшие (Протоскрин) и гельминты (Гельмоскрин), а также соскоб на энтеробиоз из перианальных складок для обнаружения яиц остриц.
+</p>
+ <br>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3611</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>80</value>
+ </field>
+ <field name="NAME">
+  <value>Что могут показать результаты анализа кала на дисбактериоз у ребенка?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Анализ кала на дисбактериоз у ребенка выявляет баланс кишечной микрофлоры, уровень полезных (бифидо-, лактобактерии), условно-патогенных (клебсиеллы, протеи) и патогенных (сальмонеллы, шигеллы) бактерий. Он может указать на дисбаланс, нарушения пищеварения, воспалительные процессы или влияние антибиотиков. Результаты помогут врачу назначить лечение и диету.
+</p>
+ <br>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3612</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>90</value>
+ </field>
+ <field name="NAME">
+  <value>Какие показания для сдачи детского анализа Энтерофлор?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	Этот анализ проводится для оценки состояния кишечной микрофлоры. Основные показания:
+</p>
+<ul>
+	<li>дисбактериоз (диарея, запоры, метеоризм, боли в животе);</li>
+	<li>частые инфекции (ОРВИ, отиты, бронхиты);</li>
+	<li>аллергические заболевания (атопический дерматит, пищевая аллергия);</li>
+	<li>длительный прием антибиотиков;</li>
+	<li>хронические заболевания ЖКТ (гастрит, колит, СРК);</li>
+	<li>подготовка к хирургическому вмешательству.</li>
+</ul>
+<p>
+	Это исследование помогает выявить дисбаланс микробиоты и подобрать коррекцию пробиотиками.
+</p>
+ <br>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3613</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>100</value>
+ </field>
+ <field name="NAME">
+  <value>Какие заболевания может выявить ОКИ-скрин у ребенка?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	Скриннинг на острые кишечные инфекции показывает, есть ли в организме:
+</p>
+<ul>
+	<li>бактерии: сальмонеллы, шигеллы (дизентерия), кишечная палочка, иерсинии, кампилобактерии;</li>
+	<li>вирусы: ротавирус, норовирус, аденовирус и другие;</li>
+	<li>паразиты: лямблии, криптоспоридии;</li>
+	<li>клостридии: бактерии, которые могут вызывать диарею после приема антибиотиков.</li>
+</ul>
+<p>
+	Этот анализ помогает врачу быстро найти причину болезни и подобрать лечение.
+</p>
+ <br>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3614</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>110</value>
+ </field>
+ <field name="NAME">
+  <value>Когда нужно сдать детские анализы Т-спот?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	Метод Т-спот — максимально информативное исследование на туберкулез. Как правило его назначают:
+</p>
+<ul>
+	<li>перед вакцинацией БЦЖ;</li>
+	<li>при контакте с больными туберкулезом; </li>
+	<li>при подозрении на туберкулез; </li>
+	<li>при противопоказаниях к альтернативным методам (Манту и Диаскинтесту); </li>
+	<li>перед иммуносупрессивной терапией.</li>
+</ul>
+<p>
+	Важно: сроки сдачи назначает врач, тест делают натощак.
+</p>
+ <br>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3615</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>120</value>
+ </field>
+ <field name="NAME">
+  <value>Когда рекомендуется сдать анализы для детей на аллергию? </value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>Эти исследования следует проводить с учетом множества обстоятельств: </p>
+
+<ul>
+	<li>возраст: оптимально после трех лет, но при возникновении тяжелых реакций &mdash; с полугода;</li>
+	<li>симптомы: частые высыпания, ринит, кашель, одышка, отеки, нарушения работы ЖКТ;</li>
+	<li>сезон: за 2-4 недели до предполагаемого цветения (если подозревается поллиноз);</li>
+	<li>перед вакцинацией: если у ребенка в анамнезе аллергия;</li>
+	<li>после эпизодов анафилаксии: для выявления триггеров;</li>
+	<li>перед введением в рацион новых продуктов или заведением домашних животных, если среди близких родственников есть страдающие аллергией.</li>
+</ul>
+
+<p>Виды анализов: кожные пробы, специфические IgE, молекулярная диагностика аллергенов.</p>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3616</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>130</value>
+ </field>
+ <field name="NAME">
+  <value>Какие вирусы и бактерии можно выявить в мазках из носа и зева у детей?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	Вирусы:
+</p>
+<ul>
+	<li>респираторные: риновирусы, аденовирусы, коронавирусы (включая SARS-CoV-2), вирусы гриппа A/B, парагриппа, респираторно-синцитиальный вирус (RSV), метапневмовирус;</li>
+	<li>герпесвирусы: вирус Эпштейна-Барр (EBV), цитомегаловирус (CMV), вирус простого герпеса (HSV 1/2).</li>
+</ul>
+<p>
+	Бактерии:
+</p>
+<ul>
+	<li>патогенные: стрептококк группы A, пневмококк, гемофильная палочка, коклюшная палочка, микоплазма, хламидия;</li>
+	<li>условно-патогенные: золотистый стафилококк, моракселла, нейссерии.</li>
+</ul>
+<p>
+	Методы диагностики включают ПЦР, бакпосев, ИФА и экспресс-тесты.
+</p>
+<p>
+	Если у вас есть вопросы, звоните <a href="tel:+74232425660">+7 (423) 242-56-60</a> или проконсультируйтесь через форму обратной связи на сайте.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3617</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1"> Анализы для детей</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>10</value>
+ </field>
+ <field name="NAME">
+  <value>Как происходит процедура сдачи анализов на дому?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Процедура забора анализов на дому практически идентична той, что проводится в лабораторных условиях. Медицинская сестра приезжает с полным комплектом стерильных инструментов и оборудования.
+</p>
+<p>
+	 После сбора биоматериала все образцы тщательно упаковывают в герметичную тару и доставляют в лабораторию для последующего анализа. Исследование проводится в установленные сроки, а результаты мы отправляем в электронном формате.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3624</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Анализы на дому</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>20</value>
+ </field>
+ <field name="NAME">
+  <value>Как подготовиться к сдаче анализа крови на дому?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Прежде чем сдавать анализ крови на дому, необходимо заранее обсудить с врачом список требуемых исследований. Иногда требуется предварительная подготовка, о чем врач сообщает заранее. Это позволяет минимизировать риск ошибок в результатах и избежать возможных осложнений.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3625</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Анализы на дому</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>30</value>
+ </field>
+ <field name="NAME">
+  <value>За сколько времени приезжает бригада? Нужно ли ждать весь день?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Медицинский работник приезжает в любую точку во Владивостоке по согласованному с вами времени, что избавляет от ожидания в очереди и лишних контактов. Анализы можно сдать на дому в интервале с 8 до 16 часов. При оформлении заявки вы указываете наиболее удобное для вас время визита. После этого с вами свяжется оператор для подтверждения указанного времени.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3626</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Анализы на дому</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>40</value>
+ </field>
+ <field name="NAME">
+  <value>Медицинский работник сможет взять анализы на дому у пациента с симптомами ОРВИ?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Да, выезд на дом для забора анализов у пациента с признаками ОРВИ возможен при условии строгого соблюдения мер безопасности: использование средств индивидуальной защиты (масок, перчаток), регулярная дезинфекция поверхностей, обеспечение хорошей вентиляции помещения и соблюдение санитарно-гигиенических норм. В некоторых случаях, особенно при выраженном ухудшении состояния пациента, процедура может быть отложена.
+</p>
+<p>
+	 Основаниями для временного ограничения в предоставлении этой услуги служат следующие обстоятельства: наличие симптомов ОРВИ (включая кашель, затрудненное дыхание, повышение температуры тела свыше +37 градусов), контакт с людьми, находящимися в режиме изоляции, либо наличие положительного результата на COVID-19.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3627</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Анализы на дому</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>50</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли одновременно сдать ПЦР-тест на коронавирус и другие анализы?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Да, вы можете одновременно заказать ПЦР-тест на COVID-19 и сдать другие анализы крови. Главное — заранее уведомить медицинский персонал о своих намерениях, чтобы специалисты подготовили нужные инструменты для проведения процедуры в соответствии с регламентом.
+</p>
+<p>
+	 Какие скидки действуют на выездное обслуживание? Можно ли заплатить за него бонусами?
+</p>
+<p>
+	 Все скидки, действующие по программе лояльности, сохраняются и при заказе услуги забора анализов на дому сотрудниками выездной лаборатории. При оформлении заявки вы можете уточнить у оператора итоговую цену или задать другие интересующие вас вопросы.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3628</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Анализы на дому</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>60</value>
+ </field>
+ <field name="NAME">
+  <value>Как можно оплатить услуги на дому?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Допускается расчет по QR-коду или наличными.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3629</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Анализы на дому</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>70</value>
+ </field>
+ <field name="NAME">
+  <value>Кто выполняет выездное обслуживание? Этим людям можно доверять?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Забор анализов на дому при выездном обслуживании проводят опытные, квалифицированные и аккуратные медицинские сестры. Они используют одноразовые инструменты и тщательно соблюдают гигиенические нормы. Каждый этап процедуры выполняется с максимальной внимательностью, для обеспечения безопасности пациента.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3630</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Анализы на дому</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>80</value>
+ </field>
+ <field name="NAME">
+  <value>Что делать, если понадобится изменить заказ, а медсестра уже приехала?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Даже если медсестра уже в вашей квартире, вы можете внести изменения в заказ. Однако следует учитывать, что некоторые анализы требуют особой подготовки. Поэтому вам понадобится проконсультироваться с дежурным врачом, позвонив в наш контактный центр.
+</p>
+<p align="right">
+	 &nbsp;
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3631</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Анализы на дому</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>test</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3645</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Клещевые инфекции</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>10</value>
+ </field>
+ <field name="NAME">
+  <value>От каких именно болезней можно защититься с помощью ваших вакцин?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	Мы проводим вакцинацию против широкого спектра заболеваний для детей и взрослых, согласно Национальному календарю прививок и по эпидемическим показаниям:
+</p>
+<p>
+	— Для детей:&nbsp;коклюш, дифтерия, столбняк (АКДС), полиомиелит, корь, краснуха, паротит (КПК), гепатит В, гемофильная инфекция, пневмококковая инфекция.<br>
+	 — Для взрослых:&nbsp;ревакцинация от дифтерии и столбняка, гепатит А и В, ветряная оспа, ВПЧ (вирус папилломы человека), пневмококк, менингококк.<br>
+	 —&nbsp;&nbsp;Сезонная вакцинация:&nbsp;ежегодная прививка от гриппа.
+</p>
+ <br>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3759</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о вакцинации</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>20</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли сделать прививку на дому?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Да, мы предоставляем услугу «Вакцинация на дому». Это идеальный вариант для маленьких детей, чтобы минимизировать контакты в клинике, или для пожилых людей. Наш врач приедет в назначенное время со всем необходимым, проведет осмотр, выполнит инъекцию и проконтролирует состояние после процедуры. Услуга оплачивается дополнительно.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3760</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о вакцинации</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>30</value>
+ </field>
+ <field name="NAME">
+  <value>Что такое ревакцинация и почему она так важна?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[Ревакцинация — это повторное введение вакцины для поддержания иммунитета, который с течением времени ослабевает.&nbsp;<br><br>
+Представьте, что иммунитет — это крепость. После первой прививки мы строим крепкие стены. Но без периодического «ремонта» и «усиления» (ревакцинации) они со временем могут дать трещину. Ревакцинация — это и есть тот самый ремонт, который надежно защищает организм на долгие годы. Классические примеры — повторные прививки от дифтерии и столбняка каждые 10 лет.]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3761</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о вакцинации</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>40</value>
+ </field>
+ <field name="NAME">
+  <value>Есть ли разница между словами «прививка» и «вакцина»?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>Да, разница есть, и она проста:</p>
+<p>&mdash; Вакцина&nbsp;&mdash; это конкретный лекарственный препарат, который вводится в организм (например, &laquo;Вакцина &laquo;Пентаксим&raquo;&raquo;).<br>
+	&mdash; Прививка (вакцинация)&nbsp;&mdash; это сам&nbsp;процесс&nbsp;введения этого препарата. Проще говоря,&nbsp;вакцину&nbsp;используют, чтобы сделать&nbsp;прививку.</p>
+
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3762</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о вакцинации</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>50</value>
+ </field>
+ <field name="NAME">
+  <value>Какие есть противопоказания к вакцинации?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[Противопоказания бывают абсолютные (постоянные) и временные. Перед каждой прививкой наш врач проводит обязательный&nbsp;осмотр&nbsp;и&nbsp;термометрию, чтобы исключить риски.<br>
+<br>
+Временные противопоказания:<br>
+ — Острое заболевание (ОРВИ, грипп) или обострение хронической болезни.<br>
+ — Повышенная температура.<br>
+ —&nbsp; Контакт с инфекционными больными (нахождение в карантине).<br>
+<br>
+Абсолютные (встречаются редко):<br>
+ — Тяжелая аллергическая реакция (анафилаксия) на предыдущее введение аналогичной вакцины.<br>
+— Некоторые первичные иммунодефициты.]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3763</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о вакцинации</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>60</value>
+ </field>
+ <field name="NAME">
+  <value>Что делать, если я или ребенок простыли, а по графику нужно прививаться?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<p>
+	 Ни в коем случае не вакцинироваться во время болезни!&nbsp;Это главное правило. Любое острое заболевание — это временное противопоказание. Вам необходимо:<br>
+</p>
+<p>
+	 1. Перенести дату прививки, позвонив нашему администратору.<br>
+	 2. Полностью выздороветь&nbsp;и дождаться окончания карантина (если он был).<br>
+	 3.&nbsp;Прийти на осмотр к врачу, который подтвердит, что противопоказания сняты и можно безопасно проводить вакцинацию.
+</p>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3764</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о вакцинации</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>100</value>
+ </field>
+ <field name="NAME">
+  <value>Как часто можно делать рентген?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Безопасная доза облучения для профилактических исследований — до 1 мЗв/год. Наши цифровые аппараты используют минимальные дозы, поэтому исследования можно проводить так часто, как это необходимо по медицинским показаниям.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3765</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о рентгенографии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>200</value>
+ </field>
+ <field name="NAME">
+  <value>Нужна ли подготовка к рентгену?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[Зависит от вида исследования:<br>
+ <br>
+ — Рентген легких, костей, суставов — не требует подготовки.<br>
+ — Рентген ЖКТ с контрастом — требует соблюдения диеты и голодания перед процедурой.<br>
+— Рентген органов малого таза — может потребовать наполнения мочевого пузыря.]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3766</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о рентгенографии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>300</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли делать рентген беременным?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Рентген не рекомендуется во время беременности, особенно в первом триместре. Исключение — экстренные случаи, когда польза превышает риск. Обязательно сообщите врачу о беременности перед исследованием.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3767</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о рентгенографии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>310</value>
+ </field>
+ <field name="NAME">
+  <value>С какого возраста нужно делать маммографию?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Плановый скрининг рекомендуется с 40 лет ежегодно. Для женщин с факторами риска (наследственность, перенесенные заболевания) возраст может быть снижен по назначению врача.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3768</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о маммографии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>320</value>
+ </field>
+ <field name="NAME">
+  <value>Как подготовиться к маммографии?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Идеальное время для исследования — 5-12 день менструального цикла. В день исследования не используйте дезодоранты, тальк и кремы в области груди и подмышек.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3769</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о маммографии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>330</value>
+ </field>
+ <field name="NAME">
+  <value>Больно ли делать маммографию?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Процедура может вызывать кратковременный дискомфорт из-за компрессии груди, но современное оборудование минимизирует эти ощущения. Длительность компрессии — не более 10-15 секунд на каждую грудь.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3770</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о маммографии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>340</value>
+ </field>
+ <field name="NAME">
+  <value>Как часто можно делать маммографию?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>При скрининге — 1 раз в год. По медицинским показаниям врач может назначить более частые исследования. Доза облучения при цифровой маммографии минимальна и безопасна.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3771</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о маммографии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>350</value>
+ </field>
+ <field name="NAME">
+  <value>Что лучше: маммография или УЗИ молочных желез?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Это взаимодополняющие методы. Маммография лучше выявляет микрокальцинаты и ранние формы рака, УЗИ эффективнее для плотной ткани молочной железы у молодых женщин. Часто назначаются вместе.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3772</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о маммографии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>410</value>
+ </field>
+ <field name="NAME">
+  <value>Как подготовиться к приему аллреголога-иммунолога?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>В разработке</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3773</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о аллергии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>420</value>
+ </field>
+ <field name="NAME">
+  <value>Сколько длится курс лечения аллергии?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>В разработке</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3774</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о аллергии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>430</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли полностью избавиться от аллергии?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>В разработке</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3775</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о аллергии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>440</value>
+ </field>
+ <field name="NAME">
+  <value>Какие анализы есть на аллергию?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>В разработке</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3776</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о аллергии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Нужно ли сразу делать рентген или можно обойтись осмотром?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Терапевт оценивает симптомы и решает, какие исследования действительно необходимы для точного диагноза.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3825</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о терапии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Как понять, что моя усталость или слабость связаны с болезнью, а не обычной усталостью?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Врач анализирует сочетание симптомов, назначает лабораторные и инструментальные исследования, чтобы выявить скрытые заболевания.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3826</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о терапии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Можно ли совместить лечение нескольких хронических заболеваний одновременно?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Да, терапевт разрабатывает комплексную схему с учётом всех хронических заболеваний и назначений смежных специалистов.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3827</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о терапии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Когда стоит вызывать врача на дом, а когда идти в клинику?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Выезд на дом показан при высокой температуре, ограниченной подвижности или необходимости срочной диагностики, остальное лучше проводить в клинике для полного обследования.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3828</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о терапии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Как часто нужно проходить профилактический осмотр у терапевта, если жалоб нет?</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Рекомендуется посещать терапевта минимум раз в год, а при хронических заболеваниях или возрасте старше 40 лет — чаще, чтобы вовремя выявлять скрытые проблемы.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3829</value>
+ </field>
+ <field name="IBLOCK_SECTION">
+  <value section_depth_level="1">Частые вопросы о терапии</value>
+ </field>
+ <field name="IPROPERTY_TEMPLATES">
+  <value name="SECTION_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_PAGE_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="SECTION_META_TITLE"><![CDATA[{=this.Name}]]></value>
+  <value name="ELEMENT_META_TITLE"><![CDATA[{=this.Name}]]></value>
+ </field>
+ <property name="TITLE_BUTTON"/>
+ <property name="LINK_BUTTON"/>
+</item>
+
+</items>

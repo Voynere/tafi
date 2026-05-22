@@ -1,0 +1,41 @@
+.tizer-coop__row{
+    display: flex;
+    flex-direction: column;
+}
+.tizer-coop__item{
+    display: flex;
+    align-items:center;
+    margin-bottom: 32px;
+}
+.tizer-coop__item:last-child{
+    margin-bottom: 0;
+}
+.tizer-coop__item_name p{
+    margin: 0;
+    color: rgb(51, 51, 51);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: left;
+}
+
+.tizer-coop__item_img{
+    margin-right: 24px;
+}
+.tizer-coop__wrapper{
+    max-width: 584px;
+}
+@media (max-width: 1240px) {
+    .tizer-coop__wrapper{
+        max-width: 100%;
+    }
+    .tizer-coop__item_name p{
+        color: rgb(51, 51, 51);
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 150%;
+        text-align: left;
+    }
+}

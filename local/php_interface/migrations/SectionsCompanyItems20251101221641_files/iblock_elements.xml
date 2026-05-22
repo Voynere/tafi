@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="main:companySections" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>10</value>
+ </field>
+ <field name="NAME">
+  <value>Направления</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="img1.jpg" type="file">iblock/b01/u01hm038befu9rb52r2j0xi9m2wy1w8v.jpg</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>napravleniya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3710</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>20</value>
+ </field>
+ <field name="NAME">
+  <value>Анализы</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="img2.jpg" type="file">iblock/5b4/aa43jxkfl88pa7tt3s7hirup7p7h5ve8.jpg</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>analizy</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3711</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>/catalog/</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>30</value>
+ </field>
+ <field name="NAME">
+  <value>Врачи</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="img3.jpg" type="file">iblock/99d/w7eq6n7t3l6x23gk9wqq5avndc2ycjtz.jpg</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>vrachi</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3712</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>40</value>
+ </field>
+ <field name="NAME">
+  <value>Диагностика</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="img4.jpg" type="file">iblock/3c4/khcz1mxhtua9lr7h5zwjd3vp7q2nrop0.jpg</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>diagnostika</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3713</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK"/>
+</item>
+
+</items>

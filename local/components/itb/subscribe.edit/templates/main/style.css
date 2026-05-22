@@ -1,0 +1,49 @@
+div.subscribe-edit .red {
+	color:red;
+}
+div.subscribe-edit .green {
+	color:green;
+}
+div.subscribe-edit .errorcolor {
+	color:red;
+}
+div.subscribe-edit .successcolor {
+	color:green;
+}
+.subscribe-edit.border_block{margin-bottom:40px;}
+
+.captcha {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	height: 52px;
+}
+
+.captcha img {
+	margin: 0;
+	height: 100%;
+}
+
+.captcha input#captcha_word {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	max-height: 52px;
+}
+
+@media (max-width: 576px) {
+	.captcha {
+		flex-direction: column;
+		height: unset;
+		align-items: flex-start;
+	}
+}
+
+@media all and (max-width: 500px){
+	.data-table.confirm tbody tr td{display: block;width: 100%;}
+	.data-table.confirm tbody tr td .more_text_small{padding: 20px 0px 0px;}
+}

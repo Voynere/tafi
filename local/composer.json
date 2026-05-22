@@ -1,0 +1,38 @@
+{
+	"require-dev": {
+		"symfony/var-dumper": "6.4.26"
+	},
+	"config": {
+		"vendor-dir": "vendor",
+		"allow-plugins": {
+			"composer/installers": true
+		}
+	},
+	"extra": {
+		"merge-plugin": {
+			"require": [
+				"../bitrix/composer-bx.json"
+			]
+		},
+		"installer-paths": {
+			"modules/{$name}/": ["type:bitrix-module"]
+		}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://git.itb-dev.ru/ITB-dev/itb.seo.git"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Custom\\": "php_interface/classes/Custom/",
+			"Itb\\": "php_interface/classes/Itb/"
+		}
+	},
+	"require": {
+		"dompdf/dompdf": "^3.1",
+		"shuchkin/simplexlsx": "*",
+		"itb/itb.seo": "^1.1"
+	}
+}

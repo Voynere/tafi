@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="main:servicesList" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>10</value>
+ </field>
+ <field name="NAME">
+  <value>Где сдать анализы</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="s1.png" type="file">iblock/5ac/6002a4mj7ybbg416eai6z8ym4uachv18.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>gde-sdat-analizy</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3714</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>20</value>
+ </field>
+ <field name="NAME">
+  <value>Записаться к врачу</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="s2.png" type="file">iblock/63a/0hbji9qeb27uotef7u2b5byxl2i4vixd.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>zapisatsya-k-vrachu</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3715</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>30</value>
+ </field>
+ <field name="NAME">
+  <value>Записаться на диагностику</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="s3.png" type="file">iblock/ccc/xr1ny21lotlk64k1faddhv19953o0jb3.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[Записаться<br> на диагностику]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>zapisatsya-na-diagnostiku</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3716</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>40</value>
+ </field>
+ <field name="NAME">
+  <value>Выезд на дом</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="s4.png" type="file">iblock/29a/z45olqamg3xcps6ghl3zq5bsibegod6h.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>vyezd-na-dom</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3717</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK"/>
+</item>
+
+</items>

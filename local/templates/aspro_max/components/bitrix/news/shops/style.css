@@ -1,0 +1,28 @@
+.shops_block{
+    max-width: 1440px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    gap: 64px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    position: relative;
+}
+.item.map_block{
+    max-width: 656px;
+    width: 100%;
+}
+.wrapper_inner .stores-list1 .item .top-wrap .metro{
+    display: none;
+}
+@media (max-width: 1023px) {
+    .shops_block{
+        flex-direction: column;
+    }
+
+}
+@media  (max-width: 767px){
+    .wrapper_inner_half.shop-detail1 .item.map-full.padding0,.item  .img_block_store{
+        height: 200px;
+    }
+}

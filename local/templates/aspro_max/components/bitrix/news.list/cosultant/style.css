@@ -1,0 +1,115 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+.news-list-cons{
+	padding-top: 20px;
+	background: white !important;
+	padding-bottom: 20px;
+}
+.rows-consultation{
+	display: flex;
+	background: white;
+	gap: 30px;
+	padding-top: 20px;
+	align-items: center;
+}
+.main-coslult{
+	background: white;
+}
+.block-cons-one{
+	display: flex;
+	width: 55%;
+	flex-direction: column;
+}
+.title-cons h3{
+	font-weight: 600;
+	font-size: 24px !important;
+	line-height: 29px;
+	color: #333333;
+}
+.cons-text-one{
+	padding-bottom: 12px;
+}
+.cons-text-one span{
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+	color: #777777;
+}
+.cons-text-two span{
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+	color: #777777;
+}
+.block-cons-two{
+	display: flex;
+	gap: 20px;
+}
+.block-vrac-one{
+	display: flex;
+	flex-direction: column;
+	/* gap: 20px; */
+}
+.top-text-cons{
+	padding-bottom: 12px;
+	color: #333333;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+}
+.name-cons{
+	text-align: center;
+	margin-top: -5px;
+}
+.name-cons p{
+	color: #555555;
+	font-weight: 400;
+	margin: 0;
+	font-size: 14px;
+}
+.name-cons span{
+	color: #888888;
+	font-weight: 500;
+	font-size: 12px;
+}
+.btn-cons{
+	text-align: center;
+	margin-top: 5px;
+}
+.btn-cons a {
+    color: #00C314;
+    position: relative;
+    border-bottom: 1px dotted #00C314;
+    margin-left: 30px;
+}
+.btn-cons a:before{
+	position: absolute;
+	content: url('/local/templates/aspro_max/images/what.png');
+	left: -30px;
+}
+.img-cons img{
+	max-width: 100%;
+}
+@media(max-width: 992px){
+	.rows-consultation{
+		flex-direction: column;
+	}
+	.block-cons-one{
+		width: 100%;
+	}
+}
+@media(max-width:514px){
+	.block-cons-two{
+		flex-direction: column;
+	}
+}

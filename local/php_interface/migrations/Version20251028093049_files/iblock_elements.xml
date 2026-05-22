@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="aspro_max_content:directions" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Диагностика</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="diag01.png" type="file">iblock/36a/xzq63ce5su62ooz9jehl59jbp8g41qup.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<h1>Диагностика</h1>
+<p>
+Комплексное обследование, которое позволяет выявить заболевания на ранних стадиях. Мы используем современное оборудование и методы для точного определения состояния вашего здоровья и назначения эффективного лечения.
+</p>
+<ul>
+<li>Современное оборудование для точных результатов</li>
+<li>Удобное расписание и онлайн — запись</li>
+<li>Квалифицированные специалисты с большим опытом</li>
+<li>Комплексное решение проблем</li>
+</ul> 
+<button class="service-button">Проконсультироваться</button>]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>diagnostika</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3830</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_MAIN_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_MAIN_BLOCK_POSITION">
+  <value>10</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_ACTIVE"/>
+ <property name="PROP_INFO_BLOCK_POSITION"/>
+ <property name="PROP_ADV_BLOCK_ACTIVE"/>
+ <property name="PROP_ADV_BLOCK_POSITION"/>
+ <property name="PROP_ADV_BLOCK_ROW">
+  <value>TWO</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_TITLE"/>
+ <property name="PROP_ADV_BLOCK_ITEM1_ICON"/>
+ <property name="PROP_ADV_BLOCK_ITEM1_TITLE"/>
+ <property name="PROP_ADV_BLOCK_ITEM1_DESCR"/>
+ <property name="PROP_ADV_BLOCK_ITEM2_ICON"/>
+ <property name="PROP_ADV_BLOCK_ITEM2_TITLE"/>
+ <property name="PROP_ADV_BLOCK_ITEM2_DESCR"/>
+ <property name="PROP_ADV_BLOCK_ITEM3_ICON"/>
+ <property name="PROP_ADV_BLOCK_ITEM3_TITLE"/>
+ <property name="PROP_ADV_BLOCK_ITEM3_DESCR"/>
+ <property name="PROP_ADV_BLOCK_ITEM4_ICON"/>
+ <property name="PROP_ADV_BLOCK_ITEM4_TITLE"/>
+ <property name="PROP_ADV_BLOCK_ITEM4_DESCR"/>
+ <property name="PROP_DOCTORS_ACTIVE"/>
+ <property name="PROP_DOCTORS_POSITION"/>
+ <property name="PROP_DOCTORS_TITLE"/>
+ <property name="PROP_DOCTORS"/>
+ <property name="PROP_BANNER1_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER1_POSITION">
+  <value>30</value>
+ </property>
+ <property name="PROP_BANNER1_TITLE">
+  <value>Обследуйтесь комплексно: программы чек-апов со скидкой</value>
+ </property>
+ <property name="PROP_BANNER1_TEXT"/>
+ <property name="PROP_BANNER1_BTN_TEXT">
+  <value>Подробнее</value>
+ </property>
+ <property name="PROP_BANNER1_LINK"/>
+ <property name="PROP_BANNER1_IMAGE">
+  <value name="diag02.png" type="file">iblock/86e/8v86u41hmtu38l06u9yx49yj1hpq1ba1.png</value>
+ </property>
+ <property name="PROP_BANNER1_COLOR">
+  <value>#3B61B9</value>
+ </property>
+ <property name="PROP_BANNER2_ACTIVE"/>
+ <property name="PROP_BANNER2_POSITION"/>
+ <property name="PROP_BANNER2_TITLE"/>
+ <property name="PROP_BANNER2_TEXT"/>
+ <property name="PROP_BANNER2_BTN_TEXT"/>
+ <property name="PROP_BANNER2_LINK"/>
+ <property name="PROP_BANNER2_IMAGE"/>
+ <property name="PROP_BANNER2_COLOR"/>
+ <property name="PROP_BANNER3_ACTIVE"/>
+ <property name="PROP_BANNER3_POSITION"/>
+ <property name="PROP_BANNER3_TITLE"/>
+ <property name="PROP_BANNER3_TEXT"/>
+ <property name="PROP_BANNER3_BTN_TEXT"/>
+ <property name="PROP_BANNER3_LINK"/>
+ <property name="PROP_BANNER3_IMAGE"/>
+ <property name="PROP_BANNER3_COLOR"/>
+ <property name="PROP_PRICES_ACTIVE"/>
+ <property name="PROP_PRICES_POSITION"/>
+ <property name="PROP_PRICES_LINK"/>
+ <property name="PROP_PRICES_TITLE"/>
+ <property name="PROP_PRICES_LIST"/>
+ <property name="PROP_FAQ_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_FAQ_POSITION">
+  <value>40</value>
+ </property>
+ <property name="PROP_FAQ_TITLE">
+  <value>Часто задаваемые вопросы</value>
+ </property>
+ <property name="PROP_FAQ_LIST">
+  <value element_xml_id="3825" element_code="nuzhno-li-srazu-delat-rentgen-ili-mozhno-oboytis-osmotrom">Нужно ли сразу делать рентген или можно обойтись осмотром?</value>
+  <value element_xml_id="3826" element_code="kak-ponyat-chto-moya-ustalost-ili-slabost-svyazany-s-boleznyu-a-ne-obychnoy-ustalostyu">Как понять, что моя усталость или слабость связаны с болезнью, а не обычной усталостью?</value>
+  <value element_xml_id="3827" element_code="mozhno-li-sovmestit-lechenie-neskolkikh-khronicheskikh-zabolevaniy-odnovremenno">Можно ли совместить лечение нескольких хронических заболеваний одновременно?</value>
+  <value element_xml_id="3828" element_code="kogda-stoit-vyzyvat-vracha-na-dom-a-kogda-idti-v-kliniku">Когда стоит вызывать врача на дом, а когда идти в клинику?</value>
+  <value element_xml_id="3829" element_code="kak-chasto-nuzhno-prokhodit-profilakticheskiy-osmotr-u-terapevta-esli-zhalob-net">Как часто нужно проходить профилактический осмотр у терапевта, если жалоб нет?</value>
+ </property>
+ <property name="PROP_ARTICLES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ARTICLES_POSITION">
+  <value>50</value>
+ </property>
+ <property name="PROP_ARTICLES_LINK">
+  <value>/blog/</value>
+ </property>
+ <property name="PROP_ARTICLES_TITLE">
+  <value>Это полезно знать</value>
+ </property>
+ <property name="PROP_ARTICLES_LIST">
+  <value element_xml_id="1810" element_code="kakie-sdat-analizy-esli-doma-est-zhivotnye"> Какие сдать анализы, если дома есть животные?</value>
+  <value element_xml_id="3577" element_code="allergodiagnostika-kakie-analizy-i-kogda-sdavat">Аллергодиагностика: какие анализы и когда сдавать</value>
+  <value element_xml_id="1846" element_code="vaktsinatsiya-proydena-chto-dalshe">Вакцинация пройдена. Что дальше?</value>
+  <value element_xml_id="3574" element_code="defitsit-vitaminov-simptomy-i-diagnostika">Дефицит витаминов: симптомы и диагностика</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_ACTIVE"/>
+ <property name="PROP_INFO_BLOCK2_POSITION"/>
+ <property name="PROP_INFO_BLOCK2_TITLE"/>
+ <property name="PROP_INFO_BLOCK2_TOPTEXT"/>
+ <property name="PROP_INFO_BLOCK2_IMAGE"/>
+ <property name="PROP_INFO_BLOCK2_TEXT"/>
+ <property name="PROP_LIST_ACTIVE"/>
+ <property name="PROP_LIST_POSITION"/>
+ <property name="PROP_LIST_TITLE"/>
+ <property name="PROP_LIST"/>
+ <property name="PROP_CARDS_ACTIVE"/>
+ <property name="PROP_CARDS_POSITION"/>
+ <property name="PROP_CARDS_ROW">
+  <value>TWO</value>
+ </property>
+ <property name="PROP_CARDS_NUM"/>
+ <property name="PROP_CARDS_TITLE"/>
+ <property name="PROP_CARDS1"/>
+ <property name="PROP_CARDS2"/>
+ <property name="PROP_CARDS3"/>
+ <property name="PROP_CARDS4"/>
+ <property name="PROP_CARDS_IMAGE"/>
+ <property name="PROP_ACCORD_ACTIVE"/>
+ <property name="PROP_ACCORD_POSITION"/>
+ <property name="PROP_ACCORD_TITLE"/>
+ <property name="PROP_ACCORD_LIST"/>
+ <property name="PROP_CARDS2_ACTIVE"/>
+ <property name="PROP_CARDS2_POSITION"/>
+ <property name="PROP_CARDS2_ROW"/>
+ <property name="PROP_CARDS2_NUM"/>
+ <property name="PROP_CARDS2_TITLE"/>
+ <property name="PROP_CARDS2_1"/>
+ <property name="PROP_CARDS2_2"/>
+ <property name="PROP_CARDS2_3"/>
+ <property name="PROP_CARDS2_4"/>
+ <property name="PROP_CARDS2_IMAGE"/>
+ <property name="PROP_CARDS3_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS3_POSITION">
+  <value>20</value>
+ </property>
+ <property name="PROP_CARDS3_TITLE">
+  <value>Направления диагностики</value>
+ </property>
+ <property name="PROP_CARDS3_1">
+  <value text-type="HTML"><![CDATA[<span>
+УЗИ
+</span>
+<p>
+Безопасный и безболезненный метод диагностики, позволяющий выявлять заболевания и контролировать лечение внутренних органов.
+</p>
+
+<button class="service-button">Записаться</button>]]></value>
+ </property>
+ <property name="PROP_CARDS3_IMAGE1">
+  <value name="diag03.png" type="file">iblock/8a6/pbt0jio1jnmisn8a6dmplo7a963t3r3a.png</value>
+ </property>
+ <property name="PROP_CARDS3_2">
+  <value text-type="HTML"><![CDATA[<span>
+Рентгенография
+</span>
+<p>
+Метод диагностики, использующий рентгеновские лучи для получения изображений внутренних органов и тканей с целью выявления заболеваний.
+</p>
+
+<button class="service-button">Записаться</button>]]></value>
+ </property>
+ <property name="PROP_CARDS3_IMAGE2">
+  <value name="diag04.png" type="file">iblock/6cd/7lf35q2hmys9l1pb9e6rxztm5s9yhw4m.png</value>
+ </property>
+ <property name="PROP_CARDS3_3">
+  <value text-type="HTML"><![CDATA[<span>
+Маммография
+</span>
+<p>
+Рентгеновский метод обследования молочных желез, используемый для раннего выявления заболеваний, включая рак.
+</p>
+
+<button class="service-button">Записаться</button>]]></value>
+ </property>
+ <property name="PROP_CARDS3_IMAGE3">
+  <value name="diag05.png" type="file">iblock/30b/3vxthyqwfodu1py005gaqwrurlouuvpx.png</value>
+ </property>
+ <property name="PROP_CARDS3_4">
+  <value text-type="HTML"><![CDATA[<span>
+Функциональная диагностика
+</span>
+<p>
+Комплекс методов обследования, направленных на оценку работы органов и систем организма с целью выявления заболеваний и нарушений.
+</p>
+
+<button class="service-button">Записаться</button>]]></value>
+ </property>
+ <property name="PROP_CARDS3_IMAGE4">
+  <value name="diag06.png" type="file">iblock/b31/q2glpng7kcs03i1578jk64w0brhobjz4.png</value>
+ </property>
+</item>
+
+</items>

@@ -1,0 +1,99 @@
+<?
+global $USER;
+$isAdmin = $USER -> isAdmin();
+if($isAdmin)
+{
+    $aMenuLinks = Array(
+        Array(
+            "УЗИ",
+            "/services/uzi/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Выезд на дом",
+            "/services/dop_uslugi/vyezd-na-dom/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Процедуры",
+            "/services/protsedury/uslugi-protsedurnogo-kabineta/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Аллергология-иммунология",
+            "/allergologiya-immunologiya/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Вакцинация",
+            "/vaktsinatsiya/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Рентгенография",
+            "/rentgenografiya/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Маммография",
+            "/mammografiya/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Терапия",
+            "/terapiya/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Диагностика",
+            "/diagnostika/",
+            Array(),
+            Array(),
+            ""
+        ),
+    );
+}
+else
+{
+    $aMenuLinks = Array(
+        Array(
+            "УЗИ",
+            "/services/uzi/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Выезд на дом",
+            "/services/dop_uslugi/vyezd-na-dom/",
+            Array(),
+            Array(),
+            ""
+        ),
+        Array(
+            "Процедуры",
+            "/services/protsedury/uslugi-protsedurnogo-kabineta/",
+            Array(),
+            Array(),
+            ""
+        ),
+    );
+}
+
+?>

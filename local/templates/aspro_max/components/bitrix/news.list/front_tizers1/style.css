@@ -1,0 +1,73 @@
+.bottizer-coop__header_name h3{
+	color: rgb(51, 51, 51);
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 150%;
+	text-align: left;
+	margin-bottom: 40px;
+}
+.bottizer__wrapper{
+	margin-top: 120px;
+}
+.bottizer-coop__row{
+	display: flex;
+	/*justify-content: space-between;*/
+	flex-wrap: wrap;
+	gap: 24px;
+}
+.bottizer-coop__row_item{
+	/* BG 1 */
+	background: rgb(249, 249, 250);
+width: 250px;
+	height: 177px;
+	padding: 24px;
+}
+.bottizer-coop__item_number p{
+	color: rgb(119, 119, 119);
+	margin-bottom: 24px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 150%;
+	text-align: left;
+}
+.bottizer-coop__item_content p{
+	color: rgb(59, 97, 185);
+	margin: 0;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 150%;
+	text-align: left;
+}
+@media (max-width: 880px) {
+	.tizer-coop__header_name h3{
+		color: rgb(51, 51, 51);
+		font-family: Montserrat;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 150%;
+		text-align: left;
+	}
+	.bottizer-coop__row{
+		flex-wrap:nowrap;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.bottizer-coop__item_content{
+
+		width: 200px;
+	}
+	.bottizer__wrapper{
+		margin-top: 64px;
+	}
+	.tizrt-coop__item_name p{
+		color: rgb(51, 51, 51);
+		font-family: Montserrat;
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 150%;
+		text-align: left;
+	}
+}

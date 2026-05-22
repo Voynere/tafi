@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="aspro_max_catalog:bannerMegaMenu" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Обследуйтесь комплексно:</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="img.png" type="file">iblock/124/1zmnro98d4degk750lh581mahnxkzys0.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value>программы чек-апов со скидкой</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>obsleduytes-kompleksno</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3877</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+
+</items>

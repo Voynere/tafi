@@ -1,0 +1,118 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+
+/* Examples (uncomment to use):*/
+
+
+/* Expand site width */
+
+
+/* body .wrapper { max-width: 1400px !important;  } */
+
+
+/* Set site background image */
+
+
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+
+
+/* a.compare_item { display: none !important;  }*/
+
+.catalog_block .catalog_item .item_info {
+    cursor: pointer;
+}
+
+.to-cart {
+    display: none!important;
+}
+
+a[href*="/basket/"] {
+    display: none!important;
+}
+
+.basket_wrapp {
+    display: none!important;
+}
+
+.person {
+    display: none!important;
+}
+
+.fill_bg_n .menu-row.bgcolored,
+.fill_bg_y .menu-row.bgcolored>.maxwidth-theme {
+    background-color: #000000;
+}
+
+.menu-row.bgcolored .menu-only {
+    background-color: #000000;
+}
+
+.menu-row.bgcolored .mega-menu table td:hover {
+    background-color: #484848;
+}
+
+.menu-row.bgcolored .mega-menu table td.active {
+    background-color: #484848;
+}
+
+footer .info .subscribe_button {
+    display: none!important;
+}
+
+@media (min-width: 601px) {
+    .catalog_block .catalog_item:hover>div .item_info {
+        height: 100%;
+    }
+    .top_wrapper .catalog_block .catalog_item:hover .footer_button {
+        margin: 0;
+        position: absolute;
+        bottom: -57px;
+        left: 0;
+        right: 0;
+    }
+    .catalog_block .catalog_item:hover>div {
+        position: relative;
+    }
+    .catalog_block .catalog_item:hover>div .item_info {
+        height: 100%;
+    }
+    .catalog_item:hover .inner_wrap {
+        height: 100%;
+    }
+    .catalog_block .catalog_item .counter_wrapp .button_block {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .table-requisites {
+        display: block;
+    }
+    .table-requisites>tbody {
+        display: block;
+    }
+    .table-requisites>tbody>tr {
+        display: block;
+    }
+    .table-requisites>tbody>tr>td {
+        display: block;
+    }
+    .table-requisites>tbody>tr>td:nth-of-type(1) {
+        font-weight: bold;
+    }
+    .details .product-info-headnote {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 600px) {
+    .compact-catalog .ajax_load .like_icons {
+        position: relative;
+        top: auto;
+        bottom: auto;
+        right: auto;
+        left: auto;
+    }
+}

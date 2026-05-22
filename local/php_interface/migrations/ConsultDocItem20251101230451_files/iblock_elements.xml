@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="aspro_max_content:consulltDoc" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Бесплатная консультация врача</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="Banner (1).jpg" type="file">iblock/d25/uyjlw84p79kgpja5qhs95t5461l111ga.jpg</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="bg1.png" type="file">iblock/d2d/tm334pqwxtwzw2ymmvfn8iiz27vnxlel.png</value>
+ </field>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE"/>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3124</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="TEXT_ONE">
+  <value><![CDATA[Воспользуйтесь нашей услугой — "Консультация по результатам исследований". ]]></value>
+ </property>
+ <property name="TEXT_TWO">
+  <value>Доктор будет рад ответить на все ваши вопросы в рабочее время с 9.00 до 16.00 по Владивостоку. Для идентификации заказа просим отправлять в сообщении фото или pdf-файл с результатами.</value>
+ </property>
+ <property name="IMG_ONE">
+  <value name="consult.png" type="file">iblock/038/gk7hvju6du2z4wndd3nn1yiunr2wz2eq.png</value>
+ </property>
+ <property name="IMG_TWO"/>
+ <property name="LINK_ONE">
+  <value>https://wa.me/+79024859005</value>
+ </property>
+ <property name="LINK_TWO"/>
+ <property name="TEXT_ONE_IMG"/>
+ <property name="TEXT_TWO_IMG"/>
+ <property name="FIO_ONE">
+  <value>Никулина Кристина Владимировна</value>
+ </property>
+ <property name="FIO_TWO"/>
+ <property name="DOLJNOST_ONE">
+  <value>Врач-консультант</value>
+ </property>
+ <property name="DOLJNOST_TWO"/>
+ <property name="IMG_ONE_M">
+  <value name="person2.png" type="file">iblock/53f/7k0zaykvusaro20mkftyjo5dlkojtpcv.png</value>
+ </property>
+</item>
+
+</items>

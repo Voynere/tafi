@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="main:servicesList" exchangeVersion="2" >
+<item>
+ <field name="CODE">
+  <value>gde-sdat-analizy</value>
+ </field>
+ <property name="LINK">
+  <value>/contacts/stores/</value>
+ </property>
+</item>
+<item>
+ <field name="CODE">
+  <value>zapisatsya-k-vrachu</value>
+ </field>
+ <property name="LINK"/>
+</item>
+<item>
+ <field name="CODE">
+  <value>zapisatsya-na-diagnostiku</value>
+ </field>
+ <property name="LINK"/>
+</item>
+<item>
+ <field name="CODE">
+  <value>vyezd-na-dom</value>
+ </field>
+ <property name="LINK">
+  <value>/services/dop_uslugi/vyezd-na-dom/</value>
+ </property>
+</item>
+
+</items>

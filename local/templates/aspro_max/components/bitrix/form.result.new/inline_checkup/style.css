@@ -1,0 +1,50 @@
+.btn-default.long{
+    width: 100%;
+
+}
+.form .form_footer.long{
+    display: block;
+}
+.form-cooperation {
+    padding: 32px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 236, 236);
+    width: 600px;
+
+}
+.form-cooperation  .maxwidth-theme>.form.inline{
+    padding: 0;
+}
+.form-cooperation .form .form_footer{
+    margin: 0;
+}
+.form-cooperation .maxwidth-theme, .wrapper_inner{
+    padding: 0;
+}
+.form-cooperation .form_head h4{
+    color: rgb(51, 51, 51);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.form-cooperation .form-control label{
+    margin-bottom: 8px;
+}
+.form-cooperation .form textarea{
+    min-height: 120px;
+}
+.form-cooperation .form_footer .filter.licence_block .error {
+    font-size: 12px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+@media (max-width: 1240px) {
+    .form-cooperation{
+        margin-top: 48px;
+       width: 100%;
+    }
+}

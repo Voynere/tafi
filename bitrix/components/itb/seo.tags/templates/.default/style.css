@@ -1,0 +1,37 @@
+
+.seoeverywhere-tags {
+    margin: 30px 0;
+}
+
+.seoeverywhere-tags__group {
+
+}
+
+.seoeverywhere-tags__group-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.seoeverywhere-tags__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seoeverywhere-tags__item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.seoeverywhere-tags__item a {
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    transition: background-color .3s;
+}
+
+.seoeverywhere-tags__item a:hover {
+    background: lightgray;
+}

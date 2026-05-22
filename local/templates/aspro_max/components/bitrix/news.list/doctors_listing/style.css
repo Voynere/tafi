@@ -1,0 +1,323 @@
+/*
+* ###############################
+* SIMILAR DOCTORS START
+* ###############################
+*/
+
+.doctors-detail-container {
+	padding: 90px 0;
+	margin: 0 -12% 120px;
+	border-radius: 24px;
+	background: #FFF;
+}
+
+.similar-doctor-swiper__title {
+	margin: 0 0 40px;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 52px;
+}
+
+.similar-doctor-swiper.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.similar-doctor-swiper .doctors-listing__item{
+	border-radius: 12px;
+	overflow: hidden;
+	background-color: #F7F8F9;
+	height: auto;
+}
+
+.similar-doctor-swiper .doctors-listing__item img {
+	display: block;
+	width: 100%;
+	height: 360px;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+.doctors-listing__info {
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.doctors-listing__name {
+	display: block;
+	margin: 0 0 16px;
+	color: #111827;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+.doctors-listing__props {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	align-items: flex-start;
+	margin-bottom: 48px;
+}
+
+.doctors-listing__props span {
+	color: #5A616C;
+	font-family: Montserrat;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5rem;
+}
+
+.doctors-listing__item .doctors-listing__link {
+	display: flex;
+	height: 48px;
+	padding: 17px 24px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	align-self: stretch;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	border-radius: 8px;
+	background: #3B61B9;
+	transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.doctors-listing__item .doctors-listing__link {
+	background: #34549E;
+    color: #fff;
+}
+
+.similar-doctor-pagination {
+	display: none;
+}
+
+.doctors-listing__info-outer-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.doctors-listing__img-link {
+	display: flex;
+}
+
+@media (max-width: 1900px) {
+	.doctors-detail-container {
+		margin: 0 0 120px;
+		padding: 90px 30px;
+	}
+} 
+
+@media (max-width: 1280px) {
+	.doctors-listing__item .doctors-listing__link {
+		font-size: 12px;
+	}
+
+	.doctors-listing__info {
+		padding: 16px;
+	}
+}
+
+@media (max-width: 992px) {
+	.similar-doctor-swiper .swiper-wrapper {
+		margin-bottom: 16px;
+	}
+
+	.similar-doctor-pagination {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.similar-doctor-swiper .doctors-listing__item img {
+		object-fit: contain;
+	}
+}
+
+@media (max-width: 640px) {
+	.doctors-listing__name {
+		margin: 0 0 10px;
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.doctors-listing__props span {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.doctors-listing__props {
+		gap: 6px;
+		margin-bottom: 24px;
+	}
+
+	.doctors-listing__item .doctors-listing__link {
+		padding: 12px;
+		font-size: 12px;
+        line-height: 16px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 576px) {
+	.doctors-detail-container {
+		margin: 0;
+	}
+
+	.similar-doctor-swiper .doctors-listing__item img {
+		height: 180px;
+	}
+
+	.doctors-listing__info {
+		padding: 12px;
+	}
+
+	.similar-doctor-swiper__title {
+		margin: 0 0 24px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.doctors-detail-container {
+		padding: 24px 0;
+	}
+
+	.similar-doctor-swiper__title {
+		padding: 0 20px;
+	}
+
+	.similar-doctor-swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+		margin: 0;
+		width: 4px;
+		height: 4px;
+	}
+
+	.similar-doctor-swiper .similar-doctor-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+		display: flex;
+		gap: 4px;
+	}
+}
+
+/*
+* ###############################
+* SIMILAR DOCTORS END
+* ###############################
+*/
+
+/*
+* ###############################
+* LISTING DOCTORS START
+* ###############################
+*/
+
+.doctors-listing.section {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.doctors-listing.section .doctors-listing__img {
+	width: 100%;
+	height: 100%;
+	min-height: 336px;
+	max-height: 336px;
+	object-fit: cover;
+	border-radius: 12px;
+	object-position: top;
+}
+
+.doctors-listing.section .doctors-listing__img.empty {
+	object-fit: contain;
+	width: 50%;
+	object-position: center;
+	opacity: .6;
+}
+
+.doctors-listing.section .doctors-listing__item {
+	background-color: #F7F8F9;
+	border-radius: 12px;
+}
+
+@media (max-width: 1280px) {
+	.doctors-listing__item .doctors-listing__link {
+		padding: 12px;
+	}
+}
+
+@media (max-width: 992px) {
+	.doctors-listing.section {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	.doctors-listing-wrapper {
+		padding: 24px;
+	}
+}
+
+@media (max-width: 768px) {
+	.doctors-listing.section {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 576px) {
+	.doctors-listing.section {
+		grid-template-columns: 1fr;
+		gap: 12px;
+	}
+
+	.doctors-listing.section .doctors-listing__info-outer-wrapper {
+		flex-direction: row;
+	}
+
+	.doctors-listing.section .doctors-listing__img,
+	.doctors-listing.section .doctors-listing__img.empty {
+		max-height: unset;
+		min-height: 160px;
+		width: 120px;
+	}
+
+	.doctors-listing.section .doctors-listing__info {
+		width: 100%;
+	}
+
+	.doctors-listing.section .doctors-listing__item .doctors-listing__link {
+		height: fit-content;
+	}
+
+	.doctors-listing.section .doctors-listing__name {
+		margin-bottom: 10px;
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.doctors-listing.section .doctors-listing__props span {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.doctors-listing.section .doctors-listing__props {
+		margin-bottom: 24px;
+	}
+}
+/*
+* ###############################
+* LISTING DOCTORS END
+* ###############################
+*/

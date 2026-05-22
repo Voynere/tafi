@@ -1,0 +1,12 @@
+{
+    "name": "itb/itb.licencecheck",
+    "description": "Licence check module for Bitrix",
+    "type": "bitrix-module",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

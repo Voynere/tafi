@@ -1,0 +1,13 @@
+.service-button {
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.service-button:hover {
+    color: #fff;
+}
+
+.service-page .service-block__name {
+    font: 700 40px/52px 'Montserrat', sans-serif;
+    color: var(--font-color-black);
+    margin: 0;
+}

@@ -1,0 +1,161 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Title");
+?><div style="max-width: 1200px; margin: 0 auto; font-family: inherit;">
+
+    <!-- Шапка акции -->
+    <div style="text-align: center; margin-bottom: 40px;">
+        <div style="display: inline-block; background: linear-gradient(135deg, #3B61B9 0%, #2a4a8a 100%); color: white; padding: 8px 24px; border-radius: 50px; font-size: 24px; font-weight: 700; box-shadow: 0 4px 15px rgba(59,97,185,0.3);">
+            -24% на 24 исследования
+        </div>
+    </div>
+
+    <!-- Карточка с обратным отсчётом -->
+    <div id="sale-timer" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 16px; padding: 25px 30px; margin-bottom: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center;">
+        <div style="font-size: 18px; color: #666; margin-bottom: 10px;">🔥 Акция действует ещё</div>
+        <div style="font-size: 48px; font-weight: 700; color: #3B61B9; letter-spacing: 2px;" id="countdown"></div>
+        <div style="font-size: 14px; color: #888; margin-top: 10px;">Успейте записаться по специальной цене!</div>
+    </div>
+
+    <!-- Карточки с исследованиями (3 колонки) -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 40px;">
+        
+        <!-- Карточка 1 -->
+        <div style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #eee;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #3B61B9;">
+                <span style="font-weight: 700; font-size: 18px; color: #333;">🩸 Гематология</span>
+                <span style="background: #3B61B9; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">-24%</span>
+            </div>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.8; color: #555;">
+                <li>Клинический анализ крови + СОЭ</li>
+                <li>СРБ (С-реактивный белок)</li>
+            </ul>
+        </div>
+
+        <!-- Карточка 2 -->
+        <div style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #eee;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #3B61B9;">
+                <span style="font-weight: 700; font-size: 18px; color: #333;">🧪 Общий анализ мочи</span>
+                <span style="background: #3B61B9; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">-24%</span>
+            </div>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.8; color: #555;">
+                <li>Анализ мочи общий</li>
+                <li>Определение белка в моче</li>
+            </ul>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #eee;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #3B61B9;">
+                <span style="font-weight: 700; font-size: 18px; color: #333;">⚕️ Белковый обмен</span>
+                <span style="background: #3B61B9; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">-24%</span>
+            </div>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.8; color: #555;">
+                <li>Общий белок</li>
+                <li>Креатинин сывороточный</li>
+                <li>Мочевая кислота</li>
+                <li>Мочевина</li>
+            </ul>
+        </div>
+
+        <!-- Карточка 4 -->
+        <div style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #eee;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #3B61B9;">
+                <span style="font-weight: 700; font-size: 18px; color: #333;">🩸 Липидный профиль</span>
+                <span style="background: #3B61B9; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">-24%</span>
+            </div>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.8; color: #555;">
+                <li>Холестерин общий</li>
+                <li>Холестерин – ЛПВП</li>
+                <li>Холестерин – ЛПНП</li>
+                <li>Триглицериды</li>
+            </ul>
+        </div>
+
+        <!-- Карточка 5 -->
+        <div style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #eee;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #3B61B9;">
+                <span style="font-weight: 700; font-size: 18px; color: #333;">🧪 Печёночные пробы</span>
+                <span style="background: #3B61B9; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">-24%</span>
+            </div>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.8; color: #555;">
+                <li>Билирубин общий</li>
+                <li>Билирубин прямой</li>
+                <li>АСТ (Аспартатаминотрансфераза)</li>
+                <li>АЛТ (Аланинаминотрансфераза)</li>
+                <li>ГГТП (Гамма-глютамилтранспептидаза)</li>
+            </ul>
+        </div>
+
+        <!-- Карточка 6 -->
+        <div style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #eee;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #3B61B9;">
+                <span style="font-weight: 700; font-size: 18px; color: #333;">⚡ Электролиты</span>
+                <span style="background: #3B61B9; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">-24%</span>
+            </div>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.8; color: #555;">
+                <li>Калий</li>
+                <li>Магний</li>
+                <li>Натрий</li>
+            </ul>
+        </div>
+
+        <!-- Карточка 7 -->
+        <div style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #eee;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #3B61B9;">
+                <span style="font-weight: 700; font-size: 18px; color: #333;">🦋 Тиреоидный статус</span>
+                <span style="background: #3B61B9; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">-24%</span>
+            </div>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.8; color: #555;">
+                <li>ТТГ (тиреотропный гормон)</li>
+                <li>Т3 свободный</li>
+                <li>Т4 свободный</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Кнопка записи -->
+    <div style="text-align: center; margin: 30px 0 20px;">
+        <a href="https://tafimed.ru/booking/" style="display: inline-block; padding: 14px 40px; background: linear-gradient(135deg, #3B61B9 0%, #2a4a8a 100%); color: white; font-size: 16px; font-weight: 700; text-decoration: none; border-radius: 50px; box-shadow: 0 4px 15px rgba(59,97,185,0.4); transition: transform 0.2s, box-shadow 0.2s;">Записаться на акцию →</a>
+    </div>
+</div>
+
+<script>
+// Таймер обратного отсчёта (установите нужную дату окончания акции)
+function updateCountdown() {
+    // ДАТА ОКОНЧАНИЯ АКЦИИ: УКАЖИТЕ СВОЮ (год, месяц-1, день, час, минута)
+    const endDate = new Date(2026, 4, 30, 23, 59, 59); // 30 мая 2026 года, 23:59:59
+    
+    const now = new Date();
+    const diff = endDate - now;
+    
+    if (diff <= 0) {
+        document.getElementById('countdown').innerHTML = 'Акция завершена';
+        return;
+    }
+    
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    
+    document.getElementById('countdown').innerHTML = `${days} дн. ${hours} ч. ${minutes} мин. ${seconds} сек.`;
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+</script>
+
+<style>
+@media (max-width: 768px) {
+    div[style*="grid-template-columns: repeat(3, 1fr)"] {
+        grid-template-columns: 1fr !important;
+    }
+    #countdown {
+        font-size: 32px !important;
+    }
+}
+</style>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

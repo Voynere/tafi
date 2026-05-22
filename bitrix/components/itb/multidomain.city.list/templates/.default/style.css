@@ -1,0 +1,397 @@
+.city-wrap {
+    position: absolute;
+    right: 4px;
+    top: -30px;
+}
+
+.cities-block-popup .header{
+	height: auto;
+	padding-top: 20px;
+	padding-right: 35px;
+}
+
+
+.city-popup .cities-list{
+	list-style: none;
+	padding-left: 0;
+}
+
+.city-popup .cities-list li{
+	cursor: pointer;
+}
+
+.question-city {
+  position: absolute;
+  left: -100px;
+  padding: 20px;
+  margin-top: 6px;
+  margin-left: 0;
+  z-index: 1050;
+  background-color: #ffffff;
+  color: #05263d;
+  border-radius: 10px;
+  border: 1px solid #EBEDF1;
+  box-shadow: 0px 8px 20px 0px rgba(4, 19, 43, 0.06);
+  white-space: nowrap;
+}
+
+.question-city .question-city__content {
+  margin-bottom: 16px;
+  color: #111827;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.question-city .question-city__title{
+  color: #3B61B9;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.question-city .question-city__buttons{
+  display: flex;
+  gap: 6px;
+}
+
+.question-city .question-city__button{
+  height: 40px;
+  padding: 0 24px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 0;
+}
+
+.question-city .question-city__button--confirm{
+  background: #3B61B9;
+  color: #3B61B9;
+  background: #F5F8FF;
+}
+
+.question-city .question-city__button--confirm:hover{
+  background: #E9F0FF;
+}
+
+.question-city .question-city__button--no{
+  background: #F7F8F9;
+  color: #111827;
+}
+
+.question-city .question-city__button--no:hover{
+  background: #F1F2F4;
+}
+
+.header-info .cities-block {
+  float: left;  
+  font-size: 12px;
+  padding-left: 35px;
+}
+
+.cities-block{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.cities-row{
+	position: relative;
+  padding: 0;
+  display: inline-block;
+}
+
+.cities-row .cities-row{
+	position: relative;
+}
+
+.cities-row .cities-label {
+  display: inline-block;
+  font-size: 13px;
+}
+/* .cities-block .city-name {
+  display: inline-block;
+  color: #999999;
+  text-decoration: none;
+  position: relative;
+  padding-right: 15px;
+} */
+
+
+.cities-row .city-name {
+       color: #fff;
+    text-decoration: none;
+    background: no-repeat;
+    display: inline-block;
+    height: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 25px;
+    position: relative;
+    font-size: 13px;
+    border: 1px solid #fff;
+}
+
+.cities-row .city-name:after{
+	content: '';
+	display: block;
+	background: url('images/arrow-icon.png') no-repeat center center;
+	width: 9px;
+	height: 5px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.cities-block .city-name::before {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f107";
+    position: absolute;
+    right: 0;
+    top: 0px;
+    font-size: 16px;
+}
+
+
+
+.city-popup .city-item a {
+    color: #05263d;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.city-popup .city-item a:hover{
+  color: #2a7fb9;
+}
+
+
+.city-popup .cities-list {
+    padding-bottom: 25px;
+}
+
+.city-popup .letter-title-wrap {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.city-popup .city-popup-body{
+	height: 360px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.city-popup .search-city-input{
+  display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;      
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  
+	border-radius: 0;
+	padding-right: 30px;
+	margin-bottom: 0;
+  
+}
+
+.city-popup .search-city:hover .search-city-input{
+	border-color: #2a7fb9;
+	outline: none;
+	box-shadow: none;
+}
+
+
+.city-popup  .search-city{
+	    max-width: 100%;
+    width: auto;
+    position: relative;
+    float: none;;	
+}   
+
+
+.city-popup .search-city::after{
+	content: "";
+    display: inline-block;   
+	width: 18px;
+	height: 17px;
+	background: url('images/search-icon.png') no-repeat center;
+	position: absolute;
+   right: 18px;
+    top: 17px;
+    width: 18px;
+    height: 17px;
+	
+}
+
+.location-top{
+	cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #333333;
+	position: relative;
+	white-space: nowrap;
+}
+
+.location-top .city-active svg{
+	 display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    position: relative;
+    top: 8px;
+}
+
+
+
+   
+
+
+.letter-title {
+    color: #05263d;
+    /* border: 2px solid #59af30; */
+    /* width: 35px; */
+    /* height: 35px; */
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* свойства модального окна по умолчанию */
+.city-popup {
+  position: fixed; /* фиксированное положение */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5); /* цвет фона */
+  z-index: 9999;
+  opacity: 0; /* по умолчанию модальное окно прозрачно */
+  -webkit-transition: opacity 200ms ease-in;  
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in; /* анимация перехода */
+  pointer-events: none; /* элемент невидим для событий мыши */
+  margin: 0;
+  padding: 0;
+}
+/* при отображении модального окно */
+.city-popup.active {
+  display: flex;
+  opacity: 1; /* делаем окно видимым */
+  pointer-events: auto; /* элемент видим для событий мыши */
+  overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.city-popup-window {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+@media (min-width: 576px) {
+
+  .city-popup-window {
+    flex: 0 0 512px;
+    max-width: 512px;
+    margin: auto; /* для отображения модального окна по центру */
+  }
+
+}
+/* свойства для блока, содержащего контент модального окна */  
+.city-popup-wrapper {
+	  position: relative;
+	  display: flex;
+	  flex-direction: column;
+	  background-color: #fff;
+	  border-radius: 20px;
+	  outline: 0;
+    padding: 40px 32px;
+}
+
+.city-popup-header{
+  margin-bottom: 34px;
+}
+
+.city-popup-title {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* свойства для кнопки "Закрыть" */
+.city-popup-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.city-popup-close:focus, .city-popup-close:hover {
+  opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.city-popup-body {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+
+.cities-row .city-selector{
+	display: none;
+}
+
+
+.cities-row .city-selector.active {
+    display: block;
+    background: #fff;
+    box-shadow: 0px 2px 5px rgb(94 93 93 / 12%);  	
+	padding: 15px 18px;
+	position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+.cities-list-selector .city-item a {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.cities-list-selector .city-item:hover a{
+  color: #3B61B9;
+}
+.cities-list-selector .city-item.selected a{
+	color: #3B61B9;
+}
+
+.cities-list-selector{
+	display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cities-row{
+	width: 134px;
+  padding: 0;
+}

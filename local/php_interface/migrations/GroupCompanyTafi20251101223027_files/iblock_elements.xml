@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="main:aboutCompanyMain" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>10</value>
+ </field>
+ <field name="NAME">
+  <value>Высококвалифицированные специалисты</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="person.png" type="file">iblock/89a/meh306vr7hviruon73aybolhs4z1v3p7.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value>Опытные врачи и лаборанты гарантируют высокое качество помощи и точность диагностики.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>vysokokvalifitsirovannye-spetsialisty</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3735</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="CLASS">
+  <value>main-about__item--blue</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>20</value>
+ </field>
+ <field name="NAME">
+  <value>Комплексный подход</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="comp.png" type="file">iblock/ac2/uyqjeu3h9jep34bcg7jgg5hnyqtzycp8.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value>Предлагаем пациентам полный спектр услуг — от консультаций врачей до проведения лабораторных анализов.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>kompleksnyy-podkhod</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3736</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="CLASS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>30</value>
+ </field>
+ <field name="NAME">
+  <value>Индивидуальный подход</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Учитываем особенности каждого пациента, чтобы обеспечить эффективное лечение.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="doc.png" type="file">iblock/c59/ewzl58g25xuu51r5a89fuamp1mbzhkog.png</value>
+ </field>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>individualnyy-podkhod</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3737</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="CLASS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>40</value>
+ </field>
+ <field name="NAME">
+  <value>Современное оборудование</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="bg.png" type="file">iblock/711/89a072ulj7b1u3utxr2r073h93w62sbp.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value>Используем новейшие технологии и оборудование для точных исследований и эффективного лечения. Наши лаборатории оснащены современными диагностическими системами, а врачи применяют передовые методы медицины.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>sovremennoe-oborudovanie</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3738</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="CLASS">
+  <value>main-about__item--blue</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>50</value>
+ </field>
+ <field name="NAME">
+  <value>Комфорт и доступность</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT">
+  <value>Удобное онлайн-оформление консультаций и анализов, а также удобное местоположение для пациентов, что упрощает доступ к медицинским услугам.</value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="client.png" type="file">iblock/ffc/cmk0ayszbe0l8rspkorglvkpctayahxf.png</value>
+ </field>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>komfort-i-dostupnost</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3739</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="CLASS"/>
+</item>
+
+</items>

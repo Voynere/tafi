@@ -1,0 +1,104 @@
+.doctors-listing__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px 0 0;
+}
+
+.doctors-listing__pagination .module-pagination {
+    margin: 0;
+}
+
+.doctors-show-more {
+    display: flex;
+    width: 360px;
+    height: 48px;
+    padding: 17px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #3B61B9;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 8px;
+    background: #EBF1FF;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.doctors-show-more:hover {
+    background: #DFE9FF;
+}
+
+.doctors-listing__pagination .module-pagination .nums > a, 
+.doctors-listing__pagination .module-pagination .nums span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.doctors-listing__pagination .module-pagination .nums > a {
+    border: 1.5px solid #EAECF0;
+    color: #5A616C;
+    transition: border-color .3s ease-in-out;
+}
+
+.doctors-listing__pagination .module-pagination .nums > a:hover {
+    border-color: #B7BECA;
+}
+
+.doctors-listing__pagination .module-pagination .nums > a.flex-prev svg {
+    transform: rotate(90deg);
+}
+
+.doctors-listing__pagination .module-pagination .nums > a.flex-next svg {
+    transform: rotate(-90deg);
+}
+
+.doctors-listing__pagination .module-pagination .nums span.cur {
+    border-radius: 10px;
+    color: #fff;
+    background: #3B61B9;
+}
+
+.doctors-listing__pagination .module-pagination .nums {
+    display: flex;
+    gap: 12px;
+}
+
+@media (max-width: 1024px) {
+    .doctors-listing__pagination {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .doctors-listing__pagination .module-pagination {
+        display: none;
+    }
+
+    .doctors-show-more {
+        display: flex;
+        padding: 17px 24px;
+        border-radius: 8px;
+        background-color: #F5F8FF;
+        color: #3B61B9;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

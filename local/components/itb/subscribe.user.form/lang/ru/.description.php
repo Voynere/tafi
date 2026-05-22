@@ -1,0 +1,3 @@
+<?php
+$MESS["ITB_SUBSCRIBE_USER_COMPONENT_NAME"] = 'Форма подписки';
+$MESS["ITB_SUBSCRIBE_USER_COMPONENT_DESCRIPTION"] = 'Форма подписки';

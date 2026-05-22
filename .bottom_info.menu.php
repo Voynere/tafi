@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Направления", 
+		"/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Врачи", 
+		"/doctors/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Анализы", 
+		"/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Диагностика", 
+		"/landings/checkup/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="aspro_max_content:directions" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Аллергология-иммунология</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="allerg001.png" type="file">iblock/6de/pwxst48pdmpwt061us64lxqzfu8h25j2.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<h1>Аллергология-иммунология</h1>
+<p>
+Это направление медицины, которое занимается диагностикой, лечением и профилактикой аллергических заболеваний и нарушений иммунной системы. Наши специалисты помогут при частых простудах, кожных высыпаниях, кашле, насморке, реакциях на продукты, лекарства, пыльцу и другие раздражители.
+</p>
+<p>
+А также подберут индивидуальное лечение, включая современные методы иммунотерапии, чтобы не только снять симптомы, но и устранить саму причину болезни.
+</p>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="allerg002.png" type="file">iblock/29c/4qfvw0tw9qept2ti29t90au5h7ynh22u.png</value>
+ </field>
+ <field name="DETAIL_TEXT">
+  <value><![CDATA[<h2>
+Основные симптомы и показания для обращения
+</h2>
+<ul>
+<li>
+выраженная слабость, недомогание, упадок сил
+</li>
+<li>
+насморк на протяжении длительного времени или в определённый сезон года
+</li>
+<li>
+повышенное слезотечение
+</li>
+<li>
+покраснение глазных яблок
+</li>
+<li>
+кожный зуд, высыпания
+</li>
+<li>
+реакции на определённые группы продуктов
+</li>
+<li>
+сильная ответная реакция на укусы насекомых
+</li>
+</ul>
+<p>
+Никогда не стоит игнорировать симптомы, которые длительное время не проходят, а также необычные изменения в самочувствии. Чем раньше вы получите консультацию, тем проще будет избежать осложнений.
+</p>]]></value>
+ </field>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="CODE">
+  <value>allergologiya-immunologiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3711</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_MAIN_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_MAIN_BLOCK_POSITION">
+  <value>10</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_POSITION">
+  <value>30</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_POSITION">
+  <value>20</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ROW">
+  <value>TWO</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_TITLE">
+  <value>Почему стоит обратиться именно к нам?</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_ICON">
+  <value name="adv001.svg" type="file">iblock/0ca/yc2xmnn98vhrie6k1wgbidrxykhv9bii.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_TITLE">
+  <value>Комплексная диагностика за одно посещение</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_DESCR">
+  <value>Мы проводим полный цикл диагностики за одно посещение, что позволяет быстро и точно выявить проблемы со здоровьем.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_ICON">
+  <value name="adv002.svg" type="file">iblock/28d/9g20frsrw3hfbqy7todar56puptqmk05.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_TITLE">
+  <value>Индивидуальные схемы лечения для взрослых и детей</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_DESCR">
+  <value>Разрабатываем персонализированные планы лечения, учитывая особенности возраста и состояния пациента, чтобы достичь наилучших результатов.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_ICON">
+  <value name="adv003.svg" type="file">iblock/cb1/0hf1v91pm7lghwljzy8a9ukvb377zt4g.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_TITLE">
+  <value>Сотрудничество со смежными специалистами</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_DESCR">
+  <value>Мы работаем в тесном контакте с экспертами других областей медицины для более точной диагностики и комплексного лечения.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_ICON">
+  <value name="adv004.svg" type="file">iblock/592/t2x3we324rdn6dxmvgkvubmsjh1jvt99.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_TITLE">
+  <value>Весь спектр анализов</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_DESCR">
+  <value>Предлагаем широкий выбор лабораторных и инструментальных исследований, позволяющих полностью охватить проблему и подобрать эффективное лечение.</value>
+ </property>
+ <property name="PROP_DOCTORS_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_DOCTORS_POSITION">
+  <value>40</value>
+ </property>
+ <property name="PROP_DOCTORS_TITLE">
+  <value>Наши врачи-аллергологи</value>
+ </property>
+ <property name="PROP_BANNER1_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER1_POSITION">
+  <value>50</value>
+ </property>
+ <property name="PROP_BANNER1_TITLE">
+  <value>Пройдите обследование на аллергию у нас</value>
+ </property>
+ <property name="PROP_BANNER1_TEXT">
+  <value>Более 250 видов исследований, комплексные аллергопанели для детей и взрослых</value>
+ </property>
+ <property name="PROP_BANNER1_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER1_IMAGE">
+  <value name="ban01.png" type="file">iblock/4a7/3ajy5f8hydk75k9r4mu8o8dbwv4de52a.png</value>
+ </property>
+ <property name="PROP_BANNER1_COLOR">
+  <value>#3B61B9</value>
+ </property>
+ <property name="PROP_BANNER2_ACTIVE"/>
+ <property name="PROP_BANNER2_POSITION"/>
+ <property name="PROP_BANNER2_TITLE"/>
+ <property name="PROP_BANNER2_TEXT"/>
+ <property name="PROP_BANNER2_LINK"/>
+ <property name="PROP_BANNER2_IMAGE"/>
+ <property name="PROP_BANNER2_COLOR"/>
+ <property name="PROP_BANNER3_ACTIVE"/>
+ <property name="PROP_BANNER3_POSITION"/>
+ <property name="PROP_BANNER3_TITLE"/>
+ <property name="PROP_BANNER3_TEXT"/>
+ <property name="PROP_BANNER3_LINK"/>
+ <property name="PROP_BANNER3_IMAGE"/>
+ <property name="PROP_BANNER3_COLOR"/>
+ <property name="PROP_PRICES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_PRICES_POSITION">
+  <value>60</value>
+ </property>
+ <property name="PROP_PRICES_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_PRICES_TITLE">
+  <value>Цены на аллергодиагностику</value>
+ </property>
+ <property name="PROP_PRICES_LIST">
+  <value>Аллергия на молоко (f2, f78, f77, f76)|2060|allergiya_na_moloko</value>
+  <value>Аллергия на яйцо (полная панель) (f245, f1, f75, f67,  f68, f69, k208)|3670|allergiya_na_yaytso_polnaya_panel_f245_f1_f75_f67_f68_f69_k208</value>
+ </property>
+ <property name="PROP_FAQ_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_FAQ_POSITION">
+  <value>70</value>
+ </property>
+ <property name="PROP_FAQ_TITLE">
+  <value>Часто задаваемые вопросы</value>
+ </property>
+ <property name="PROP_FAQ_LIST">
+  <value>Есть ли противопоказания или ограничения при прохождении чекапа?|3300|</value>
+  <value>Как можно оплатить услуги на дому?|3629|</value>
+  <value>Как подготовиться к исследованию?|3301|</value>
+  <value>Как подготовиться к сдаче крови?|1801|</value>
+ </property>
+ <property name="PROP_ARTICLES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ARTICLES_POSITION">
+  <value>80</value>
+ </property>
+ <property name="PROP_ARTICLES_LINK">
+  <value>/blog/</value>
+ </property>
+ <property name="PROP_ARTICLES_TITLE">
+  <value>Полезные статьи</value>
+ </property>
+ <property name="PROP_ARTICLES_LIST">
+  <value>Аллергодиагностика: какие анализы и когда сдавать|3577|allergodiagnostika-kakie-analizy-i-kogda-sdavat</value>
+  <value> Какие сдать анализы, если дома есть животные?|1810|kakie-sdat-analizy-esli-doma-est-zhivotnye</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_POSITION">
+  <value>90</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TITLE">
+  <value>Группа компаний «ТАФИ»</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TOPTEXT">
+  <value>В наших медицинских центрах ведёт приём опытный врач аллерголог-иммунолог во Владивостоке, который занимается диагностикой и лечением аллергических заболеваний у взрослых и детей. Мы помогаем пациентам при сезонной и круглогодичной аллергии, кожных высыпаниях, астме, частых простудах и нарушениях иммунитета.</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_IMAGE">
+  <value name="allerg003.png" type="file">iblock/dca/i3zwtj1ftvfrl7i86vlof80jkggf37i9.png</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TEXT">
+  <value type="json"><![CDATA[{"TEXT":"&lt;p&gt;Для&nbsp;выявления причин заболевания используется современная диагностика аллергии: аллергопробы, лабораторные анализы на&nbsp;аллергены, определение уровня IgE, иммунограмма. Такой комплексный подход позволяет точно установить источник аллергической реакции и&nbsp;подобрать эффективное лечение.&lt;\/p&gt;\r\n&lt;p&gt;Наши аллергологи-иммунологи во&nbsp;Владивостоке разрабатывают индивидуальные схемы терапии, которая воздействует на&nbsp;причину аллергии, а&nbsp;не&nbsp;только устраняет симптомы. Пациенты получают поддержку специалистов смежных направлений&nbsp;— дерматолога, пульмонолога, гастроэнтеролога.&lt;\/p&gt;\r\n&lt;p&gt;Если&nbsp;вас&nbsp;беспокоят насморк, кашель, слезотечение, высыпания на&nbsp;коже или&nbsp;другие проявления аллергии, не&nbsp;откладывайте визит к&nbsp;врачу. Вы&nbsp;можете пройти полное обследование, сдать анализы на&nbsp;аллергены и&nbsp;получить квалифицированную помощь. Запишитесь к&nbsp;аллергологу-иммунологу во&nbsp;Владивостоке онлайн или&nbsp;по&nbsp;телефону, чтобы&nbsp;снова почувствовать себя здоровым и&nbsp;свободно дышать.&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_LIST_ACTIVE"/>
+ <property name="PROP_LIST_POSITION"/>
+ <property name="PROP_LIST_TITLE"/>
+ <property name="PROP_LIST"/>
+ <property name="PROP_CARDS_ACTIVE"/>
+ <property name="PROP_CARDS_POSITION"/>
+ <property name="PROP_CARDS_ROW"/>
+ <property name="PROP_CARDS_NUM"/>
+ <property name="PROP_CARDS_TITLE"/>
+ <property name="PROP_CARDS1"/>
+ <property name="PROP_CARDS2"/>
+ <property name="PROP_CARDS3"/>
+ <property name="PROP_CARDS4"/>
+ <property name="PROP_CARDS_IMAGE"/>
+ <property name="PROP_ACCORD_ACTIVE"/>
+ <property name="PROP_ACCORD_POSITION"/>
+ <property name="PROP_ACCORD_TITLE"/>
+ <property name="PROP_ACCORD_LIST"/>
+ <property name="PROP_CARDS2_ACTIVE"/>
+ <property name="PROP_CARDS2_POSITION"/>
+ <property name="PROP_CARDS2_ROW"/>
+ <property name="PROP_CARDS2_NUM"/>
+ <property name="PROP_CARDS2_TITLE"/>
+ <property name="PROP_CARDS2_1"/>
+ <property name="PROP_CARDS2_2"/>
+ <property name="PROP_CARDS2_3"/>
+ <property name="PROP_CARDS2_4"/>
+ <property name="PROP_CARDS2_IMAGE"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Вакцинация</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="vac01.png" type="file">iblock/baf/vblk7yrxd1c9478n077la3iokhtqes7r.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<h1>Вакцинация</h1>
+<p>
+Современный способ защиты от опасных инфекционных заболеваний, который применяется как у детей, так и у взрослых. 
+</p>
+<p>
+В основе метода — введение в организм специально подготовленных компонентов (антигенов), которые «обучают» иммунную систему распознавать и нейтрализовать возбудителей болезней.
+</p>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="vac02.png" type="file">iblock/50a/idwz74e55wofnktfs7sh4qa30svo7f8f.png</value>
+ </field>
+ <field name="DETAIL_TEXT">
+  <value><![CDATA[<h2>Предложение для предприятий</h2>
+<p>
+Наши специалисты осуществляют выезд на территорию организации для проведения вакцинации, регламентированных Национальным календарем прививок России и Календарем профилактических прививок по эпидемическим показаниям. Выездная вакцинация работников осуществляется от 5 человек.
+</p>
+<p>
+Связаться с нами можно по телефону: <a href="tel:+74232680038">+7 (423) 268 00 38</a> или
+по e-mail: <a href="mailto:dtprivivka@gmail.com">dtprivivka@gmail.com</a>.
+</p>
+
+<a class="service-button" href="">
+Скачать договор
+</a>
+]]></value>
+ </field>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="CODE">
+  <value>vaktsinatsiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3715</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_MAIN_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_MAIN_BLOCK_POSITION">
+  <value>10</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_POSITION">
+  <value>90</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_POSITION">
+  <value>20</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ROW">
+  <value>FOUR</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_TITLE">
+  <value>Почему стоит обратиться именно к нам?</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_ICON">
+  <value name="adv005.svg" type="file">iblock/d4b/6fgq5tls3liy0kpcuhswwntvgd4cjhoq.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_TITLE">
+  <value>Качественные вакцины</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_DESCR">
+  <value>Используем препараты с доказанной эффективностью</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_ICON">
+  <value name="adv006.svg" type="file">iblock/a6b/1certfcdzwk5fgsy124qw5sk9ozx3jg9.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_TITLE">
+  <value>Индивидуальный подход</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_DESCR">
+  <value>Составляем персональный график прививок</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_ICON">
+  <value name="adv007.svg" type="file">iblock/1c0/2oj4hlxm0m565ik7hwn24q88evm4zaoy.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_TITLE">
+  <value>Комфорт и безопасность</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_DESCR">
+  <value>Все процедуры проводятся в стерильных условиях</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_ICON">
+  <value name="adv008.svg" type="file">iblock/b3d/ug20kiexazzo5q2xcpxmiw1ufob5l8y1.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_TITLE">
+  <value>Консультация специалиста</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_DESCR">
+  <value>Врач подробно ответит на все вопросы о подготовке и возможных реакциях</value>
+ </property>
+ <property name="PROP_DOCTORS_ACTIVE"/>
+ <property name="PROP_DOCTORS_POSITION"/>
+ <property name="PROP_DOCTORS_TITLE"/>
+ <property name="PROP_BANNER1_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER1_POSITION">
+  <value>40</value>
+ </property>
+ <property name="PROP_BANNER1_TITLE">
+  <value>Скажите гриппу — нет!</value>
+ </property>
+ <property name="PROP_BANNER1_TEXT">
+  <value>Сохраните здоровье себе и своим близким, принимая простые, но эффективные меры предосторожности в сезон гриппа</value>
+ </property>
+ <property name="PROP_BANNER1_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER1_IMAGE">
+  <value name="ban02.png" type="file">iblock/011/h13qzyju4vi2a80p46hvath07q6ozdye.png</value>
+ </property>
+ <property name="PROP_BANNER1_COLOR">
+  <value>#3B61B9</value>
+ </property>
+ <property name="PROP_BANNER2_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER2_POSITION">
+  <value>70</value>
+ </property>
+ <property name="PROP_BANNER2_TITLE">
+  <value>Запишитесь на вакцинацию</value>
+ </property>
+ <property name="PROP_BANNER2_TEXT">
+  <value>Запишитесь на вакцинацию и защитите себя и своих близких от вирусных заболеваний. Это эффективный способ укрепить иммунитет и снизить риск тяжелых последствий для здоровья.</value>
+ </property>
+ <property name="PROP_BANNER2_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER2_IMAGE">
+  <value name="ban03.png" type="file">iblock/7e9/lcxp3sez0h9s45mzcsvyuvkwqgzz1qg4.png</value>
+ </property>
+ <property name="PROP_BANNER2_COLOR">
+  <value>#5B89EE</value>
+ </property>
+ <property name="PROP_BANNER3_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER3_POSITION">
+  <value>120</value>
+ </property>
+ <property name="PROP_BANNER3_TITLE">
+  <value>Запишитесь на вакцинацию прямо сейчас!</value>
+ </property>
+ <property name="PROP_BANNER3_TEXT">
+  <value>Защитите себя сегодня, чтобы быть здоровым завтра</value>
+ </property>
+ <property name="PROP_BANNER3_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER3_IMAGE">
+  <value name="ban04.png" type="file">iblock/32c/6ngyufv64h0oaip47z51gluz3jfqznl7.png</value>
+ </property>
+ <property name="PROP_BANNER3_COLOR">
+  <value>#829DD9</value>
+ </property>
+ <property name="PROP_PRICES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_PRICES_POSITION">
+  <value>50</value>
+ </property>
+ <property name="PROP_PRICES_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_PRICES_TITLE">
+  <value>Цены на вакцинацию</value>
+ </property>
+ <property name="PROP_PRICES_LIST">
+  <value>Комплекс нутрициологов (2037)|1920|kompleks_nutritsiologov</value>
+  <value>Комплексный анализ крови на витамины (A,D,E,K,C,B1, B5,B6)|1964|kompleksnyy_analiz_krovi_na_vitaminy_a_d_e_k_c_b1_b5_b6</value>
+  <value>Взятие крови из вены|3664|vzyatie_krovi_iz_veny</value>
+  <value>Антитела класса IgМ к вирусу кори|3667|antitela_klassa_igm_k_virusu_kori</value>
+ </property>
+ <property name="PROP_FAQ_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_FAQ_POSITION">
+  <value>60</value>
+ </property>
+ <property name="PROP_FAQ_TITLE">
+  <value>Часто задаваемые вопросы</value>
+ </property>
+ <property name="PROP_FAQ_LIST">
+  <value>Возможно ли сделать укол/поставить капельницу на дому?|3589|</value>
+  <value>Как сдать анализы ребенку перед вакцинацией?|3548|</value>
+  <value>Можно ли получить результаты анализов по электронной почте?|3493|</value>
+  <value>Можно ли получить консультацию врача по результатам анализов ?|3492|</value>
+  <value>Можно ли одновременно сдать ПЦР-тест на коронавирус и другие анализы?|3628|</value>
+  <value>Нужно ли записываться на инъекции?|3588|</value>
+ </property>
+ <property name="PROP_ARTICLES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ARTICLES_POSITION">
+  <value>100</value>
+ </property>
+ <property name="PROP_ARTICLES_LINK">
+  <value>/blog/</value>
+ </property>
+ <property name="PROP_ARTICLES_TITLE">
+  <value>Полезные статьи</value>
+ </property>
+ <property name="PROP_ARTICLES_LIST">
+  <value>Дефицит витаминов: симптомы и диагностика|3574|defitsit-vitaminov-simptomy-i-diagnostika</value>
+  <value>Как отличить грипп от ОРВИ?|2895|kak-otlichit-gripp-ot-orvi</value>
+  <value>Какие сдать анализы вегетарианцу?|1837|kakie-sdat-analizy-vegetariantsu</value>
+  <value>Кровь из вены или из пальца?|3421|krov-iz-veny-ili-iz-paltsa</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_POSITION">
+  <value>110</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TITLE"/>
+ <property name="PROP_INFO_BLOCK2_TOPTEXT"/>
+ <property name="PROP_INFO_BLOCK2_IMAGE">
+  <value name="vac03.png" type="file">iblock/c9f/90j384h7ejxujm3znfy3esvospd2x225.png</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TEXT">
+  <value type="json"><![CDATA[{"TEXT":"&lt;p&gt;\r\nВакцинация — это современный и научно доказанный метод профилактики опасных инфекционных заболеваний. С помощью своевременно проведённой прививки вы создаёте мощный иммунный ответ, который защищает организм при встрече с вирусами и бактериями.\r\n&lt;\/p&gt;\r\n&lt;p&gt;\r\nВ медицинском центре «Доктор ТАФИ» вы можете сделать платную вакцинацию для детей и взрослых с использованием сертифицированных препаратов (как российских, так и импортных).\r\n&lt;\/p&gt;\r\n&lt;p&gt;\r\nМы предлагаем полный спектр услуг: плановая вакцинация по Национальному календарю, сезонная прививка от гриппа, вакцинация перед путешествиями и по эпидпоказаниям.\r\n&lt;\/p&gt;\r\n&lt;p&gt;\r\nНаши врачи-терапевты и педиатры проводят обязательный предварительный осмотр, чтобы исключить противопоказания и обеспечить максимальную безопасность процедуры. Сделайте вакцинацию в в медицинском центре «Доктор ТАФИ» – обеспечьте себе и своей семье долгосрочную защиту от инфекций.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_LIST_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_LIST_POSITION">
+  <value>30</value>
+ </property>
+ <property name="PROP_LIST_TITLE">
+  <value>Какие прививки делают у нас?</value>
+ </property>
+ <property name="PROP_LIST">
+  <value>Активный Витамин В12|1705|aktivnyy_vitamin_v12</value>
+  <value>Активный ренин|1852|aktivnyy_renin</value>
+  <value>Альбумин|1706|albumin</value>
+  <value>Альдостерон|187|aldosteron</value>
+  <value>Ампициллин|450|ampitsillin</value>
+  <value>Анти-TПO (антитела к тиреопероксидазе)|166|anti_tpo_antitela_k_tireoperoksidaze</value>
+  <value>Анти-ТТГ (антитела к рецепторам ТТГ)|167|anti_ttg_antitela_k_retseptoru_ttg_</value>
+  <value>Антимюллеров гормон (АМГ)|199|antimyullerov_gormon</value>
+  <value>Антистрептолизин-О|2457|antistreptolizin_o_kolichestvennyy</value>
+  <value>Антитела к NR2-пептиду|1785|antitela_k_nr2_peptidu</value>
+  <value>Антитела к вирусу кори IgM|1723|antitela_k_kori_igm</value>
+  <value>Антитела к двуспиральной ДНК (dsDNA)|3455|antitela_k_dezoksiribonukleinovoy_kislote_dvuspiralnoy_dnk_dsdna_sistemnaya_krasnaya_volchanka</value>
+  <value>Антитела к инсулину|3446|antitela_k_insulinu</value>
+  <value>Антитела к кардиолипину IgG|3443|antitela_k_kardiolipinu_igg</value>
+  <value>Антитела класса IgA к глиадину|309|antitela_k_gliadinu_iga</value>
+  <value>Эпителий кошки|379|koshachya_sherst_perkhot</value>
+ </property>
+ <property name="PROP_CARDS_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS_POSITION">
+  <value>80</value>
+ </property>
+ <property name="PROP_CARDS_ROW">
+  <value>TWO</value>
+ </property>
+ <property name="PROP_CARDS_NUM">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS_TITLE">
+  <value>Как проходит визит?</value>
+ </property>
+ <property name="PROP_CARDS1">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nДетальный опрос и сбор анамнеза: находим ваш «безопасный маршрут»\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nЭто не просто формальность, а важнейший диалог для вашей безопасности. Наш врач не просто задаст вопросы, а проведет настоящее «расследование» вашего здоровья, чтобы исключить все риски. Мы уточним:\r\n&lt;\/p&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Вашу личную медицинскую историю:&lt;\/b&gt; какие заболевания перенесли, есть ли хронические болезни.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Историю предыдущих вакцинаций:&lt;\/b&gt; как вы или ваш ребенок реагировали на прошлые прививки.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Аллергический статус:&lt;\/b&gt; есть ли известные аллергии на лекарства, продукты или компоненты вакцин.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Недавние контакты:&lt;\/b&gt; не находились ли вы в карантине в последние недели.\r\n&lt;\/li&gt;\r\n&lt;\/ul&gt;\r\n&lt;p&gt;\r\nЦель: составить индивидуальную «карту здоровья» и выбрать самый безопасный путь для вакцинации.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS2">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nТщательный осмотр пациента: убеждаемся, что вы готовы здесь и сейчас\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nПосле беседы — объективная оценка состояния. Врач проведет неформальный осмотр, чтобы принять окончательное решение:\r\n&lt;\/p&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Обязательная термометрия:&lt;\/b&gt; проверим, нет ли даже незначительного повышения температуры, которое является временным противопоказанием.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Осмотр кожи и зева:&lt;\/b&gt; оценим состояние слизистых оболочек и кожных покровов, чтобы исключить начинающиеся или скрытые инфекции.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Аускультация (по показаниям):&lt;\/b&gt; при необходимости послушаем дыхание и сердце.\r\n&lt;\/li&gt;\r\n&lt;\/ul&gt;\r\n&lt;p&gt;\r\nЦель: быть на 100% уверенными, что ваш организм готов к встрече с вакциной и отреагирует правильно.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS3">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nПри необходимости — дополнительные исследования: точность превыше всего\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nМы придерживаемся принципа «не навреди», поэтому в некоторых случаях стандартного осмотра может быть недостаточно. Чтобы быть абсолютно уверенными, мы можем предложить:\r\n&lt;\/p&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Клинический анализ крови&lt;\/b&gt; для определения уровня гемоглобина или лейкоцитов\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Тест на антитела&lt;\/b&gt; к определенным инфекциям (например, к кори или ковиду), чтобы понять, нужна ли прививка вообще.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Консультация узкого специалиста&lt;\/b&gt; (например, иммунолога или невролога), если в анамнезе есть сложные заболевания.\r\n&lt;\/li&gt;\r\n&lt;\/ul&gt;\r\n&lt;p&gt;\r\nЦель: принять взвешенное решение на основе не только слов и осмотра, но и объективных лабораторных данных. Мы не назначаем лишнего, только то, что критично для вашей безопасности.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS4">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nСовместный выбор препарата: вы принимаете осознанное решение\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nМы не предлагаем «что есть в наличии». Мы предлагаем осознанный выбор. После сбора всей информации врач:\r\n&lt;\/p&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Объяснит все доступные варианты вакцин&lt;\/b&gt; (отечественные, импортные, монокомпонентные или комбинированные).\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Расскажет о плюсах и минусах каждого варианта конкретно в вашей ситуации&lt;\/b&gt; (переносимость, количество уколов, длительность формирования иммунитета).\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\n&lt;b&gt;Даст свою профессиональную рекомендацию&lt;\/b&gt;но окончательное решение всегда останется за вами.\r\n&lt;\/li&gt;\r\n&lt;\/ul&gt;\r\n&lt;p&gt;\r\nЦель: вы не просто «получаете укол», а становитесь активным участником процесса, понимая, какой именно препарат и почему будет введен вам или вашему ребенку.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS_IMAGE"/>
+ <property name="PROP_ACCORD_ACTIVE"/>
+ <property name="PROP_ACCORD_POSITION"/>
+ <property name="PROP_ACCORD_TITLE"/>
+ <property name="PROP_ACCORD_LIST"/>
+ <property name="PROP_CARDS2_ACTIVE"/>
+ <property name="PROP_CARDS2_POSITION"/>
+ <property name="PROP_CARDS2_ROW"/>
+ <property name="PROP_CARDS2_NUM"/>
+ <property name="PROP_CARDS2_TITLE"/>
+ <property name="PROP_CARDS2_1"/>
+ <property name="PROP_CARDS2_2"/>
+ <property name="PROP_CARDS2_3"/>
+ <property name="PROP_CARDS2_4"/>
+ <property name="PROP_CARDS2_IMAGE"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Рентгенография</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="ren01.png" type="file">iblock/56b/pihf52xpcbhtlxonxcw901w1wcyl50nq.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<h1>Рентгенография</h1>
+<p>
+Современные цифровые рентген-аппараты позволяют получать чёткие снимки с минимальной лучевой нагрузкой. Быстро, точно и безопасно для вашего здоровья.
+</p>
+<p>
+Технологии последнего поколения обеспечивают высокую точность и чёткость изображений, что помогает врачам быстрее и эффективнее ставить диагнозы. Этот метод используется для диагностики широкого спектра заболеваний, включая заболевания костей, суставов, органов грудной клетки и других частей тела.
+</p>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="ren02.png" type="file">iblock/948/39pu1bc6rwpr5212d0zkz1n1etdbllnn.png</value>
+ </field>
+ <field name="DETAIL_TEXT">
+  <value><![CDATA[<p>
+Рентгенография — это быстрый и информативный метод диагностики, который позволяет оценить состояние костей, суставов, легких и других органов. В нашем центре установлено современное цифровое оборудование, которое обеспечивает высокую точность снимков при минимальной лучевой нагрузке.
+</p>
+<p>
+Мы проводим исследования для взрослых и детей, предоставляя подробные заключения в кратчайшие сроки. Доверьте нам ваше здоровье — мы поможем поставить точный диагноз!
+</p>
+]]></value>
+ </field>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="CODE">
+  <value>rentgenografiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3716</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_MAIN_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_MAIN_BLOCK_POSITION">
+  <value>10</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_POSITION">
+  <value>100</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_POSITION">
+  <value>20</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ROW">
+  <value>FOUR</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_TITLE">
+  <value>Почему пациенты выбирают наш центр для рентгенографии?</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_ICON">
+  <value name="adv009.svg" type="file">iblock/d4b/6fgq5tls3liy0kpcuhswwntvgd4cjhoq.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_TITLE">
+  <value>Высокоточное цифровое оборудование</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_DESCR">
+  <value>Современное оборудование для получения высококачественных снимков с максимальной точностью.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_ICON">
+  <value name="adv010.svg" type="file">iblock/a6b/1certfcdzwk5fgsy124qw5sk9ozx3jg9.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_TITLE">
+  <value>Расшифровка результатов с детализацией</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_DESCR">
+  <value>Мы предоставляем детализированные результаты с полным разбором каждого снимка для точного диагноза.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_ICON">
+  <value name="adv011.svg" type="file">iblock/1c0/2oj4hlxm0m565ik7hwn24q88evm4zaoy.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_TITLE">
+  <value>Быстрое получение результатов</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_DESCR">
+  <value>Все процедуры проводятся оперативно, что позволяет быстро получить результаты и начать лечение.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_ICON">
+  <value name="adv012.svg" type="file">iblock/b3d/ug20kiexazzo5q2xcpxmiw1ufob5l8y1.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_TITLE">
+  <value>Комфортные условия</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_DESCR">
+  <value>У нас работают профессиональные врачи, готовые ответить на все ваши вопросы и предоставить комфортные условия для обследования.</value>
+ </property>
+ <property name="PROP_DOCTORS_ACTIVE"/>
+ <property name="PROP_DOCTORS_POSITION"/>
+ <property name="PROP_DOCTORS_TITLE"/>
+ <property name="PROP_BANNER1_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER1_POSITION">
+  <value>40</value>
+ </property>
+ <property name="PROP_BANNER1_TITLE">
+  <value>Запишитесь на рентгенографию сегодня!</value>
+ </property>
+ <property name="PROP_BANNER1_TEXT">
+  <value>Получите точный диагноз и своевременное лечение</value>
+ </property>
+ <property name="PROP_BANNER1_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER1_IMAGE">
+  <value name="ban05.png" type="file">iblock/51c/8lbul3en0uhnnixugffaylww48gh0tsk.png</value>
+ </property>
+ <property name="PROP_BANNER1_COLOR">
+  <value>#3B61B9</value>
+ </property>
+ <property name="PROP_BANNER2_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER2_POSITION">
+  <value>110</value>
+ </property>
+ <property name="PROP_BANNER2_TITLE">
+  <value>Запишитесь на рентгенографию прямо сейчас!</value>
+ </property>
+ <property name="PROP_BANNER2_TEXT">
+  <value>Перезвоним вам в ближайшее время. Ответим на все вопросы и подберём подходящее время для записи к врачу!</value>
+ </property>
+ <property name="PROP_BANNER2_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER2_IMAGE">
+  <value name="ban06.png" type="file">iblock/4ba/8enjxk6993qbv71r95r1t4a4bobs3e7e.png</value>
+ </property>
+ <property name="PROP_BANNER2_COLOR">
+  <value>#829DD9</value>
+ </property>
+ <property name="PROP_BANNER3_ACTIVE"/>
+ <property name="PROP_BANNER3_POSITION"/>
+ <property name="PROP_BANNER3_TITLE"/>
+ <property name="PROP_BANNER3_TEXT"/>
+ <property name="PROP_BANNER3_LINK"/>
+ <property name="PROP_BANNER3_IMAGE"/>
+ <property name="PROP_BANNER3_COLOR"/>
+ <property name="PROP_PRICES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_PRICES_POSITION">
+  <value>50</value>
+ </property>
+ <property name="PROP_PRICES_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_PRICES_TITLE">
+  <value>Цены на рентген</value>
+ </property>
+ <property name="PROP_PRICES_LIST">
+  <value>Активный Витамин В12|1705|aktivnyy_vitamin_v12</value>
+  <value>Аллергия на молоко (f2, f78, f77, f76)|2060|allergiya_na_moloko</value>
+  <value>Аллергия на яйцо (полная панель) (f245, f1, f75, f67,  f68, f69, k208)|3670|allergiya_na_yaytso_polnaya_panel_f245_f1_f75_f67_f68_f69_k208</value>
+  <value>Активный ренин|1852|aktivnyy_renin</value>
+ </property>
+ <property name="PROP_FAQ_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_FAQ_POSITION">
+  <value>70</value>
+ </property>
+ <property name="PROP_FAQ_TITLE">
+  <value>Часто задаваемые вопросы</value>
+ </property>
+ <property name="PROP_FAQ_LIST">
+  <value>Возможно ли сделать укол/поставить капельницу на дому?|3589|</value>
+  <value>За сколько времени приезжает бригада? Нужно ли ждать весь день?|3626|</value>
+  <value>Как выявить паразитов у ребенка?|3611|</value>
+ </property>
+ <property name="PROP_ARTICLES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ARTICLES_POSITION">
+  <value>90</value>
+ </property>
+ <property name="PROP_ARTICLES_LINK">
+  <value>/blog/</value>
+ </property>
+ <property name="PROP_ARTICLES_TITLE">
+  <value>Полезные статьи</value>
+ </property>
+ <property name="PROP_ARTICLES_LIST">
+  <value>Как проверить желудок без гастроскопии?|1835|kak-proverit-zheludok-bez-gastroskopii</value>
+  <value>Как оценить риск инсульта|49914|risk_insulta</value>
+  <value>Кровь из вены или из пальца?|3421|krov-iz-veny-ili-iz-paltsa</value>
+  <value>Как алкоголь влияет на анализы?|1840|kak-alkogol-vliyaet-na-analizy</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_ACTIVE"/>
+ <property name="PROP_INFO_BLOCK2_POSITION"/>
+ <property name="PROP_INFO_BLOCK2_TITLE"/>
+ <property name="PROP_INFO_BLOCK2_TOPTEXT"/>
+ <property name="PROP_INFO_BLOCK2_IMAGE"/>
+ <property name="PROP_INFO_BLOCK2_TEXT"/>
+ <property name="PROP_LIST_ACTIVE"/>
+ <property name="PROP_LIST_POSITION"/>
+ <property name="PROP_LIST_TITLE"/>
+ <property name="PROP_LIST"/>
+ <property name="PROP_CARDS_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS_POSITION">
+  <value>60</value>
+ </property>
+ <property name="PROP_CARDS_ROW">
+  <value>FOUR</value>
+ </property>
+ <property name="PROP_CARDS_NUM">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS_TITLE">
+  <value>Как проходит визит?</value>
+ </property>
+ <property name="PROP_CARDS1">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nЗапись и оформление\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nЗапись по телефону или онлайн. При себе иметь паспорт и направление врача (при наличии).\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS2">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nПодготовка (при необходимости)\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nСнимаем металлические предметы в зоне исследования. Используем защитные фартуки для снижения облучения.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS3">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nПроведение исследования\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nЗанимает от 10 сек до 15 минут. Вас просят задержать дыхание или принять определённую позу для качественного снимка.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS4">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nПолучение результата\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nЧерез 15–20 минут вы получаете заключение врача-рентгенолога с детальным описанием и рекомендациями.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS_IMAGE"/>
+ <property name="PROP_ACCORD_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ACCORD_POSITION">
+  <value>30</value>
+ </property>
+ <property name="PROP_ACCORD_TITLE">
+  <value>Какие виды рентгенографии мы выполняем?</value>
+ </property>
+ <property name="PROP_ACCORD_LIST">
+  <value>Возможно ли сделать укол/поставить капельницу на дому?|3589|</value>
+  <value>Действует ли на комплексы программа лояльности?|3303|</value>
+  <value>Есть ли противопоказания или ограничения при прохождении чекапа?|3300|</value>
+  <value>За сколько времени приезжает бригада? Нужно ли ждать весь день?|3626|</value>
+  <value>Как выявить паразитов у ребенка?|3611|</value>
+  <value>Как можно оплатить услуги на дому?|3629|</value>
+  <value>Как подготовиться к исследованию?|3301|</value>
+  <value>Как подготовиться к сдаче анализа крови на дому?|3625|</value>
+  <value>Как подготовиться к сдаче крови?|1801|</value>
+ </property>
+ <property name="PROP_CARDS2_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS2_POSITION">
+  <value>80</value>
+ </property>
+ <property name="PROP_CARDS2_ROW">
+  <value>TWO</value>
+ </property>
+ <property name="PROP_CARDS2_NUM"/>
+ <property name="PROP_CARDS2_TITLE"/>
+ <property name="PROP_CARDS2_1">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span style='font-size:40px;line-height:52px;font-weight:700;'&gt;\r\nЗачем нужна рентгенография? Больше, чем просто «снимок»\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nРентгенография — это не просто «фотография» изнутри. Это мощный диагностический инструмент, который позволяет врачу увидеть то, что скрыто от глаз, и поставить точный диагноз за считанные минуты.\r\n&lt;\/p&gt;\r\n&lt;p&gt;\r\nЭтот метод остается «золотым стандартом» в медицине благодаря своей непревзойденной достоверности. Он не только выявляет проблему, но и становится надежным помощником врача в отслеживании динамики лечения: будь то срастание перелома, рассасывание воспаления в легких или правильность установки импланта.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS2_2">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span style='font-size:28px;line-height:40px;font-weight:700;'&gt;\r\nГлавная сила рентгена — в его универсальности. Используется в:\r\n&lt;\/span&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;\r\nТравматология и ортопедия: визуализация переломов, трещин, вывихов, деформаций костей и суставов.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\nПульмонология: диагностика пневмонии, туберкулеза, новообразований в легких и других патологий дыхательной системы.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\nСтоматология и челюстно-лицевая хирургия: оценка состояния корней зубов, костной ткани перед имплантацией, выявление ретинированных зубов.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\nНеврология и вертебрология: диагностика грыж межпозвонковых дисков, протрузий, искривлений позвоночника.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\nКардиология: оценение размеров и формы сердца, выявление признаков сердечной недостаточности.\r\n&lt;\/li&gt;\r\n&lt;li&gt;\r\nГастроэнтерология (с контрастом): исследование проходимости и рельефа пищевода, желудка и кишечника.\r\n&lt;\/li&gt;\r\n&lt;\/ul&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS2_3"/>
+ <property name="PROP_CARDS2_4"/>
+ <property name="PROP_CARDS2_IMAGE">
+  <value name="img01.png" type="file">iblock/575/pznwxohvw66uxspvwgx378foo6u7zoja.png</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Маммография</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="mam01.png" type="file">iblock/a46/ezzk3klryve8jo6ocgwjjptvzdb79bfs.png</value>
+ </field>
+ <field name="PREVIEW_TEXT">
+  <value><![CDATA[<h1>Маммография</h1>
+<p>
+Современная цифровая маммография позволяет обнаружить изменения в молочных железах на ранней стадии. Быстро, точно и комфортно, с минимальной лучевой нагрузкой и полной безопасностью для вашего здоровья.
+</p>
+<p>
+Наши специалисты сопровождают вас на каждом этапе обследования, объясняя результаты и при необходимости давая рекомендации для дальнейших действий. Это обеспечивает уверенность и спокойствие при заботе о вашем здоровье.
+</p>
+]]></value>
+ </field>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="mam02.png" type="file">iblock/cd4/8tnxkhraujl2a6xxu10utmbpgbpr7dg6.png</value>
+ </field>
+ <field name="DETAIL_TEXT">
+  <value><![CDATA[<h2>
+Показания к применению маммографии
+</h2>
+<ul>
+<li>
+Скрининг рака молочной железы (профилактическое обследование)
+</li>
+<li>
+Диагностическая маммография (при наличии жалоб и симптомов)
+</li>
+<li>
+Динамическое наблюдение
+</li>
+<li>
+Плановое обследование перед операцией
+</li>
+</ul>
+]]></value>
+ </field>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>html</value>
+ </field>
+ <field name="CODE">
+  <value>mammografiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3717</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_MAIN_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_MAIN_BLOCK_POSITION">
+  <value>10</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_INFO_BLOCK_POSITION">
+  <value>30</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_POSITION">
+  <value>20</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ROW">
+  <value>FOUR</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_TITLE">
+  <value>Почему пациенты выбирают нас?</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_ICON">
+  <value name="adv013.svg" type="file">iblock/79a/e00rjadpovmah3y75ji3rxobkis47yvs.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_TITLE">
+  <value>Высокая точность диагностики</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM1_DESCR">
+  <value>Используем современное оборудование, которое позволяет выявлять изменения на ранних стадиях с максимальной точностью.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_ICON">
+  <value name="adv014.svg" type="file">iblock/4ae/dnxp920tacmt1qq53zued60hce2qlrdd.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_TITLE">
+  <value>Индивидуальный подход к каждой пациентке</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM2_DESCR">
+  <value>Каждая процедура проводится с учётом особенностей организма и потребностей пациентки, обеспечивая комфорт и безопасность.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_ICON">
+  <value name="adv015.svg" type="file">iblock/63b/dmzndkkh082xo1z1cs5p5y7xaxo1lcw8.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_TITLE">
+  <value>Минимальный дискомфорт во время исследования</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM3_DESCR">
+  <value>Современные технологии снижают давление и делают процесс обследования максимально комфортным.</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_ICON">
+  <value name="adv016.svg" type="file">iblock/7d1/yvrm8fb2e926dvghxynapj2wr9rkk074.svg</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_TITLE">
+  <value>Быстрые результаты</value>
+ </property>
+ <property name="PROP_ADV_BLOCK_ITEM4_DESCR">
+  <value>Заключение вы получите в день обращения, что позволяет оперативно принять необходимые решения для здоровья.</value>
+ </property>
+ <property name="PROP_DOCTORS_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_DOCTORS_POSITION">
+  <value>60</value>
+ </property>
+ <property name="PROP_DOCTORS_TITLE">
+  <value>Врачи онкологи‑маммологи</value>
+ </property>
+ <property name="PROP_BANNER1_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER1_POSITION">
+  <value>40</value>
+ </property>
+ <property name="PROP_BANNER1_TITLE">
+  <value>Пройдите УЗИ молочных желез для комплексной оценки здоровья</value>
+ </property>
+ <property name="PROP_BANNER1_TEXT"/>
+ <property name="PROP_BANNER1_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER1_IMAGE">
+  <value name="ban07.png" type="file">iblock/76e/4sw0gi0mampaoocbu7e56cdu2i3q20jx.png</value>
+ </property>
+ <property name="PROP_BANNER1_COLOR">
+  <value>#3B61B9</value>
+ </property>
+ <property name="PROP_BANNER2_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER2_POSITION">
+  <value>70</value>
+ </property>
+ <property name="PROP_BANNER2_TITLE">
+  <value>Запишитесь на маммографию сегодня!</value>
+ </property>
+ <property name="PROP_BANNER2_TEXT">
+  <value>Позаботьтесь о своём здоровье — пройдите обследование у профессионалов.</value>
+ </property>
+ <property name="PROP_BANNER2_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER2_IMAGE">
+  <value name="ban08.png" type="file">iblock/33f/uh0v76iy9k658hndfbx2gbdf7u2thp3o.png</value>
+ </property>
+ <property name="PROP_BANNER2_COLOR">
+  <value>#5B89EE</value>
+ </property>
+ <property name="PROP_BANNER3_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_BANNER3_POSITION">
+  <value>120</value>
+ </property>
+ <property name="PROP_BANNER3_TITLE">
+  <value>Запишитесь на маммографию сейчас и позаботьтесь о своем здоровье</value>
+ </property>
+ <property name="PROP_BANNER3_TEXT"/>
+ <property name="PROP_BANNER3_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_BANNER3_IMAGE">
+  <value name="ban09.png" type="file">iblock/687/uxm1jqz7ltf3x1kr03igtjtfgdtca9jz.png</value>
+ </property>
+ <property name="PROP_BANNER3_COLOR">
+  <value>#829DD9</value>
+ </property>
+ <property name="PROP_PRICES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_PRICES_POSITION">
+  <value>50</value>
+ </property>
+ <property name="PROP_PRICES_LINK">
+  <value>/catalog/</value>
+ </property>
+ <property name="PROP_PRICES_TITLE">
+  <value>Цены на маммографию</value>
+ </property>
+ <property name="PROP_PRICES_LIST">
+  <value>Антитела класса IgМ к вирусу кори|3667|antitela_klassa_igm_k_virusu_kori</value>
+  <value>Антитела класса IgM к трихинеллам|285|antitela_k_trikhinellam_igm</value>
+  <value>Антитела класса IgА к иерсиниям|272|antitela_k_iersiniozam_iga</value>
+ </property>
+ <property name="PROP_FAQ_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_FAQ_POSITION">
+  <value>80</value>
+ </property>
+ <property name="PROP_FAQ_TITLE">
+  <value>Часто задаваемые вопросы</value>
+ </property>
+ <property name="PROP_FAQ_LIST">
+  <value>Возможно ли сделать укол/поставить капельницу на дому?|3589|</value>
+  <value>Как можно оплатить услуги на дому?|3629|</value>
+  <value>Как подготовиться к исследованию?|3301|</value>
+  <value>Как подготовиться к сдаче анализа крови на дому?|3625|</value>
+  <value>Как подготовиться к сдаче крови?|1801|</value>
+ </property>
+ <property name="PROP_ARTICLES_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_ARTICLES_POSITION">
+  <value>100</value>
+ </property>
+ <property name="PROP_ARTICLES_LINK">
+  <value>/blog/</value>
+ </property>
+ <property name="PROP_ARTICLES_TITLE">
+  <value>Полезные статьи</value>
+ </property>
+ <property name="PROP_ARTICLES_LIST">
+  <value>Тест на аллергию для самых маленьких|1817|test-na-allergiyu-dlya-samykh-malenkikh</value>
+  <value>О чем расскажет анализ на липидный спектр?|1845|o-chem-rasskazhet-analiz-na-lipidnyy-spektr</value>
+  <value>Почему важно знать свою группу крови и резус фактор?|1813|pochemu-vazhno-znat-svoyu-gruppu-krovi-i-rezus-faktor</value>
+  <value>Расшифровка общего анализа крови|3530|rasshifrovka-obshchego-analiza-krovi</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_POSITION">
+  <value>110</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TITLE"/>
+ <property name="PROP_INFO_BLOCK2_TOPTEXT"/>
+ <property name="PROP_INFO_BLOCK2_IMAGE">
+  <value name="mam03.png" type="file">iblock/b9e/p8fww1gooi46qcogccucgcwiboo1bzop.png</value>
+ </property>
+ <property name="PROP_INFO_BLOCK2_TEXT">
+  <value type="json"><![CDATA[{"TEXT":"&lt;p&gt;\r\nМаммография — самый эффективный метод ранней диагностики заболеваний молочных желез, позволяющий обнаружить изменения за 2–3 года до появления клинических симптомов.\r\n&lt;\/p&gt;\r\n&lt;p&gt;\r\nВ нашем центре Доктор ТАФИ установлен современный цифровой маммограф, который обеспечивает высокое качество снимков при минимальной лучевой нагрузке.\r\n&lt;\/p&gt;\r\n&lt;p&gt;\r\nМы понимаем, как важно для женщин чувствовать себя комфортно во время исследования, поэтому создали спокойную атмосферу и обеспечиваем индивидуальный подход. Доверьте нам ваше здоровье — мы поможем сохранить его на долгие годы!\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_LIST_ACTIVE"/>
+ <property name="PROP_LIST_POSITION"/>
+ <property name="PROP_LIST_TITLE"/>
+ <property name="PROP_LIST"/>
+ <property name="PROP_CARDS_ACTIVE">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS_POSITION">
+  <value>90</value>
+ </property>
+ <property name="PROP_CARDS_ROW">
+  <value>TWO</value>
+ </property>
+ <property name="PROP_CARDS_NUM">
+  <value>Y</value>
+ </property>
+ <property name="PROP_CARDS_TITLE">
+  <value>Как проходит рентген — исследование?</value>
+ </property>
+ <property name="PROP_CARDS1">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nЗапись и оформление\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nЗапись по телефону или онлайн. При себе иметь паспорт и направление врача (при наличии).\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS2">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nЗапись и оформление\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nЗапись по телефону или онлайн. При себе иметь паспорт и направление врача (при наличии).\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS3">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nПроведение исследования\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nКаждую молочную железу поочерёдно размещают на платформе аппарата и аккуратно сжимают специальной пластиной. Делается 2 снимка каждой груди в разных проекциях. Вся процедура занимает 10–15 минут.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS4">
+  <value type="json"><![CDATA[{"TEXT":"&lt;span&gt;\r\nПолучение результата\r\n&lt;\/span&gt;\r\n&lt;p&gt;\r\nЧерез 20–30 минут вы получаете детальное заключение врача-рентгенолога с описанием и рекомендациями. При необходимости сразу можете записаться к маммологу.\r\n&lt;\/p&gt;","TYPE":"HTML"}]]></value>
+ </property>
+ <property name="PROP_CARDS_IMAGE">
+  <value name="img02.png" type="file">iblock/893/3lf28pdtz5wx05xfbkkydrxkn710bp3c.png</value>
+ </property>
+ <property name="PROP_ACCORD_ACTIVE"/>
+ <property name="PROP_ACCORD_POSITION"/>
+ <property name="PROP_ACCORD_TITLE"/>
+ <property name="PROP_ACCORD_LIST"/>
+ <property name="PROP_CARDS2_ACTIVE"/>
+ <property name="PROP_CARDS2_POSITION"/>
+ <property name="PROP_CARDS2_ROW"/>
+ <property name="PROP_CARDS2_NUM"/>
+ <property name="PROP_CARDS2_TITLE"/>
+ <property name="PROP_CARDS2_1"/>
+ <property name="PROP_CARDS2_2"/>
+ <property name="PROP_CARDS2_3"/>
+ <property name="PROP_CARDS2_4"/>
+ <property name="PROP_CARDS2_IMAGE"/>
+</item>
+
+</items>

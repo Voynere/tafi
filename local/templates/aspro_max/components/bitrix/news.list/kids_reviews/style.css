@@ -1,0 +1,66 @@
+.swiper.kids-swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.kids-reviews .kids-swiper__container {
+	position: relative;
+}
+
+.kids-next {
+	position: absolute;
+	top: 52%;
+	right: -80px;
+	z-index: 10;
+	transform: translateY(-50%);
+}
+
+.kids-prev {
+	position: absolute;
+	top: 52%;
+	left: -80px;
+	z-index: 10;
+	transform: translateY(-50%);
+}
+
+@media (max-width: 1550px) {
+	.kids-next {
+		right: -20px;
+	}
+
+	.kids-prev {
+		left: -20px;
+	}
+}
+
+@media (max-width: 992px) {
+	.kids-next {
+		right: -10px;
+	}
+
+	.kids-prev {
+		left: -10px;
+	}
+}
+
+@media (max-width: 576px) {
+	.kids-prev, .kids-next {
+		display: none;
+	}
+}

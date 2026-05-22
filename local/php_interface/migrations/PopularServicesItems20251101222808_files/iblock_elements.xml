@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="main:popularServices" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>10</value>
+ </field>
+ <field name="NAME">
+  <value>УЗИ</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="p1.png" type="file">iblock/ccc/xr1ny21lotlk64k1faddhv19953o0jb3.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>uzi</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3718</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>20</value>
+ </field>
+ <field name="NAME">
+  <value>Комплексные чек-апы</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="p2.png" type="file">iblock/98e/6n7mjh0fcfn3a58w3j9ia6hf0euy21fi.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>kompleksnye-chek-apy</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3719</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>30</value>
+ </field>
+ <field name="NAME">
+  <value>ЭКГ - Холтер - СМАД</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="p3.png" type="file">iblock/4d6/dcfh081m0kvwy98niei2rpdllj09uzuz.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>ekg-kholter-smad</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3720</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>40</value>
+ </field>
+ <field name="NAME">
+  <value>Вакцинация</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="p4.png" type="file">iblock/ef8/680rmfg598jye4jsflu2haw63i4u63iu.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>vaktsinatsiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3721</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>50</value>
+ </field>
+ <field name="NAME">
+  <value>Терапия</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="s5.png" type="file">iblock/743/4mihacty3zs01in8sgji472q29qmmhpz.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>terapiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3722</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>60</value>
+ </field>
+ <field name="NAME">
+  <value>Гинекология</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="p6.png" type="file">iblock/de5/2ng63fxuzj17gz6vh51qiihtjmoptple.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>ginekologiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3723</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>70</value>
+ </field>
+ <field name="NAME">
+  <value>Оториноларингология</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="p7.png" type="file">iblock/5da/qc2x6z643o1h4c5y6gpwjmwnc77dc9yf.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>otorinolaringologiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3724</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>80</value>
+ </field>
+ <field name="NAME">
+  <value>Детям</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="p8.png" type="file">iblock/57a/32deu7f0yk8or975el93p0xiabix0j30.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>detyam</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3725</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>90</value>
+ </field>
+ <field name="NAME">
+  <value>Неврология</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="p9.png" type="file">iblock/d00/1uto4seirop3uvkdoksxva3yakl8zwce.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>nevrologiya</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3726</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="LINK">
+  <value>#</value>
+ </property>
+</item>
+
+</items>

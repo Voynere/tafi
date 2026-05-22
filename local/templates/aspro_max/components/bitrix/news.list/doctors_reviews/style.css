@@ -1,0 +1,297 @@
+.swiper.doctor-swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.doctor-reviews__reviews {
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.doctor-swiper .swiper-slide {
+	display: flex;
+	flex-direction: column;
+	padding: 32px;
+	border-radius: 12px;
+	background: #FFF;
+	transition: box-shadow .3s ease-in-out;
+	height: auto;
+}
+
+.doctor-swiper .swiper-wrapper {
+	padding-bottom: 20px;
+}
+
+.doctor-swiper .slider__top-date {
+	color: #585F6A;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.doctor-swiper .slider__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 20px;
+	margin-bottom: 32px;
+}
+
+.doctor-swiper .slide__name {
+	display: block;
+	margin-bottom: 8px;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.doctor-swiper .slide__review-shor-more {
+	margin-top: 8px;
+	color: #294A97;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	background-color: unset;
+	border: unset;
+	width: fit-content;
+}
+
+.doctor-swiper .slide__review {
+	margin: 0 0 auto;
+	padding: 0;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.doctor-swiper .swiper-slide:hover {
+	box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.06);
+}
+
+.doctor-swiper .slider__top-rating-full {
+	fill: #FFC700;
+}
+
+.kids-swiper .slider__top-rating-empty {
+	fill: #EEEEEE;
+}
+
+.doctor-swiper .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.doctor-reviews .doctor-swiper__container {
+	position: relative;
+}
+
+.doctor-next {
+	position: absolute;
+	top: 63%;
+	right: -73px;
+	z-index: 10;
+	transform: translateY(-50%);
+}
+
+.doctor-prev {
+	position: absolute;
+	top: 63%;
+	left: -73px;
+	z-index: 10;
+	transform: translateY(-50%);
+}
+
+.doctor-reviews__reviews-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 42px;
+}
+
+.doctor-reviews__reviews-title {
+	margin: 0;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 52px;
+}
+
+.doctor-reviews__right {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.doctor-reviews__right .btn.btn-default {
+	display: flex;
+	width: fit-content;
+	height: 48px;
+	padding: 17px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	text-transform: unset;
+	border-radius: 8px !important;
+	background: #3B61B9;
+	border: unset;
+}
+
+.doctor-detail__reviews-link {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: #767B81;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+}
+
+.doctor-detail__reviews-link:hover {
+	color: #767B81;
+}
+
+.doctor-detail__reviews-link svg {
+	transform: rotate(-90deg);
+}
+
+.doctor-reviews__right.mobile {
+	display: none
+}
+
+@media (max-width: 1650px) {
+	.doctor-next {
+		right: -20px;
+	}
+
+	.doctor-prev {
+		left: -20px;
+	}
+}
+
+@media (max-width: 992px) {
+	.doctor-next {
+		right: -10px;
+	}
+
+	.doctor-prev {
+		left: -10px;
+	}
+
+	.doctor-reviews__right .btn.btn-default {
+		display: none;
+	}
+
+	.doctor-reviews__right.mobile {
+		display: block;
+	}
+
+	.doctor-reviews__right.mobile .btn.btn-default {
+		display: block;
+		padding: 12px;
+		width: 100%;
+	}
+
+	.doctor-swiper .swiper-wrapper {
+		padding-bottom: 32px;
+	}
+}
+
+@media (max-width: 768px) {
+	.doctor-prev, .doctor-next {
+		display: none;
+	}
+
+	.doctor-swiper .slider__top {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 576px) {
+	.doctor-reviews__reviews-top {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+		margin-bottom: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.doctor-reviews__reviews-title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.doctor-detail__reviews-link {
+		font-size: 15px;
+		line-height: 26px;
+	}
+
+	.doctor-swiper .swiper-slide {
+		padding: 20px;
+	}
+
+	.doctor-swiper .slide__name {
+		margin-bottom: 6px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.doctor-swiper .slider__top-date {
+		font-size: 15px;
+		font-weight: 400;
+	}
+
+	.doctor-swiper .slider__top {
+		margin-bottom: 20px;
+	}
+
+	.doctor-swiper .slide__review {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
+	.doctor-swiper .slide__review-shor-more {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
+	.doctor-reviews__reviews {
+		margin-bottom: 80px;
+	}
+
+	.slider__top-rating {
+		height: 20px;
+	}
+
+	.slider__top-rating-full,
+	.slider__top-rating-empty {
+		height: 20px;
+		width: 20px;
+	}
+
+	.doctor-reviews__right.mobile {
+		padding: 0 20px;
+	}
+}

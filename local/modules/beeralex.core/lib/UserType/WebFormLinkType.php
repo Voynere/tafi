@@ -1,0 +1,61 @@
+<?php
+declare(strict_types=1);
+namespace Beeralex\Core\UserType;
+
+/**
+ * Пользовательский тип свойства для привязки к веб-форме
+ * Используется для создания выпадающего списка с веб-формами
+ */
+class WebFormLinkType
+{
+    public static function GetUserTypeDescription()
+    {
+        $class = static::class;
+        return [
+            'USER_TYPE_ID' => 'webform_link',
+            'USER_TYPE' => 'WEBFORM_LINK',
+            'CLASS_NAME' => $class,
+            'DESCRIPTION' => 'Привязка к веб-форме',
+            'PROPERTY_TYPE' => \Bitrix\Iblock\PropertyTable::TYPE_STRING,
+            'GetPropertyFieldHtml' => [$class, 'GetPropertyFieldHtml'],
+            'ConvertToDB' => [$class, 'ConvertToDB'],
+            'ConvertFromDB' => [$class, 'ConvertFromDB'],
+        ];
+    }
+
+    public static function GetPropertyFieldHtml(array $arProperty, array $value, array $strHTMLControlName)
+    {
+        if (!\Bitrix\Main\Loader::includeModule('form')) {
+            return '<span style="color:red;">Модуль "form" не установлен</span>';
+        }
+
+        $rsForms = \CForm::GetList($by = 's_sort', $order = 'asc', ['ACTIVE' => 'Y']);
+        $options = '';
+
+        while ($form = $rsForms->Fetch()) {
+            $selected = ($value['VALUE'] == $form['ID']) ? 'selected' : '';
+            $options .= "<option value='{$form['ID']}' {$selected}>[{$form['ID']}] {$form['NAME']}</option>";
+        }
+
+        return '<select name="' . htmlspecialcharsbx($strHTMLControlName["VALUE"]) . '">'
+            . '<option value="">(не выбрано)</option>'
+            . $options
+            . '</select>';
+    }
+
+    public static function ConvertToDB(array $arProperty, array $value)
+    {
+        return [
+            'VALUE' => $value['VALUE'],
+            'DESCRIPTION' => $value['DESCRIPTION'],
+        ];
+    }
+
+    public static function ConvertFromDB(array $arProperty, array $value)
+    {
+        return [
+            'VALUE' => $value['VALUE'],
+            'DESCRIPTION' => $value['DESCRIPTION'],
+        ];
+    }
+}

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="aspro_max_content:doctors" exchangeVersion="2" >
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Костецкая Ангелина Юрьевна</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="doc01.png" type="file">iblock/e8e/1qdu2p6vityzfimrmdpore1g2rgpl9jv.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>kostetskaya-angelina-yurevna</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3712</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Аллерголог-иммунолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>29 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Трамвайная улица, 14</value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>child</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Караблина Светлана Николаевна</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="doc02.png" type="file">iblock/c8a/1uf3wywls2ul85oebbfdlb3hx6vwcd6i.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>karablina-svetlana-nikolaevna</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3713</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Педиатр, аллерголог-иммунолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>40 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Океанский пр-т, 48А</value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Кириллов Александр Олегович</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>kirillov-aleksandr-olegovich</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3714</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Онколог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>13 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Трамвайная улица, 14</value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Рашитов Роман Игоревич</value>
+ </field>
+ <field name="PREVIEW_PICTURE">
+  <value name="doc03.png" description="test123" type="file">iblock/976/ki5fbp50r8q27nafezlwmu53kn7h3yw8.png</value>
+ </field>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="ki5fbp50r8q27nafezlwmu53kn7h3yw8.png" type="file">iblock/976/ki5fbp50r8q27nafezlwmu53kn7h3yw8.png</value>
+ </field>
+ <field name="DETAIL_TEXT">
+  <value>test test</value>
+ </field>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>rashitov-roman-igorevich</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3718</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>9 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Трамвайная улица, 14</value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT">
+  <value>от 2 000 ₽</value>
+ </property>
+ <property name="PROP_SECOND_APPOINTMENT">
+  <value>от 1 800 ₽</value>
+ </property>
+ <property name="PROP_ABILITY_HOME">
+  <value>f3977cd72ba46d3597b92d01413fcbe7</value>
+ </property>
+ <property name="PROP_ABILITY_CHILD">
+  <value>181ccedc966bfeeeb6c06c6bb61545fd</value>
+ </property>
+ <property name="PROP_ABILITY_INSURANCE">
+  <value>f8522037d2a749438738ecb90ce550ea</value>
+ </property>
+ <property name="PROP_SKILLS">
+  <value text-type="HTML">111111</value>
+ </property>
+ <property name="PROP_EDUCATION">
+  <value text-type="HTML">222222222</value>
+ </property>
+ <property name="PROP_TRAINING">
+  <value text-type="HTML">333333333</value>
+ </property>
+ <property name="PROP_REVIEWS">
+  <value element_xml_id="901">2 гис</value>
+  <value element_xml_id="892">Dm St</value>
+  <value element_xml_id="3174">Алексей</value>
+  <value element_xml_id="3129">Алия Ч.</value>
+ </property>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Testoviy</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE">
+  <value name="ki5fbp50r8q27nafezlwmu53kn7h3yw8.png" type="file">iblock/976/ki5fbp50r8q27nafezlwmu53kn7h3yw8.png</value>
+ </field>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>testoviy</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>testoviy</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>5 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Адрес </value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Testoviy2</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>testoviy2</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3778</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>5 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Адрес </value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Testoviy3</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>testoviy3</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3779</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>5 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Адрес </value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Testoviy4</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>testoviy4</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3780</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>5 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Адрес </value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Testoviy5</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>testoviy5</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3781</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>5 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Адрес </value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Testoviy6</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>testoviy6</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3782</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>5 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Адрес </value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Testoviy7</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>testoviy7</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3783</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>5 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Адрес </value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+<item>
+ <field name="ACTIVE">
+  <value>Y</value>
+ </field>
+ <field name="ACTIVE_FROM"/>
+ <field name="ACTIVE_TO"/>
+ <field name="SORT">
+  <value>500</value>
+ </field>
+ <field name="NAME">
+  <value>Testoviy8</value>
+ </field>
+ <field name="PREVIEW_PICTURE"/>
+ <field name="PREVIEW_TEXT"/>
+ <field name="PREVIEW_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="DETAIL_PICTURE"/>
+ <field name="DETAIL_TEXT"/>
+ <field name="DETAIL_TEXT_TYPE">
+  <value>text</value>
+ </field>
+ <field name="CODE">
+  <value>testoviy8</value>
+ </field>
+ <field name="TAGS"/>
+ <field name="XML_ID">
+  <value>3784</value>
+ </field>
+ <field name="IBLOCK_SECTION"/>
+ <field name="IPROPERTY_TEMPLATES"/>
+ <property name="PROP_POSITION">
+  <value>Анестезиолог</value>
+ </property>
+ <property name="PROP_EXPERIENCE">
+  <value>5 лет</value>
+ </property>
+ <property name="PROP_ADDRESS">
+  <value>Адрес </value>
+ </property>
+ <property name="PROP_CATEGORY">
+  <value>adult</value>
+ </property>
+ <property name="PROP_INITIAL_APPOINTMENT"/>
+ <property name="PROP_SECOND_APPOINTMENT"/>
+ <property name="PROP_ABILITY_HOME"/>
+ <property name="PROP_ABILITY_CHILD"/>
+ <property name="PROP_ABILITY_INSURANCE"/>
+ <property name="PROP_SKILLS"/>
+ <property name="PROP_EDUCATION"/>
+ <property name="PROP_TRAINING"/>
+ <property name="PROP_REVIEWS"/>
+</item>
+
+</items>
