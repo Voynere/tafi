@@ -102,3 +102,6 @@ composer.phar
 
 # PHP Update
 !/bitrix/modules/wsrubi.smtp/classes/general/
+
+# Бэкап базы данных
+tafimed_db.sql.gz
