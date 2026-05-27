@@ -475,6 +475,8 @@ async function addProductToBasket(paramsIn) {
         },
         defaultPhone: '+7 (423) 242-56-60',
         selectors: ['.phone-number', 'a[href^="tel:"]', '[data-phone]'],
+        // Селекторы контейнеров, внутри которых НЕ нужно подменять телефоны (карточки магазинов/филиалов)
+        excludeContainers: ['.shop-detail1', '.store-item', '.stores-list1', '.shops-list1', '.contacts-stores', '.contacts_map', '.item-body'],
         storageKey: 'utm_phone_session'
     };
 
@@ -532,6 +534,18 @@ async function addProductToBasket(paramsIn) {
         const telHref = toTelHref(phone);
         let totalReplaced = 0;
 
+        // Проверка: элемент находится внутри исключённого контейнера?
+        function isInsideExcludedContainer(el) {
+            if (!CONFIG.excludeContainers || !CONFIG.excludeContainers.length) return false;
+            for (const containerSelector of CONFIG.excludeContainers) {
+                if (el.closest(containerSelector)) {
+                    log(`   ⛔ Элемент внутри исключённого контейнера "${containerSelector}", пропускаем`);
+                    return true;
+                }
+            }
+            return false;
+        }
+
         CONFIG.selectors.forEach(selector => {
             log(`🔎 Поиск по селектору: "${selector}"`);
             const elements = document.querySelectorAll(selector);
@@ -544,6 +558,11 @@ async function addProductToBasket(paramsIn) {
             elements.forEach((el, idx) => {
                 try {
                     log(`   [${idx}] Элемент:`, el);
+
+                    // Пропускаем элементы внутри карточек магазинов/филиалов
+                    if (isInsideExcludedContainer(el)) {
+                        return;
+                    }
                     
                     // Сохраняем оригинал для отладки
                     if (!el.dataset.phoneOriginal) {
