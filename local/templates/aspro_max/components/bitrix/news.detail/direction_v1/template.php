@@ -117,6 +117,19 @@ function calculateExperience($value) {
                         <p><?=$props['PROP_ADV_BLOCK_ITEM4_DESCR']['VALUE'] ?></p>
                     </div>
                 </div>
+                <? if(!empty($props['PROP_ADV_BLOCK_ITEM5_TITLE']['VALUE'])): ?>
+                <div class="service-reasons__item <?=$advWidth ?>">
+                    <div class="service-reasons__item-icon">
+                        <? if(!empty($props['PROP_ADV_BLOCK_ITEM5_ICON']['VALUE'])): ?>
+                            <img src="<?=CFile::GetPath($props['PROP_ADV_BLOCK_ITEM5_ICON']['VALUE']) ?>" alt="">
+                        <? endif; ?>
+                    </div>
+                    <div class="service-reasons__item-info">
+                        <span><?=$props['PROP_ADV_BLOCK_ITEM5_TITLE']['VALUE'] ?></span>
+                        <p><?=$props['PROP_ADV_BLOCK_ITEM5_DESCR']['VALUE'] ?></p>
+                    </div>
+                </div>
+                <? endif; ?>
             </div>
         </div>
     <?php endif; ?>
