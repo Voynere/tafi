@@ -368,3 +368,51 @@ CMax::ShowHeaderPhones('no-icons')  // Рендерит HTML телефонов
 - Файл: [`component_epilog.php`](local/templates/aspro_max/components/bitrix/news.detail/news/component_epilog.php)
 - Обновлены цены в двух массивах (строки 298-322 и 652-676)
 - Git-коммит на сервере: `21aeb2b`
+
+### 28.05.2026
+
+**Страница QR-консультации (`/qr-consult/`):**
+- Создана внутренняя страница для перехода по QR-коду с бланка анализов
+- 3 блока: вводный, баннер с ссылкой на Max врача-консультанта, преимущества
+- Закрыта от индексации (noindex/nofollow)
+- Файлы: [`qr-consult/index.php`](qr-consult/index.php), [`qr-consult/.section.php`](qr-consult/.section.php)
+- Git: сервер — загружен, локально — `486194e`
+
+**5-е преимущество на странице травматологии:**
+- Страница: `/travmatologiya-i-ortopediya/` (IBLOCK 81, элемент 6647)
+- Созданы свойства IBLOCK: `PROP_ADV_BLOCK_ITEM5_ICON` (1529), `PROP_ADV_BLOCK_ITEM5_TITLE` (1530), `PROP_ADV_BLOCK_ITEM5_DESCR` (1531)
+- Обновлён шаблон [`direction_v1/template.php`](local/templates/aspro_max/components/bitrix/news.detail/direction_v1/template.php) — добавлен ITEM5 с условием `if(!empty(...))`
+- Git: `d56309f` (сервер), `831e325` (локально)
+- ⚠️ Иконка ITEM5 не задана — можно загрузить через админку
+
+---
+
+## 15. Шаблон страниц направлений (`direction_v1`)
+
+**Путь:** [`local/templates/aspro_max/components/bitrix/news.detail/direction_v1/`](local/templates/aspro_max/components/bitrix/news.detail/direction_v1/)
+
+**IBLOCK:** 81 (aspro_max_content)
+
+**Используется на страницах:**
+- `/terapiya/` — элемент 3829
+- `/travmatologiya-i-ortopediya/` — элемент 6647
+- Другие страницы направлений
+
+**Структура свойств элемента:**
+| Свойство | Код | Тип |
+|----------|-----|-----|
+| Главный блок (активность) | PROP_MAIN_BLOCK_ACTIVE | Список (Y/N) |
+| Главный блок (позиция) | PROP_MAIN_BLOCK_POSITION | Строка |
+| Блок преимуществ (активность) | PROP_ADV_BLOCK_ACTIVE | Список |
+| Блок преимуществ (заголовок) | PROP_ADV_BLOCK_TITLE | Строка |
+| Преимущество 1-5 (иконка) | PROP_ADV_BLOCK_ITEM1-5_ICON | Файл |
+| Преимущество 1-5 (заголовок) | PROP_ADV_BLOCK_ITEM1-5_TITLE | Строка |
+| Преимущество 1-5 (описание) | PROP_ADV_BLOCK_ITEM1-5_DESCR | Строка/HTML |
+| Преимущества в ряд | PROP_ADV_BLOCK_ROW | Список (TWO/FOUR) |
+| Инфо-блок | PROP_INFO_BLOCK_ACTIVE | Список |
+| Блок врачей | PROP_DOCTORS_ACTIVE | Список |
+| Карточки услуг | PROP_CARDS_ACTIVE | Список |
+
+**Как добавить 5-е преимущество на любую страницу:**
+1. Админка → Инфоблоки → IBLOCK 81 → Редактировать элемент → свойства ITEM5
+2. Или через PHP: `CIBlockElement::SetPropertyValuesEx($elementId, 81, ['PROP_ADV_BLOCK_ITEM5_TITLE' => '...', 'PROP_ADV_BLOCK_ITEM5_DESCR' => '...'])`
