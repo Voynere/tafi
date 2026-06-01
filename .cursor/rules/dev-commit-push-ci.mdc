@@ -1,0 +1,45 @@
+---
+description: После фичи — сразу commit, push в main, prod smoke (GitHub Actions пока нет).
+alwaysApply: true
+---
+
+# Dev workflow: commit → push → prod
+
+Применяется к **tafi** (origin = GitHub, сайт **tafimed.ru**). Дополняет `docs/AGENT_ACCESS.md`.
+
+## После завершения фичи (или логически законченного куска работы)
+
+1. **Сразу коммить** — не оставляй готовые правки незакоммиченными до конца сессии.
+   - `git status` / `git diff` — stage **только** файлы текущей задачи (см. параллельные сессии в `.github/agents/*.agent.md`).
+   - Сообщение коммита — по стилю репозитория (кратко, на русском).
+   - Отдельного **panel version bump** в этом репо нет (в отличие от ferma / Helium / monitoring-price).
+
+2. **Push в `main`** — `git push origin main`.
+   - **Не** force-push, **не** amend без явной просьбы пользователя.
+   - Ветки `dev` в репозитории нет; рабочая ветка — **`main`**.
+
+3. **CI (GitHub Actions)** — на 2026-06-01 workflow **не настроен** (`gh api repos/Voynere/tafi/actions/workflows` → пусто).
+   - После push проверь prod smoke (ниже), не жди Actions.
+   - Когда появится `.github/workflows/deploy.yml` — задача **не выполнена**, пока head не зелёный:
+     - `gh run list --workflow=deploy.yml --limit 3 --repo Voynere/tafi`
+     - При failure: `gh run view <id> --log-failed --repo Voynere/tafi`
+
+4. **Prod smoke** после push (прямой доступ к VPS Beget, см. README и `docs/AGENT_ACCESS.md`):
+   - `curl -sS -o /dev/null -w "%{http_code}\n" https://tafimed.ru/` → **200**
+   - `curl -sS -o /dev/null -w "%{http_code}\n" https://tafimed.ru/catalog/` → **200**
+   - При 500/502 — SSH на prod → логи nginx/Apache → fix → commit → push (**repeat**).
+   - Зафиксируй в ответе: ветка, SHA, HTTP-коды, **ok / fail**.
+
+5. **Деплой на prod** — пока **вручную** (git pull / rsync на сервере); детали в `docs/AGENT_ACCESS.md`. Не делай `git reset --hard` на prod без явной просьбы.
+
+## Когда не пушить
+
+- Есть незакоммиченные правки **другой** параллельной сессии — стоп, эскалация пользователю.
+- Пользователь явно просил не пушить / только локальный draft.
+
+## Не путать
+
+| Это | Не это |
+|-----|--------|
+| Цикл commit → push → **prod smoke** | `agent-knowledge search` — глобальная Symfony/PHP база |
+| Репозиторий **tafi** / tafimed.ru | **monitoring-price** `/tafimed/*` — отдельный сервис прайса |
