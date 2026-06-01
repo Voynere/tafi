@@ -93,7 +93,34 @@ ehthumbs.db
 bower_components
 .grunt
 .npm
+
+# Секреты и учётные данные (только локально / на prod)
 .env
+.env.*
+!.env.example
+!**/.env.example
+secrets/
+credentials/
+credentials.json
+auth.json
+.netrc
+.npmrc
+
+# Ключи и сертификаты
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Bitrix: БД и настройки с паролями (не коммитить)
+/bitrix/php_interface/dbconn.php
+/bitrix/php_interface/dbconn.php.*
+/bitrix/.settings.php
+/bitrix/.settings_extra.php
 
 # composer
 composer.phar
