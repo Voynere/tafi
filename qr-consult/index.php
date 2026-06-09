@@ -220,7 +220,7 @@ $APPLICATION->SetTitle("Запись к врачу");
             <a href="https://max.ru/u/f9LHodD0cOKedrr4y8JR0SoBFWwBZebysI7X3TsUMIwlZgrRah8xsq_JVUQ" target="_blank" rel="noopener" class="qr-btn">Написать врачу-консультанту</a>
         </div>
         <div class="qr-banner__image">
-            <img src="/local/templates/aspro_max/images/page-service/qr-consult-doctor.png" alt="Врач-консультант ТАФИ">
+            <img src="/local/templates/aspro_max/images/page-service/qr-consult-doctor-banner.png" alt="Врач-консультант ТАФИ">
         </div>
     </div>
 
