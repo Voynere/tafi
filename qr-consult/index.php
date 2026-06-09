@@ -88,13 +88,13 @@ $APPLICATION->SetTitle("Запись к врачу");
     color: #1565C0;
     font-weight: 700;
 }
-.qr-banner__icon {
-    flex: 0 0 120px;
-    text-align: center;
+.qr-banner__image {
+    flex: 0 0 200px;
+    max-width: 200px;
 }
-.qr-banner__icon svg {
-    width: 80px;
-    height: 80px;
+.qr-banner__image img {
+    width: 100%;
+    border-radius: 12px;
 }
 
 /* === BLOCK 3: Advantages === */
@@ -185,7 +185,7 @@ $APPLICATION->SetTitle("Запись к врачу");
     .qr-intro__image { flex: none; max-width: 280px; }
     .qr-intro__text h2 { font-size: 24px; }
     .qr-banner { flex-direction: column; padding: 28px; }
-    .qr-banner__icon { flex: none; }
+    .qr-banner__image { flex: none; max-width: 200px; }
     .qr-advantages__grid { grid-template-columns: 1fr; }
 }
 </style>
@@ -210,12 +210,6 @@ $APPLICATION->SetTitle("Запись к врачу");
 
     <!-- BLOCK 2: Banner -->
     <div class="qr-banner">
-        <div class="qr-banner__icon">
-            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="80" height="80" rx="16" fill="#1565C0" fill-opacity="0.1"/>
-                <path d="M40 20C29 20 20 29 20 40C20 51 29 60 40 60C51 60 60 51 60 40C60 29 51 20 40 20ZM44 44H36V36H44V44ZM44 32H36V28H44V32Z" fill="#1565C0"/>
-            </svg>
-        </div>
         <div class="qr-banner__text">
             <h3>Не уверены, к какому врачу обратиться?</h3>
             <p>Вы можете написать нашему врачу-консультанту, и она:</p>
@@ -223,7 +217,10 @@ $APPLICATION->SetTitle("Запись к врачу");
                 <li>подскажет, к кому лучше записаться</li>
                 <li>поможет сориентироваться по результатам</li>
             </ul>
-            <a href="https://max.ru/u/f9LHodD0cOKedrr4y8JR0SoBFWwBZebysI7X3TsUMIwlZgrRah8xsq_JVUQ" target="_blank" rel="noopener" class="qr-btn qr-btn--max">Написать врачу-консультанту</a>
+            <a href="https://max.ru/u/f9LHodD0cOKedrr4y8JR0SoBFWwBZebysI7X3TsUMIwlZgrRah8xsq_JVUQ" target="_blank" rel="noopener" class="qr-btn">Написать врачу-консультанту</a>
+        </div>
+        <div class="qr-banner__image">
+            <img src="/local/templates/aspro_max/images/page-service/qr-consult-doctor.png" alt="Врач-консультант ТАФИ">
         </div>
     </div>
 
