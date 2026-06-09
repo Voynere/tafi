@@ -62,6 +62,8 @@ $APPLICATION->SetTitle("Запись к врачу");
     display: flex;
     align-items: center;
     gap: 30px;
+    overflow: hidden;
+    position: relative;
 }
 .qr-banner__text { flex: 1; }
 .qr-banner__text h3 {
@@ -89,14 +91,17 @@ $APPLICATION->SetTitle("Запись к врачу");
     font-weight: 700;
 }
 .qr-banner__image {
-    flex: 0 0 300px;
-    max-width: 300px;
+    flex: 0 0 380px;
+    max-width: 380px;
+    align-self: flex-end;
+    margin-bottom: -40px;
+    margin-right: -40px;
 }
 .qr-banner__image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 12px;
+    height: auto;
+    display: block;
+    border-radius: 12px 0 0 0;
 }
 
 /* === BLOCK 3: Advantages === */
