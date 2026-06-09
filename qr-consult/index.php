@@ -89,11 +89,13 @@ $APPLICATION->SetTitle("Запись к врачу");
     font-weight: 700;
 }
 .qr-banner__image {
-    flex: 0 0 200px;
-    max-width: 200px;
+    flex: 0 0 300px;
+    max-width: 300px;
 }
 .qr-banner__image img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 12px;
 }
 
