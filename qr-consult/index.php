@@ -92,11 +92,10 @@ $APPLICATION->SetTitle("Запись к врачу");
     font-weight: 700;
 }
 .qr-banner__image {
-    flex: 0 0 380px;
-    max-width: 380px;
-    align-self: flex-end;
-    margin-bottom: -40px;
-    margin-right: -40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 380px;
 }
 .qr-banner__image img {
     width: 100%;
@@ -192,8 +191,8 @@ $APPLICATION->SetTitle("Запись к врачу");
     .qr-intro { flex-direction: column-reverse; gap: 24px; }
     .qr-intro__image { flex: none; max-width: 280px; }
     .qr-intro__text h2 { font-size: 24px; }
-    .qr-banner { flex-direction: column; padding: 28px; overflow: hidden; max-height: none; align-items: flex-end; }
-    .qr-banner__image { flex: none; width: 260px; max-width: none; margin: 16px auto 0; align-self: center; }
+    .qr-banner { flex-direction: column; padding: 28px; padding-bottom: 200px; overflow: hidden; max-height: none; }
+    .qr-banner__image { width: 220px; left: 50%; right: auto; transform: translateX(-50%); }
     .qr-banner__text { text-align: center; width: 100%; }
     .qr-banner__text .qr-btn { display: block; text-align: center; }
     .qr-advantages__grid { grid-template-columns: 1fr; }
