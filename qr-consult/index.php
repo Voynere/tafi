@@ -66,7 +66,7 @@ $APPLICATION->SetTitle("Запись к врачу");
     position: relative;
     max-height: 380px;
 }
-.qr-banner__text { flex: 1; }
+.qr-banner__text { flex: 1; padding-right: 40px; }
 .qr-banner__text h3 {
     font-size: 24px;
     font-weight: 700;
@@ -96,6 +96,7 @@ $APPLICATION->SetTitle("Запись к врачу");
     right: 0;
     bottom: 0;
     width: 380px;
+    line-height: 0;
 }
 .qr-banner__image img {
     width: 100%;
