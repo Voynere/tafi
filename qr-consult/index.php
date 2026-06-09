@@ -64,6 +64,7 @@ $APPLICATION->SetTitle("Запись к врачу");
     gap: 30px;
     overflow: hidden;
     position: relative;
+    max-height: 380px;
 }
 .qr-banner__text { flex: 1; }
 .qr-banner__text h3 {
