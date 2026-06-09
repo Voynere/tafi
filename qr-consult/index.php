@@ -144,10 +144,10 @@ $APPLICATION->SetTitle("Запись к врачу");
     width: 48px;
     height: 48px;
 }
-.qr-advantages__item-icon--blue { background: #E3F2FD; }
-.qr-advantages__item-icon--green { background: #E8F5E9; }
-.qr-advantages__item-icon--purple { background: #F3E5F5; }
-.qr-advantages__item-icon--orange { background: #FFF3E0; }
+.qr-advantages__item-icon--blue { background: none; }
+.qr-advantages__item-icon--green { background: none; }
+.qr-advantages__item-icon--purple { background: none; }
+.qr-advantages__item-icon--orange { background: none; }
 .qr-advantages__item h4 {
     font-size: 18px;
     font-weight: 600;
@@ -192,8 +192,10 @@ $APPLICATION->SetTitle("Запись к врачу");
     .qr-intro { flex-direction: column-reverse; gap: 24px; }
     .qr-intro__image { flex: none; max-width: 280px; }
     .qr-intro__text h2 { font-size: 24px; }
-    .qr-banner { flex-direction: column; padding: 28px; }
-    .qr-banner__image { flex: none; max-width: 200px; }
+    .qr-banner { flex-direction: column; padding: 28px; overflow: visible; max-height: none; }
+    .qr-banner__image { flex: none; max-width: 180px; margin: 16px auto 0; }
+    .qr-banner__text { text-align: center; }
+    .qr-banner__text .qr-btn { display: block; text-align: center; }
     .qr-advantages__grid { grid-template-columns: 1fr; }
 }
 </style>
