@@ -204,7 +204,7 @@ $APPLICATION->SetTitle("Запись к врачу");
             <a href="/booking/" class="qr-btn">Записаться к врачу</a>
         </div>
         <div class="qr-intro__image">
-            <img src="/local/templates/aspro_max/images/page-service/doc-no-photo.png" alt="Пациент с врачом">
+            <img src="/local/templates/aspro_max/images/page-service/qr-consult-doctor.png" alt="Врач-консультант ТАФИ">
         </div>
     </div>
 
