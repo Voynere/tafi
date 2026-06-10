@@ -194,8 +194,25 @@ $APPLICATION->SetTitle("Запись к врачу");
     .qr-intro__text h2 { font-size: 24px; }
     .qr-banner { flex-direction: column; padding: 28px; padding-bottom: 200px; overflow: hidden; max-height: none; }
     .qr-banner__image { width: 220px; left: 50%; right: auto; transform: translateX(-50%); }
-    .qr-banner__text { text-align: center; width: 100%; }
-    .qr-banner__text .qr-btn { display: block; text-align: center; }
+    .qr-banner__text {
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .qr-banner__text ul {
+        text-align: left;
+        width: fit-content;
+        max-width: 100%;
+    }
+    .qr-banner__text .qr-btn {
+        display: inline-block;
+        text-align: center;
+        width: auto;
+        max-width: 100%;
+    }
     .qr-advantages__grid { grid-template-columns: 1fr; }
 }
 </style>
