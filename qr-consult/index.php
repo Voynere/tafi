@@ -256,8 +256,8 @@ $APPLICATION->SetTitle("Запись к врачу");
                 <div class="qr-advantages__item-icon qr-advantages__item-icon--purple">
                     <img src="/local/templates/aspro_max/images/page-service/icons/checkmark.svg" alt="Галочка">
                 </div>
-                <h4>Современные физиотерапевтические методики</h4>
-                <p>Поддержка организма и восстановление функций без лишнего стресса, ускоряя процесс выздоровления.</p>
+                <h4>Современная медицинская лаборатория</h4>
+                <p>Более 1000 видов исследований, многоуровневый контроль качества, точные результаты в короткие сроки и выгодные комплексные анализы со скидкой до 15%.</p>
             </div>
             <div class="qr-advantages__item">
                 <div class="qr-advantages__item-icon qr-advantages__item-icon--orange">
