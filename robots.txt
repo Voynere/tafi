@@ -5,6 +5,7 @@ Disallow: /order/
 Disallow: /personal/
 Disallow: /search/
 Disallow: /test/
+Disallow: /qr-consult/
 Disallow: /ajax/
 Disallow: /*?utm*=
 Disallow: /index.php$
@@ -17,6 +18,7 @@ Disallow: /order/
 Disallow: /personal/
 Disallow: /search/
 Disallow: /test/
+Disallow: /qr-consult/
 Disallow: /ajax/
 Disallow: /index.php$
 Disallow: /*show_include_exec_time=
@@ -64,6 +66,7 @@ Disallow: /order/
 Disallow: /personal/
 Disallow: /search/
 Disallow: /test/
+Disallow: /qr-consult/
 Disallow: /ajax/
 Disallow: /*?utm*=
 Disallow: /index.php$
