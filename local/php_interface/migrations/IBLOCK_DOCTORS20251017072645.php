@@ -629,7 +629,7 @@ class IBLOCK_DOCTORS20251017072645 extends Version
   'FILTER_HINT' => '',
 ));
             $helper->Iblock()->saveProperty($iblockId, array (
-  'NAME' => 'Принимает детей',
+  'NAME' => 'Принимает взрослых и детей',
   'ACTIVE' => 'Y',
   'SORT' => '500',
   'CODE' => 'PROP_ABILITY_CHILD',
@@ -860,7 +860,7 @@ class IBLOCK_DOCTORS20251017072645 extends Version
     'PROPERTY_PROP_SECOND_APPOINTMENT' => 'Повторный прием врача',
     'PROPERTY_PROP_ABILITY_HOME' => 'Доступен выезд на дом',
     'PROPERTY_PROP_ABILITY_INSURANCE' => 'Доступен приём по ДМС',
-    'PROPERTY_PROP_ABILITY_CHILD' => 'Принимает детей',
+    'PROPERTY_PROP_ABILITY_CHILD' => 'Принимает взрослых и детей',
     'PROPERTY_PROP_SKILLS' => 'Навыки и услуги',
     'PROPERTY_PROP_EDUCATION' => 'Образование',
     'PROPERTY_PROP_TRAINING' => 'Повышение квалификации',

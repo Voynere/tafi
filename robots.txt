@@ -6,6 +6,7 @@ Disallow: /personal/
 Disallow: /search/
 Disallow: /test/
 Disallow: /qr-consult/
+Disallow: /doctor-visit/
 Disallow: /ajax/
 Disallow: /*?utm*=
 Disallow: /index.php$
@@ -19,6 +20,7 @@ Disallow: /personal/
 Disallow: /search/
 Disallow: /test/
 Disallow: /qr-consult/
+Disallow: /doctor-visit/
 Disallow: /ajax/
 Disallow: /index.php$
 Disallow: /*show_include_exec_time=
@@ -67,6 +69,7 @@ Disallow: /personal/
 Disallow: /search/
 Disallow: /test/
 Disallow: /qr-consult/
+Disallow: /doctor-visit/
 Disallow: /ajax/
 Disallow: /*?utm*=
 Disallow: /index.php$
