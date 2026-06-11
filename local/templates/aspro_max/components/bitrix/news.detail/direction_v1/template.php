@@ -134,6 +134,61 @@ function calculateExperience($value) {
         </div>
     <?php endif; ?>
 
+    <? if($props['PROP_CARDS_ACTIVE']['VALUE_XML_ID'] === 'Y'): ?>
+        <div class="service-road js-service-block" data-position="<?=$props['PROP_CARDS_POSITION']['VALUE'] ?>">
+            <? if(!empty($props['PROP_CARDS_TITLE']['VALUE'])): ?>
+                <h2><?=$props['PROP_CARDS_TITLE']['VALUE'] ?></h2>
+            <? endif; ?>
+            <div class="service-road__block">
+                <? if(!empty($props['PROP_CARDS1']['~VALUE']['TEXT'])): ?>
+                    <div class="service-road__block-item <?=$roadWidth ?>">
+                        <? if($props['PROP_CARDS_NUM']['VALUE_XML_ID'] === 'Y'): ?>
+                            <div class="service-road__block-item-num">1</div>
+                        <?php endif; ?>
+                        <div class="service-road__block-item-content">
+                            <?=$props['PROP_CARDS1']['~VALUE']['TEXT'] ?>
+                        </div>
+                    </div>
+                <? endif; ?>
+                <? if(!empty($props['PROP_CARDS2']['~VALUE']['TEXT'])): ?>
+                    <div class="service-road__block-item <?=$roadWidth ?>">
+                        <? if($props['PROP_CARDS_NUM']['VALUE_XML_ID'] === 'Y'): ?>
+                            <div class="service-road__block-item-num">2</div>
+                        <?php endif; ?>
+                        <div class="service-road__block-item-content">
+                            <?=$props['PROP_CARDS2']['~VALUE']['TEXT'] ?>
+                        </div>
+                    </div>
+                <? endif; ?>
+                <? if(!empty($props['PROP_CARDS3']['~VALUE']['TEXT'])): ?>
+                    <div class="service-road__block-item <?=$roadWidth ?>">
+                        <? if($props['PROP_CARDS_NUM']['VALUE_XML_ID'] === 'Y'): ?>
+                            <div class="service-road__block-item-num">3</div>
+                        <?php endif; ?>
+                        <div class="service-road__block-item-content">
+                            <?=$props['PROP_CARDS3']['~VALUE']['TEXT'] ?>
+                        </div>
+                    </div>
+                <? endif; ?>
+                <? if(!empty($props['PROP_CARDS4']['~VALUE']['TEXT'])): ?>
+                    <div class="service-road__block-item <?=$roadWidth ?>">
+                        <? if($props['PROP_CARDS_NUM']['VALUE_XML_ID'] === 'Y'): ?>
+                            <div class="service-road__block-item-num">4</div>
+                        <?php endif; ?>
+                        <div class="service-road__block-item-content">
+                            <?=$props['PROP_CARDS4']['~VALUE']['TEXT'] ?>
+                        </div>
+                    </div>
+                <? endif; ?>
+                <? if(!empty($props['PROP_CARDS_IMAGE']['VALUE'])): ?>
+                    <div class="service-road__block-item-image <?=$roadWidth ?>">
+                        <img src="<?=CFile::GetPath($props['PROP_CARDS_IMAGE']['VALUE']) ?>" alt="">
+                    </div>
+                <? endif; ?>
+            </div>
+        </div>
+    <?php endif; ?>
+
     <? if($props['PROP_INFO_BLOCK_ACTIVE']['VALUE_XML_ID'] === 'Y'): ?>
         <div class="service-block js-service-block" data-position="<?=$props['PROP_INFO_BLOCK_POSITION']['VALUE'] ?>">
             <div class="service-block__image">
@@ -370,61 +425,6 @@ function calculateExperience($value) {
                         <a><?=$link['NAME'] ?></a>
                     <? endforeach; ?>
                 </div>
-            </div>
-        </div>
-    <?php endif; ?>
-
-    <? if($props['PROP_CARDS_ACTIVE']['VALUE_XML_ID'] === 'Y'): ?>
-        <div class="service-road js-service-block" data-position="<?=$props['PROP_CARDS_POSITION']['VALUE'] ?>">
-            <? if(!empty($props['PROP_CARDS_TITLE']['VALUE'])): ?>
-                <h2><?=$props['PROP_CARDS_TITLE']['VALUE'] ?></h2>
-            <? endif; ?>
-            <div class="service-road__block">
-                <? if(!empty($props['PROP_CARDS1']['~VALUE']['TEXT'])): ?>
-                    <div class="service-road__block-item <?=$roadWidth ?>">
-                        <? if($props['PROP_CARDS_NUM']['VALUE_XML_ID'] === 'Y'): ?>
-                            <div class="service-road__block-item-num">1</div>
-                        <?php endif; ?>
-                        <div class="service-road__block-item-content">
-                            <?=$props['PROP_CARDS1']['~VALUE']['TEXT'] ?>
-                        </div>
-                    </div>
-                <? endif; ?>
-                <? if(!empty($props['PROP_CARDS2']['~VALUE']['TEXT'])): ?>
-                    <div class="service-road__block-item <?=$roadWidth ?>">
-                        <? if($props['PROP_CARDS_NUM']['VALUE_XML_ID'] === 'Y'): ?>
-                            <div class="service-road__block-item-num">2</div>
-                        <?php endif; ?>
-                        <div class="service-road__block-item-content">
-                            <?=$props['PROP_CARDS2']['~VALUE']['TEXT'] ?>
-                        </div>
-                    </div>
-                <? endif; ?>
-                <? if(!empty($props['PROP_CARDS3']['~VALUE']['TEXT'])): ?>
-                    <div class="service-road__block-item <?=$roadWidth ?>">
-                        <? if($props['PROP_CARDS_NUM']['VALUE_XML_ID'] === 'Y'): ?>
-                            <div class="service-road__block-item-num">3</div>
-                        <?php endif; ?>
-                        <div class="service-road__block-item-content">
-                            <?=$props['PROP_CARDS3']['~VALUE']['TEXT'] ?>
-                        </div>
-                    </div>
-                <? endif; ?>
-                <? if(!empty($props['PROP_CARDS4']['~VALUE']['TEXT'])): ?>
-                    <div class="service-road__block-item <?=$roadWidth ?>">
-                        <? if($props['PROP_CARDS_NUM']['VALUE_XML_ID'] === 'Y'): ?>
-                            <div class="service-road__block-item-num">4</div>
-                        <?php endif; ?>
-                        <div class="service-road__block-item-content">
-                            <?=$props['PROP_CARDS4']['~VALUE']['TEXT'] ?>
-                        </div>
-                    </div>
-                <? endif; ?>
-                <? if(!empty($props['PROP_CARDS_IMAGE']['VALUE'])): ?>
-                    <div class="service-road__block-item-image <?=$roadWidth ?>">
-                        <img src="<?=CFile::GetPath($props['PROP_CARDS_IMAGE']['VALUE']) ?>" alt="">
-                    </div>
-                <? endif; ?>
             </div>
         </div>
     <?php endif; ?>

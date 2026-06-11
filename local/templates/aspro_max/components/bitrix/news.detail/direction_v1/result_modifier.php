@@ -156,4 +156,16 @@ if(!empty($arResult['PROPERTIES']['PROP_ACCORD_LIST']['VALUE']) && Loader::inclu
 
 //dump($_SERVER)
 
+if (
+    ($arResult['PROPERTIES']['PROP_CARDS_ACTIVE']['VALUE_XML_ID'] ?? '') === 'Y'
+    && ($arResult['PROPERTIES']['PROP_ADV_BLOCK_ACTIVE']['VALUE_XML_ID'] ?? '') === 'Y'
+) {
+    $advPosition = (int)($arResult['PROPERTIES']['PROP_ADV_BLOCK_POSITION']['VALUE'] ?: 20);
+    $cardsPosition = (int)($arResult['PROPERTIES']['PROP_CARDS_POSITION']['VALUE'] ?: 0);
+
+    if ($cardsPosition <= $advPosition) {
+        $arResult['PROPERTIES']['PROP_CARDS_POSITION']['VALUE'] = (string)($advPosition + 10);
+    }
+}
+
 ?>

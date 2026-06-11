@@ -54,10 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		item.addEventListener('click', () => accordItem(item, accordItems))
 	})
 
-	const serviceBlocks = document.querySelectorAll('.js-service-block');
-
-	serviceBlocks && sortServiceBlocks(serviceBlocks);
-	// serviceBlocks.forEach(block => sortServiceBlocks(block));
+	initServiceBlocksSort();
 
 	const doctorsSlider = new Swiper('.js-doctors-block', {
 		speed: 600,
@@ -428,6 +425,17 @@ function accordItem(item, items) {
 		item.classList.add('opened')
 		itemBody.style.height = itemBody.scrollHeight + 'px';
 	}
+}
+
+function initServiceBlocksSort() {
+	const serviceBlocks = document.querySelectorAll('.js-service-block');
+	if (serviceBlocks.length) {
+		sortServiceBlocks(serviceBlocks);
+	}
+}
+
+if (window.BX) {
+	BX.ready(initServiceBlocksSort);
 }
 
 function sortServiceBlocks(blocks) {
