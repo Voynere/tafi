@@ -1,0 +1,132 @@
+/* Якорь для контекстной рекламы: #vedenie-beremennosti */
+#vedenie-beremennosti {
+    scroll-margin-top: 120px;
+}
+
+/* Блок «Почему будущие мамы…» — 4 карточки в ряд (только /ginekologiya/) */
+.ginekologiya-page .service-cards__block {
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.ginekologiya-page .service-cards__block-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 4 - (16px * 3) / 4);
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 20px 16px 16px;
+    aspect-ratio: unset;
+    min-height: 300px;
+    height: auto;
+}
+
+.ginekologiya-page .service-cards__block-item-content {
+    max-width: 100%;
+    flex: 1 1 auto;
+}
+
+.ginekologiya-page .service-cards__block-item-content h3 {
+    font: 600 17px/24px 'Montserrat', sans-serif;
+    color: var(--font-color-black, #1a1a1a);
+    margin: 0;
+}
+
+.ginekologiya-page .service-cards__block-item-content p {
+    font: 500 13px/19px 'Montserrat', sans-serif;
+    color: #5A616C;
+    margin: 8px 0 0;
+}
+
+.ginekologiya-page .service-cards__block-item-image {
+    position: static;
+    margin-top: auto;
+    padding-top: 12px;
+    align-self: center;
+    max-width: 100px;
+    width: 100%;
+}
+
+.ginekologiya-page .service-cards__block-item-image img {
+    width: 100%;
+    height: auto;
+    max-height: 90px;
+    object-fit: contain;
+}
+
+.ginekologiya-page .service-cards__container {
+    gap: 32px;
+    padding: 60px 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .ginekologiya-page .service-cards__block-item {
+        padding: 16px 12px 12px;
+        min-height: 280px;
+    }
+
+    .ginekologiya-page .service-cards__block-item-content h3 {
+        font: 600 15px/22px 'Montserrat', sans-serif;
+    }
+
+    .ginekologiya-page .service-cards__block-item-content p {
+        font: 500 12px/18px 'Montserrat', sans-serif;
+    }
+
+    .ginekologiya-page .service-cards__block-item-image {
+        max-width: 84px;
+    }
+
+    .ginekologiya-page .service-cards__block-item-image img {
+        max-height: 76px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ginekologiya-page .service-cards__block {
+        flex-wrap: wrap;
+    }
+
+    .ginekologiya-page .service-cards__block-item {
+        width: calc(50% - 8px);
+        flex: unset;
+        min-height: 260px;
+    }
+
+    .ginekologiya-page .service-cards__block-item-image {
+        max-width: 110px;
+    }
+
+    .ginekologiya-page .service-cards__block-item-image img {
+        max-height: 90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ginekologiya-page .service-cards__block {
+        gap: 8px;
+    }
+
+    .ginekologiya-page .service-cards__block-item {
+        width: 100%;
+        min-height: unset;
+        padding: 24px;
+    }
+
+    .ginekologiya-page .service-cards__block-item-content h3 {
+        font: 600 18px/26px 'Montserrat', sans-serif;
+    }
+
+    .ginekologiya-page .service-cards__block-item-content p {
+        font: 500 15px/22px 'Montserrat', sans-serif;
+    }
+
+    .ginekologiya-page .service-cards__block-item-image {
+        max-width: 420px;
+        align-self: flex-end;
+    }
+
+    .ginekologiya-page .service-cards__block-item-image img {
+        max-height: none;
+    }
+}

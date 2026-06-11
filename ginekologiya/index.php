@@ -2,7 +2,8 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("WIDE_PAGE", "Y");
 $APPLICATION->SetTitle("Гинекология");
-?><?$APPLICATION->IncludeComponent(
+$APPLICATION->SetAdditionalCSS("/ginekologiya/style.css", true);
+?><div class="ginekologiya-page"><?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
 	"direction_v1",
 	Array(
@@ -51,6 +52,7 @@ $APPLICATION->SetTitle("Гинекология");
 		"SHOW_404" => "N",
 		"STRICT_SECTION_CHECK" => "N",
 		"USE_PERMISSIONS" => "N",
-		"USE_SHARE" => "N"
+		"USE_SHARE" => "N",
+		"BANNER2_ANCHOR" => "vedenie-beremennosti"
 	)
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?></div><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

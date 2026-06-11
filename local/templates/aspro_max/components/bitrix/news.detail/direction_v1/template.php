@@ -43,6 +43,14 @@ $road2Width = ($props["PROP_CARDS2_ROW"]['VALUE_XML_ID'] === 'TWO')
         : 'four-in-row');
 $noPhoto = SITE_TEMPLATE_PATH . '/images/page-service/doc-no-photo.png';
 
+$getBannerAnchorAttr = static function ($anchor) {
+    if (empty($anchor)) {
+        return '';
+    }
+    $anchor = preg_replace('/[^a-z0-9_-]/i', '', (string)$anchor);
+    return $anchor ? ' id="' . htmlspecialcharsbx($anchor) . '"' : '';
+};
+
 $isAdmin = $USER -> isAdmin();
 
 // Функция для расчета стажа
@@ -281,7 +289,7 @@ function calculateExperience($value) {
     <?php endif; ?>
 
     <? if($props['PROP_BANNER1_ACTIVE']['VALUE_XML_ID'] === 'Y'): ?>
-        <div class="service-banner js-service-block" data-position="<?=$props['PROP_BANNER1_POSITION']['VALUE'] ?>">
+        <div class="service-banner js-service-block"<?=$getBannerAnchorAttr($arParams['BANNER1_ANCHOR'] ?? '') ?> data-position="<?=$props['PROP_BANNER1_POSITION']['VALUE'] ?>">
             <div class="service-banner__block" style="background-color: <?=$props['PROP_BANNER1_COLOR']['VALUE_XML_ID'] ?>">
                 <div class="service-banner__block-info">
                     <span><?=$props['PROP_BANNER1_TITLE']['VALUE'] ?></span>
@@ -296,7 +304,7 @@ function calculateExperience($value) {
     <?php endif; ?>
 
     <? if($props['PROP_BANNER2_ACTIVE']['VALUE_XML_ID'] === 'Y'): ?>
-        <div class="service-banner js-service-block" data-position="<?=$props['PROP_BANNER2_POSITION']['VALUE'] ?>">
+        <div class="service-banner js-service-block"<?=$getBannerAnchorAttr($arParams['BANNER2_ANCHOR'] ?? '') ?> data-position="<?=$props['PROP_BANNER2_POSITION']['VALUE'] ?>">
             <div class="service-banner__block" style="background-color: <?=$props['PROP_BANNER2_COLOR']['VALUE_XML_ID'] ?>">
                 <div class="service-banner__block-info">
                     <span><?=$props['PROP_BANNER2_TITLE']['VALUE'] ?></span>
@@ -311,7 +319,7 @@ function calculateExperience($value) {
     <?php endif; ?>
 
     <? if($props['PROP_BANNER3_ACTIVE']['VALUE_XML_ID'] === 'Y'): ?>
-        <div class="service-banner js-service-block" data-position="<?=$props['PROP_BANNER3_POSITION']['VALUE'] ?>">
+        <div class="service-banner js-service-block"<?=$getBannerAnchorAttr($arParams['BANNER3_ANCHOR'] ?? '') ?> data-position="<?=$props['PROP_BANNER3_POSITION']['VALUE'] ?>">
             <div class="service-banner__block" style="background-color: <?=$props['PROP_BANNER3_COLOR']['VALUE_XML_ID'] ?>">
                 <div class="service-banner__block-info">
                     <span><?=$props['PROP_BANNER3_TITLE']['VALUE'] ?></span>
