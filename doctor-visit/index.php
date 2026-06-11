@@ -9,105 +9,179 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 
 <style>
 .doctor-visit-page {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px 60px;
 }
-.doctor-visit-page .service-banner {
-    padding: 60px 20px;
-}
-.doctor-visit-page .service-banner__block {
-    min-height: 480px;
-}
-.doctor-visit-page .service-banner__block-info {
-    max-width: 640px;
-    padding: 48px 0 48px 48px;
-}
-.doctor-visit-page .service-banner__block-info span {
-    font-size: 32px;
-    line-height: 1.25;
-}
-.doctor-visit-page .service-banner__block-content {
+.doctor-visit-page * { box-sizing: border-box; }
+
+/* Блок 1: заголовок + вводный текст + фото */
+.dv-intro {
     display: flex;
-    flex-direction: column;
-    gap: 16px;
-    color: #fff;
-    font: 18px/1.55 'Roboto', 'Montserrat', sans-serif;
+    align-items: center;
+    gap: 48px;
+    padding: 40px 0 32px;
 }
-.doctor-visit-page .service-banner__block-content p {
+.dv-intro__text { flex: 1; min-width: 0; }
+.dv-intro__text h1 {
+    font: 700 32px/1.25 'Montserrat', 'Roboto', sans-serif;
+    color: #222;
+    margin: 0 0 20px;
+}
+.dv-intro__text p {
+    font: 400 17px/1.7 'Roboto', 'Montserrat', sans-serif;
+    color: #555;
     margin: 0;
-    font: inherit;
-    color: inherit;
 }
-.doctor-visit-page .service-banner__block-content ul {
+.dv-intro__image {
+    flex: 0 0 420px;
+    max-width: 420px;
+}
+.dv-intro__image img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+}
+
+/* Блок 2: список */
+.dv-list {
+    background: linear-gradient(135deg, #E8EEF9 0%, #D6E4F7 100%);
+    border-radius: 16px;
+    padding: 36px 40px;
+    margin: 24px 0;
+}
+.dv-list h2 {
+    font: 700 22px/1.3 'Montserrat', 'Roboto', sans-serif;
+    color: #1565C0;
+    margin: 0 0 20px;
+}
+.dv-list ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-.doctor-visit-page .service-banner__block-content li {
+.dv-list li {
     position: relative;
-    padding: 4px 0 4px 22px;
-    font: inherit;
-    color: inherit;
+    padding: 0 0 0 28px;
+    font: 400 17px/1.6 'Roboto', 'Montserrat', sans-serif;
+    color: #333;
 }
-.doctor-visit-page .service-banner__block-content li::before {
+.dv-list li::before {
     content: '—';
     position: absolute;
     left: 0;
+    color: #3B61B9;
     font-weight: 700;
 }
-.doctor-visit-page .service-banner__block-content strong {
-    font-weight: 600;
+
+/* Блок 3: итог + запись */
+.dv-outro {
+    background: #fff;
+    border: 1px solid #E8ECF2;
+    border-radius: 16px;
+    padding: 36px 40px;
+    margin-top: 24px;
 }
-.doctor-visit-page .service-banner__block-info a {
-    margin-top: 8px;
+.dv-outro p {
+    font: 400 17px/1.7 'Roboto', 'Montserrat', sans-serif;
+    color: #555;
+    margin: 0 0 16px;
 }
+.dv-outro p:last-of-type {
+    margin-bottom: 28px;
+}
+.dv-btn {
+    display: inline-block;
+    background: #3B61B9;
+    color: #fff !important;
+    padding: 14px 36px;
+    border-radius: 10px;
+    font: 600 16px/1.4 'Montserrat', sans-serif;
+    text-decoration: none !important;
+    transition: background 0.2s;
+}
+.dv-btn:hover { background: #2E4F9E; }
+
 @media (max-width: 991px) {
-    .doctor-visit-page .service-banner__block {
-        min-height: auto;
-        flex-direction: column;
+    .dv-intro {
+        gap: 32px;
     }
-    .doctor-visit-page .service-banner__block-info {
+    .dv-intro__image {
+        flex: 0 0 340px;
+        max-width: 340px;
+    }
+    .dv-intro__text h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .doctor-visit-page {
+        padding-bottom: 40px;
+    }
+    .dv-intro {
+        flex-direction: column-reverse;
+        gap: 24px;
+        padding: 24px 0 16px;
+    }
+    .dv-intro__image {
+        flex: none;
         max-width: 100%;
-        padding: 32px 24px 24px;
+        width: 100%;
     }
-    .doctor-visit-page .service-banner__block-info span {
+    .dv-intro__text h1 {
         font-size: 24px;
-        line-height: 1.3;
     }
-    .doctor-visit-page .service-banner__block-content {
+    .dv-intro__text p,
+    .dv-list li,
+    .dv-outro p {
         font-size: 16px;
     }
-    .doctor-visit-page .service-banner__block-image {
-        position: relative;
-        max-width: 100%;
-        aspect-ratio: 16 / 10;
+    .dv-list,
+    .dv-outro {
+        padding: 24px 20px;
+    }
+    .dv-list h2 {
+        font-size: 20px;
+    }
+    .dv-btn {
+        display: block;
+        text-align: center;
+        width: 100%;
     }
 }
 </style>
 
 <div class="doctor-visit-page">
-    <div class="service-banner">
-        <div class="service-banner__block" style="background-color: #3B61B9">
-            <div class="service-banner__block-info">
-                <span>Данная услуга проводится на приёме врача</span>
-                <div class="service-banner__block-content">
-                    <p>Некоторые процедуры проводятся только во время очного приёма специалиста. Это позволяет врачу не просто выполнить манипуляцию, а разобраться в причине жалоб и подобрать наиболее эффективное лечение именно для Вас.</p>
-                    <p><strong>На приёме врач:</strong></p>
-                    <ul>
-                        <li>внимательно выслушает жалобы;</li>
-                        <li>проведёт осмотр и оценит текущее состояние;</li>
-                        <li>при необходимости выполнит процедуру сразу во время посещения.</li>
-                    </ul>
-                    <p>Такой подход помогает избежать лишних назначений и получить помощь, которая действительно даст результат.</p>
-                    <p>После нажатия кнопки «Записаться» откроется онлайн-запись к специалистам медицинского центра. Выберите, пожалуйста, интересующего врача по профилю и удобное время приёма — врач проведёт консультацию и при необходимости выполнит процедуру во время визита.</p>
-                </div>
-                <a href="/booking/">Записаться</a>
-            </div>
-            <div class="service-banner__block-image">
-                <img src="/local/templates/aspro_max/images/page-service/doctor-visit-banner.jpg" alt="Приём врача в медицинском центре Доктор ТАФИ">
-            </div>
+
+    <section class="dv-intro">
+        <div class="dv-intro__text">
+            <h1>Данная услуга проводится на приёме врача</h1>
+            <p>Некоторые процедуры проводятся только во время очного приёма специалиста. Это позволяет врачу не просто выполнить манипуляцию, а разобраться в причине жалоб и подобрать наиболее эффективное лечение именно для Вас.</p>
         </div>
-    </div>
+        <div class="dv-intro__image">
+            <img src="/local/templates/aspro_max/images/page-service/doctor-visit-banner.jpg" alt="Приём врача в медицинском центре Доктор ТАФИ">
+        </div>
+    </section>
+
+    <section class="dv-list">
+        <h2>На приёме врач:</h2>
+        <ul>
+            <li>внимательно выслушает жалобы;</li>
+            <li>проведёт осмотр и оценит текущее состояние;</li>
+            <li>при необходимости выполнит процедуру сразу во время посещения.</li>
+        </ul>
+    </section>
+
+    <section class="dv-outro">
+        <p>Такой подход помогает избежать лишних назначений и получить помощь, которая действительно даст результат.</p>
+        <p>После нажатия кнопки «Записаться» откроется онлайн-запись к специалистам медицинского центра. Выберите, пожалуйста, интересующего врача по профилю и удобное время приёма — врач проведёт консультацию и при необходимости выполнит процедуру во время визита.</p>
+        <a href="/booking/" class="dv-btn">Записаться</a>
+    </section>
+
 </div>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
