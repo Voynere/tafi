@@ -18,7 +18,7 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 /* Блок 1: заголовок + вводный текст + фото */
 .dv-intro {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 48px;
     padding: 40px 0 32px;
 }
