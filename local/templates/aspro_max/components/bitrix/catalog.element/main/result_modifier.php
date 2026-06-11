@@ -1473,4 +1473,30 @@ $arResult['HIDE_CITY'] = $arResult['PROPERTIES']['HIDE_CITY']["VALUE"];
 $cp = $this->__component;
 $cp->SetResultCacheKeys(array("HIDE_CITY"));
 
+if ($arParams['SHOW_HOW_BUY'] === 'Y' && !empty($arParams['IBLOCK_ID']) && !empty($arResult['ID'])) {
+	$sectionIds = [];
+	if (!empty($arResult['SECTION']['ID'])) {
+		$sectionIds[] = (int)$arResult['SECTION']['ID'];
+	}
+	$groups = CIBlockElement::GetElementGroups($arResult['ID'], true, ['ID']);
+	while ($group = $groups->Fetch()) {
+		$sectionIds[] = (int)$group['ID'];
+	}
+	$sectionIds = array_unique(array_filter($sectionIds));
+
+	foreach ($sectionIds as $sectionId) {
+		$navChain = CIBlockSection::GetNavChain(
+			(int)$arParams['IBLOCK_ID'],
+			$sectionId,
+			['CODE']
+		);
+		while ($section = $navChain->Fetch()) {
+			if ($section['CODE'] === 'uslugi_vrachey') {
+				$arParams['SHOW_HOW_BUY'] = 'N';
+				break 2;
+			}
+		}
+	}
+}
+
 ?>
