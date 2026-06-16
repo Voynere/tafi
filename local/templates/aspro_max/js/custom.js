@@ -5,7 +5,7 @@ It will not be overwritten when you upgrade solution.
 
 document.addEventListener('DOMContentLoaded', function() {
 	var messageElement = document.querySelector('.cookie-notification');
-    if (!Cookies.get('agreement')) {
+    if (!$.cookie('agreement')) {
         showMessage();
     } else {
         initCounter();
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function saveAnswer () {
         hideMessage();
 
-        Cookies.set('agreement', '1');
+        $.cookie('agreement', '1');
     }
     function initCounter () {
         ym(86792413, 'init', {});
