@@ -3,13 +3,59 @@ You can use this file with your scripts.
 It will not be overwritten when you upgrade solution.
 */
 
+function initFaqAccordion() {
+	const accordItems = document.querySelectorAll('.js-accord-item');
+	if (!accordItems.length) {
+		return;
+	}
+
+	accordItems.forEach(item => {
+		if (item.dataset.accordBound === '1') {
+			return;
+		}
+		item.dataset.accordBound = '1';
+
+		const head = item.querySelector('.js-accord-item-head') || item;
+		head.addEventListener('click', (event) => {
+			event.preventDefault();
+			accordItem(item, accordItems);
+		});
+	});
+}
+
+function initDoctorsSlider() {
+	const doctorsBlock = document.querySelector('.js-doctors-block');
+	if (!doctorsBlock || typeof Swiper === 'undefined') {
+		return;
+	}
+
+	new Swiper(doctorsBlock, {
+		speed: 600,
+		slidesPerView: 'auto',
+		spaceBetween: 20,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		breakpoints: {
+			640: {},
+		}
+	});
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+	initFaqAccordion();
+
 	var messageElement = document.querySelector('.cookie-notification');
-    if (!$.cookie('agreement')) {
-        showMessage();
-    } else {
-        initCounter();
-    }
+	try {
+		if (typeof $ !== 'undefined' && typeof $.cookie === 'function' && !$.cookie('agreement')) {
+			showMessage();
+		} else if (typeof ym === 'function') {
+			initCounter();
+		}
+	} catch (e) {
+		console.error(e);
+	}
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
     (window, document,'script','//mc.yandex.ru/metrika/tag.js', 'ym')
@@ -36,7 +82,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function saveAnswer () {
         hideMessage();
 
-        $.cookie('agreement', '1');
+        if (typeof $ !== 'undefined' && typeof $.cookie === 'function') {
+            $.cookie('agreement', '1');
+        }
     }
     function initCounter () {
         ym(86792413, 'init', {});
@@ -47,28 +95,13 @@ document.addEventListener('DOMContentLoaded', function() {
         initCounter();
     });
 
-	const accordItems = document.querySelectorAll('.js-accord-item');
-
-	accordItems &&
-	accordItems.forEach(item => {
-		item.addEventListener('click', () => accordItem(item, accordItems))
-	})
-
 	initServiceBlocksSort();
-
-	const doctorsSlider = new Swiper('.js-doctors-block', {
-		speed: 600,
-		slidesPerView: 'auto',
-		spaceBetween: 20,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-		breakpoints: {
-			640: {},
-		}
-	});
+	initDoctorsSlider();
 })
+
+if (document.readyState !== 'loading') {
+	initFaqAccordion();
+}
 
 
 
@@ -405,26 +438,14 @@ if (listL || listB) {
 }
 
 function accordItem(item, items) {
-	const itemHead = item.querySelector('.js-accord-item-head');
-	const itemBody = item.querySelector('.js-accord-item-body');
-
 	items &&
-	items.forEach(accordItem => {
-		const accordItemHead = accordItem.querySelector('.js-accord-item-head');
-		const accordItemBody = accordItem.querySelector('.js-accord-item-body');
-		if(accordItem.classList.contains('opened') && itemHead !== accordItemHead) {
-			accordItem.classList.remove('opened')
-			accordItemBody.style.height = '0';
+	items.forEach(otherItem => {
+		if (otherItem !== item && otherItem.classList.contains('opened')) {
+			otherItem.classList.remove('opened');
 		}
-	})
+	});
 
-	if(item.classList.contains('opened')) {
-		item.classList.remove('opened')
-		itemBody.style.height = '0';
-	} else {
-		item.classList.add('opened')
-		itemBody.style.height = itemBody.scrollHeight + 'px';
-	}
+	item.classList.toggle('opened');
 }
 
 function initServiceBlocksSort() {
