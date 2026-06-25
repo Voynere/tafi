@@ -24,8 +24,7 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 .dv-title {
     font: 700 32px/1.25 'Montserrat', sans-serif;
     color: var(--font-color-black);
-    margin: 0;
-    padding: 40px 0 24px;
+    margin: 0 0 24px;
 }
 
 /* Две колонки: блок с текстом + фото */
@@ -127,7 +126,7 @@ $APPLICATION->SetTitle("Запись на приём у врача");
     .doctor-visit-page { padding-bottom: 40px; }
     .dv-title {
         font-size: 24px;
-        padding: 24px 0 16px;
+        margin-bottom: 16px;
     }
     .dv-hero {
         flex-direction: column;
@@ -154,11 +153,10 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 
 <div class="doctor-visit-page">
 
-    <h1 class="dv-title">Данная услуга проводится на приёме врача</h1>
-
     <section class="dv-hero">
         <div class="dv-hero__content">
             <div class="dv-action-block">
+                <h1 class="dv-title">Данная услуга проводится на приёме врача</h1>
                 <p class="dv-lead">Некоторые процедуры проводятся только во время очного приёма специалиста. Это позволяет врачу не просто выполнить манипуляцию, а разобраться в причине жалоб и подобрать наиболее эффективное лечение именно для Вас.</p>
                 <div class="dv-list">
                     <h2>На приёме врач:</h2>
