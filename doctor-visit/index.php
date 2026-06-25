@@ -28,18 +28,34 @@ $APPLICATION->SetTitle("Запись на приём у врача");
     padding: 40px 0 24px;
 }
 
-.dv-lead {
-    font: 500 16px/24px 'Montserrat', sans-serif;
-    color: var(--font-color2);
-    margin: 0 0 24px;
+/* Две колонки: блок с текстом + фото */
+.dv-hero {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    margin: 0 0 32px;
+}
+.dv-hero__content { flex: 1; min-width: 0; }
+.dv-hero__image {
+    flex: 0 0 420px;
+    max-width: 420px;
+}
+.dv-hero__image img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
 }
 
-/* Единый блок: список + кнопка */
+/* Единый левый блок: абзац + список + кнопка */
 .dv-action-block {
     background: linear-gradient(135deg, #E8EEF9 0%, #D6E4F7 100%);
     border-radius: 16px;
     padding: 36px 40px;
-    margin: 0 0 32px;
+}
+.dv-lead {
+    font: 500 16px/24px 'Montserrat', sans-serif;
+    color: var(--font-color2);
+    margin: 0 0 24px;
 }
 .dv-list h2 {
     font: 700 22px/1.3 'Montserrat', sans-serif;
@@ -82,30 +98,7 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 }
 .dv-btn:hover { background: var(--main-color-hover); }
 
-/* Фото + текст о записи */
-.dv-intro {
-    display: flex;
-    align-items: flex-start;
-    gap: 48px;
-    padding: 0 0 32px;
-}
-.dv-intro__text { flex: 1; min-width: 0; }
-.dv-intro__text p {
-    font: 500 16px/24px 'Montserrat', sans-serif;
-    color: var(--font-color2);
-    margin: 0;
-}
-.dv-intro__image {
-    flex: 0 0 420px;
-    max-width: 420px;
-}
-.dv-intro__image img {
-    width: 100%;
-    border-radius: 16px;
-    display: block;
-}
-
-/* Итоговый блок */
+/* Нижний блок: текст о записи + итог */
 .dv-outro {
     background: #fff;
     border: 1px solid #E8ECF2;
@@ -117,10 +110,13 @@ $APPLICATION->SetTitle("Запись на приём у врача");
     color: var(--font-color2);
     margin: 0;
 }
+.dv-outro p + p {
+    margin-top: 16px;
+}
 
 @media (max-width: 991px) {
-    .dv-intro { gap: 32px; }
-    .dv-intro__image {
+    .dv-hero { gap: 32px; }
+    .dv-hero__image {
         flex: 0 0 340px;
         max-width: 340px;
     }
@@ -133,12 +129,12 @@ $APPLICATION->SetTitle("Запись на приём у врача");
         font-size: 24px;
         padding: 24px 0 16px;
     }
-    .dv-intro {
-        flex-direction: column-reverse;
+    .dv-hero {
+        flex-direction: column;
         gap: 24px;
-        padding-bottom: 16px;
+        margin-bottom: 24px;
     }
-    .dv-intro__image {
+    .dv-hero__image {
         flex: none;
         max-width: 100%;
         width: 100%;
@@ -160,32 +156,30 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 
     <h1 class="dv-title">Данная услуга проводится на приёме врача</h1>
 
-    <p class="dv-lead">Некоторые процедуры проводятся только во время очного приёма специалиста. Это позволяет врачу не просто выполнить манипуляцию, а разобраться в причине жалоб и подобрать наиболее эффективное лечение именно для Вас.</p>
-
-    <section class="dv-action-block">
-        <div class="dv-list">
-            <h2>На приёме врач:</h2>
-            <ul>
-                <li>внимательно выслушает жалобы;</li>
-                <li>проведёт осмотр и оценит текущее состояние;</li>
-                <li>при необходимости выполнит процедуру сразу во время посещения.</li>
-            </ul>
+    <section class="dv-hero">
+        <div class="dv-hero__content">
+            <div class="dv-action-block">
+                <p class="dv-lead">Некоторые процедуры проводятся только во время очного приёма специалиста. Это позволяет врачу не просто выполнить манипуляцию, а разобраться в причине жалоб и подобрать наиболее эффективное лечение именно для Вас.</p>
+                <div class="dv-list">
+                    <h2>На приёме врач:</h2>
+                    <ul>
+                        <li>внимательно выслушает жалобы;</li>
+                        <li>проведёт осмотр и оценит текущее состояние;</li>
+                        <li>при необходимости выполнит процедуру сразу во время посещения.</li>
+                    </ul>
+                </div>
+                <div class="dv-cta">
+                    <a href="/booking/" class="dv-btn">Записаться</a>
+                </div>
+            </div>
         </div>
-        <div class="dv-cta">
-            <a href="/booking/" class="dv-btn">Записаться</a>
-        </div>
-    </section>
-
-    <section class="dv-intro">
-        <div class="dv-intro__text">
-            <p>После нажатия кнопки «Записаться» откроется онлайн-запись к специалистам медицинского центра. Выберите, пожалуйста, интересующего врача по профилю и удобное время приёма — врач проведёт консультацию и при необходимости выполнит процедуру во время визита.</p>
-        </div>
-        <div class="dv-intro__image">
+        <div class="dv-hero__image">
             <img src="/local/templates/aspro_max/images/page-service/doctor-visit-banner.jpg" alt="Приём врача в медицинском центре Доктор ТАФИ">
         </div>
     </section>
 
     <section class="dv-outro">
+        <p>После нажатия кнопки «Записаться» откроется онлайн-запись к специалистам медицинского центра. Выберите, пожалуйста, интересующего врача по профилю и удобное время приёма — врач проведёт консультацию и при необходимости выполнит процедуру во время визита.</p>
         <p>Такой подход помогает избежать лишних назначений и получить помощь, которая действительно даст результат.</p>
     </section>
 
