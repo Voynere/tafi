@@ -28,12 +28,18 @@ $APPLICATION->SetTitle("Запись на приём у врача");
     padding: 40px 0 24px;
 }
 
-/* Список «На приёме врач» */
-.dv-list {
+.dv-lead {
+    font: 500 16px/24px 'Montserrat', sans-serif;
+    color: var(--font-color2);
+    margin: 0 0 24px;
+}
+
+/* Единый блок: список + кнопка */
+.dv-action-block {
     background: linear-gradient(135deg, #E8EEF9 0%, #D6E4F7 100%);
     border-radius: 16px;
     padding: 36px 40px;
-    margin: 0 0 24px;
+    margin: 0 0 32px;
 }
 .dv-list h2 {
     font: 700 22px/1.3 'Montserrat', sans-serif;
@@ -61,10 +67,8 @@ $APPLICATION->SetTitle("Запись на приём у врача");
     color: var(--main-color);
     font-weight: 700;
 }
-
-/* Кнопка записи */
 .dv-cta {
-    margin: 0 0 32px;
+    margin: 24px 0 0;
 }
 .dv-btn {
     display: inline-block;
@@ -78,7 +82,7 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 }
 .dv-btn:hover { background: var(--main-color-hover); }
 
-/* Вводный текст + фото */
+/* Фото + текст о записи */
 .dv-intro {
     display: flex;
     align-items: flex-start;
@@ -101,7 +105,7 @@ $APPLICATION->SetTitle("Запись на приём у врача");
     display: block;
 }
 
-/* Текстовый блок (запись + итог) */
+/* Итоговый блок */
 .dv-outro {
     background: #fff;
     border: 1px solid #E8ECF2;
@@ -111,10 +115,7 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 .dv-outro p {
     font: 500 16px/24px 'Montserrat', sans-serif;
     color: var(--font-color2);
-    margin: 0 0 16px;
-}
-.dv-outro p:last-child {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 @media (max-width: 991px) {
@@ -142,7 +143,7 @@ $APPLICATION->SetTitle("Запись на приём у врача");
         max-width: 100%;
         width: 100%;
     }
-    .dv-list,
+    .dv-action-block,
     .dv-outro {
         padding: 24px 20px;
     }
@@ -159,22 +160,25 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 
     <h1 class="dv-title">Данная услуга проводится на приёме врача</h1>
 
-    <section class="dv-list">
-        <h2>На приёме врач:</h2>
-        <ul>
-            <li>внимательно выслушает жалобы;</li>
-            <li>проведёт осмотр и оценит текущее состояние;</li>
-            <li>при необходимости выполнит процедуру сразу во время посещения.</li>
-        </ul>
-    </section>
+    <p class="dv-lead">Некоторые процедуры проводятся только во время очного приёма специалиста. Это позволяет врачу не просто выполнить манипуляцию, а разобраться в причине жалоб и подобрать наиболее эффективное лечение именно для Вас.</p>
 
-    <div class="dv-cta">
-        <a href="/booking/" class="dv-btn">Записаться</a>
-    </div>
+    <section class="dv-action-block">
+        <div class="dv-list">
+            <h2>На приёме врач:</h2>
+            <ul>
+                <li>внимательно выслушает жалобы;</li>
+                <li>проведёт осмотр и оценит текущее состояние;</li>
+                <li>при необходимости выполнит процедуру сразу во время посещения.</li>
+            </ul>
+        </div>
+        <div class="dv-cta">
+            <a href="/booking/" class="dv-btn">Записаться</a>
+        </div>
+    </section>
 
     <section class="dv-intro">
         <div class="dv-intro__text">
-            <p>Некоторые процедуры проводятся только во время очного приёма специалиста. Это позволяет врачу не просто выполнить манипуляцию, а разобраться в причине жалоб и подобрать наиболее эффективное лечение именно для Вас.</p>
+            <p>После нажатия кнопки «Записаться» откроется онлайн-запись к специалистам медицинского центра. Выберите, пожалуйста, интересующего врача по профилю и удобное время приёма — врач проведёт консультацию и при необходимости выполнит процедуру во время визита.</p>
         </div>
         <div class="dv-intro__image">
             <img src="/local/templates/aspro_max/images/page-service/doctor-visit-banner.jpg" alt="Приём врача в медицинском центре Доктор ТАФИ">
@@ -182,7 +186,6 @@ $APPLICATION->SetTitle("Запись на приём у врача");
     </section>
 
     <section class="dv-outro">
-        <p>После нажатия кнопки «Записаться» откроется онлайн-запись к специалистам медицинского центра. Выберите, пожалуйста, интересующего врача по профилю и удобное время приёма — врач проведёт консультацию и при необходимости выполнит процедуру во время визита.</p>
         <p>Такой подход помогает избежать лишних назначений и получить помощь, которая действительно даст результат.</p>
     </section>
 
