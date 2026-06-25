@@ -47,9 +47,9 @@ $APPLICATION->SetTitle("Запись на приём у врача");
 
 /* Единый левый блок: абзац + список + кнопка */
 .dv-action-block {
-    background: linear-gradient(135deg, #E8EEF9 0%, #D6E4F7 100%);
+    /* background: linear-gradient(135deg, #E8EEF9 0%, #D6E4F7 100%); */
     border-radius: 16px;
-    padding: 36px 40px;
+    /* padding: 36px 40px; */
 }
 .dv-lead {
     font: 500 16px/24px 'Montserrat', sans-serif;
