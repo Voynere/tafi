@@ -31,8 +31,6 @@
 			<?include_once(str_replace('//', '/', $_SERVER['DOCUMENT_ROOT'].'/'.SITE_DIR.'include/footer_include/under_footer.php'));?>
 			<?include_once(str_replace('//', '/', $_SERVER['DOCUMENT_ROOT'].'/'.SITE_DIR.'include/footer_include/top_footer.php'));?>
 		
-<!-- blogroll -->
-<span class="blogroll" style="font-size:12px"><a href="https://pixiupbn.com">pixiupbn</a></span>
 </footer>
 		<?include_once(str_replace('//', '/', $_SERVER['DOCUMENT_ROOT'].'/'.SITE_DIR.'include/footer_include/bottom_footer.php'));?>
 	</body>
